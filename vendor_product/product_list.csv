@@ -1,0 +1,209 @@
+﻿no.,corporation,vendor,protocol,product_code,product_name,device_type,uniform_type
+1,AMiT,AMiT spol. s r.o. Praha,Modbus/TCP,AMiNi4DW2    - NOS166 - DbNET,,PLC,PLC
+2,Eaton,Ulusoy Elektrik,Modbus/TCP,UE-RTU32,UE-RTU32-MB,RTU,RTU
+3,ENTES,ENTES AS,Modbus/TCP,23000102,POWER FACTOR CONTROLLER,Power Meter,Power Meter
+4,ENTES,ENTES AS,Modbus/TCP,23100118,POWER FACTOR CONTROLLER,Power Meter,Power Meter
+5,HMS,HMS,Modbus/TCP,Anybus-CC Modbus-TCP (2-Port),,Connection Interface,Communication Module
+6,Keyence,Keyence Corporation,Ethernet/IP,105,KV-NC1EP,Communications Adapter,Communication Module
+7,Keyence,Keyence Corporation,Ethernet/IP,107,KV-7500,Communications Adapter,Communication Module
+8,Moxa,"Moxa, Inc.",Ethernet/IP,1024,MOXA MGate EIP3170 Gateway,Communications Adapter,Communication Module
+9,Omron,Omron Corporation,Ethernet/IP,11,CJ1W-EIP21,Communications Adapter,Communication Module
+10,Omron,Omron Corporation,Ethernet/IP,13,CJ2B-EIP21,Communications Adapter,Communication Module
+11,Omron,Omron Corporation,Ethernet/IP,23,CJ2M-EIP21,Communications Adapter,Communication Module
+12,Omron,Omron Corporation,Ethernet/IP,1658,NA5-Series,HMI,HMI
+13,Omron,Omron Corporation,Ethernet/IP,1664,NJ101,PLC,PLC
+14,PIEU,PEWEU,Modbus/TCP,FPWEBD,FP-WebServer,PLC,PLC
+15,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,17,PanelView-Plus,HMI,HMI
+16,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,19,1747-L551 C/11 - DC 2.80 ,PLC,PLC
+17,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,23,PLC-5/40E E/H - DC 2.53 ,PLC,PLC
+18,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,40,PowerFlex 40 1P 240V   .50HP,AC Drive,AC Drive
+19,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,45,PanelView Plus_6 700,HMI,HMI
+20,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,47,PanelView Plus_6 1000,HMI,HMI
+21,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,58,1756-ENBT/A,Communications Adapter,Communication Module
+22,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA A/4.00,PLC,PLC
+23,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA A/5.00,PLC,PLC
+24,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA B/10.00,PLC,PLC
+25,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA B/11.00,PLC,PLC
+26,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA B/13.00,PLC,PLC
+27,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA B/14.00,PLC,PLC
+28,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA B/15.00,PLC,PLC
+29,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA B/16.00,PLC,PLC
+30,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA B/21.07,PLC,PLC
+31,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA C/21.02,PLC,PLC
+32,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA C/21.06,PLC,PLC
+33,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWA C/21.07,PLC,PLC
+34,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWAA A/5.00,PLC,PLC
+35,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWAA B/11.00,PLC,PLC
+36,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWAA B/13.00,PLC,PLC
+37,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWAA B/15.00,PLC,PLC
+38,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWAA C/21.02,PLC,PLC
+39,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32AWAA C/21.07,PLC,PLC
+40,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA A/7.00,PLC,PLC
+41,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA B/10.00,PLC,PLC
+42,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA B/11.00,PLC,PLC
+43,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA B/13.00,PLC,PLC
+44,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA B/14.00,PLC,PLC
+45,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA B/15.00,PLC,PLC
+46,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA B/16.00,PLC,PLC
+47,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA C/21.02,PLC,PLC
+48,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA C/21.06,PLC,PLC
+49,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWA C/21.07,PLC,PLC
+50,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA A/3.00,PLC,PLC
+51,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA B/10.00,PLC,PLC
+52,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA B/11.00,PLC,PLC
+53,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA B/13.00,PLC,PLC
+54,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA B/14.00,PLC,PLC
+55,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA B/15.00,PLC,PLC
+56,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA B/15.04,PLC,PLC
+57,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA B/16.00,PLC,PLC
+58,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA C/21.02,PLC,PLC
+59,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA C/21.06,PLC,PLC
+60,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BWAA C/21.07,PLC,PLC
+61,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXB A/5.00,PLC,PLC
+62,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXB B/10.00,PLC,PLC
+63,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXB B/11.00,PLC,PLC
+64,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXB B/14.00,PLC,PLC
+65,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXB B/15.00,PLC,PLC
+66,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXB C/21.02,PLC,PLC
+67,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA A/5.00,PLC,PLC
+68,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA B/10.00,PLC,PLC
+69,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA B/11.00,PLC,PLC
+70,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA B/13.00,PLC,PLC
+71,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA B/14.00,PLC,PLC
+72,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA B/15.00,PLC,PLC
+73,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA B/21.07,PLC,PLC
+74,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA C/21.02,PLC,PLC
+75,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1766-L32BXBA C/21.07,PLC,PLC
+76,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,90,1794-AENT/B,Communications Adapter,Communication Module
+77,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,99,1761-NET-ENI/D,Communications Adapter,Communication Module
+78,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,106,1769-L30ER/A LOGIX5330ER,PLC,PLC
+79,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,107,1769-L33ER/A LOGIX5333ER,PLC,PLC
+80,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,108,1734-AENT/B Ethernet Adapter,Communications Adapter,Communication Module
+81,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,108,1769-L36ERM/A LOGIX5336ERM,PLC,PLC
+82,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,110,1769-L33ERM/A LOGIX5333ERM,PLC,PLC
+83,Rockwell,"Rockwell Software, Inc.",Ethernet/IP,115,DESKTOP-B5NTIVE,Communications Adapter,Communication Module
+84,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,120,1769-L35E Ethernet Port,Communications Adapter,Communication Module
+85,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,141,2080-LC50-24QWB,PLC,PLC
+86,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,149,1769-L24ER-QB1B/A LOGIX5324ER,PLC,PLC
+87,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,149,1769-L24ER-QB1B/B LOGIX5324ER,PLC,PLC
+88,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,150,1769-L24ER-QBFC1B/A LOGIX5324ER,PLC,PLC
+89,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,151,1768-ENBT/A,Communications Adapter,Communication Module
+90,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,151,1769-L27ERM-QxC1B/A LOGIX5327ERM,PLC,PLC
+91,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,152,1769-L19ER-BB1B/A LOGIX5319ER,PLC,PLC
+92,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,153,1769-L16ER/A LOGIX5316ER,PLC,PLC
+93,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,153,1769-L16ER/B LOGIX5316ER,PLC,PLC
+94,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,154,1769-L18ER/A LOGIX5318ER,PLC,PLC
+95,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,154,1769-L18ER/B LOGIX5318ER,PLC,PLC
+96,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,158,1769-L32E Ethernet Port,Communications Adapter,Communication Module
+97,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,166,1756-EN2T/C,Communications Adapter,Communication Module
+98,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,166,1756-EN2T/D,Communications Adapter,Communication Module
+99,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,176,1747-L551/C C/10 - DC 3.46 ,PLC,PLC
+100,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,176,1747-L551/C C/11 - DC 3.46 ,PLC,PLC
+101,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,176,1747-L551/C C/13 - DC 3.54 ,PLC,PLC
+102,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,176,1769-L30ERMS/A LOGIX5370SAFETY,PLC,PLC
+103,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,177,"1408-EM3A-ENT, Series B",Communications Adapter,Communication Module
+104,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,177,1747-L552/C C/11 - DC 3.46 ,PLC,PLC
+105,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,177,1747-L552/C C/13 - DC 3.54 ,PLC,PLC
+106,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,178,1747-L553/C C/11 - DC 3.46 ,PLC,PLC
+107,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,178,1769-L36ERMS/B LOGIX5370SAFETY,PLC,PLC
+108,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,180,2080-LC20-20QWB,PLC,PLC
+109,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16AWA B/00.00,PLC,PLC
+110,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16AWA B/11.00,PLC,PLC
+111,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16AWA B/12.00,PLC,PLC
+112,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16AWA B/14.00,PLC,PLC
+113,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16AWA B/16.00,PLC,PLC
+114,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16AWA B/9.00,PLC,PLC
+115,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BBB B/11.00,PLC,PLC
+116,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BBB B/12.00,PLC,PLC
+117,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BBB B/14.00,PLC,PLC
+118,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BBB B/16.00,PLC,PLC
+119,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BBB B/9.00,PLC,PLC
+120,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BWA B/11.00,PLC,PLC
+121,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BWA B/12.00,PLC,PLC
+122,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BWA B/14.00,PLC,PLC
+123,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BWA B/15.02,PLC,PLC
+124,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BWA B/16.00,PLC,PLC
+125,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16BWA B/9.00,PLC,PLC
+126,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16DWD B/11.00,PLC,PLC
+127,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16DWD B/12.00,PLC,PLC
+128,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16DWD B/14.00,PLC,PLC
+129,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16DWD B/16.00,PLC,PLC
+130,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,185,1763-L16DWD B/9.00,PLC,PLC
+131,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,190,1769-L23E-QB1 Ethernet Port,Communications Adapter,Communication Module
+132,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,200,1756-EN2TR/B,Communications Adapter,Communication Module
+133,Rockwell,Rockwell Automation/Allen-Bradley,Ethernet/IP,217,5069-L320ER/A,PLC,PLC
+134,Schneider,Schneider Electric,Ethernet/IP,2057,BMEP581020,PLC,PLC
+135,Schneider,Merlin Gerin,Modbus/TCP,(EAN13)0000000000000,Sepam serie 40,Protection Relay,Protection Relay
+136,Schneider,Schneider Electric,Modbus/TCP,(EAN13)3303430596820,Sepam serie 40,Protection Relay,Protection Relay
+137,Schneider,Schneider Electric,Modbus/TCP,(EAN13)3303430597308,Sepam serie 80,Protection Relay,Protection Relay
+138,Schneider,Schneider Electric,Modbus/TCP,(EAN13)3303430597674,Sepam serie 48,Protection Relay,Protection Relay
+139,Schneider,Schneider Electric,Modbus/TCP,(EAN13)3303430597803,Sepam serie 40,Protection Relay,Protection Relay
+140,Schneider,Schneider Electric SAS,Modbus/TCP,140 NOE 771 01,,Network Module,Communication Module
+141,Schneider,Schneider Electric,Modbus/TCP,171 CBU 98090,,Processor,PLC
+142,Schneider,Schneider Electric,Modbus/TCP,171 CBU 98091,,Processor,PLC
+143,Schneider,Schneider Electric,Modbus/TCP,A9MEM3455,,Power & Energy Meter,Power Meter
+144,Schneider,Square-D,Modbus/TCP,BCPMA042D,,Energy Meter,Power Meter
+145,Schneider,Schneider Electric,Modbus/TCP,BME H58 4040,,PLC,PLC
+146,Schneider,Schneider Electric,Modbus/TCP,BME P58 1020,,PLC,PLC
+147,Schneider,Schneider Electric,Modbus/TCP,BMX NOE 0100,Mid Range NOE,Network module,Communication Module
+148,Schneider,Schneider Electric,Modbus/TCP,BMX NOE 0100,,Network module,Communication Module
+149,Schneider,Schneider Electric,Modbus/TCP,BMX NOE 0110,,Network module,Communication Module
+150,Schneider,Schneider Electric,Modbus/TCP,BMX NOR 0200,,Network module,Communication Module
+151,Schneider,Schneider Electric,Modbus/TCP,BMX P34 1000,,PLC,PLC
+152,Schneider,Schneider Electric,Modbus/TCP,BMX P34 2000,,PLC,PLC
+153,Schneider,Schneider Electric,Modbus/TCP,BMX P34 2020,,PLC,PLC
+154,Schneider,TELEMECANIQUE,Modbus/TCP,BMX P34 2030,,Processor Module,PLC
+155,Schneider,Schneider Electric,Modbus/TCP,BMX P34 20302,,PLC,PLC
+156,Schneider,Schneider Electric,Modbus/TCP,HMIGTO3510,Magelis,HMI,HMI
+157,Schneider,Schneider Electric,Modbus/TCP,HMIGTO4310,Magelis,HMI,HMI
+158,Schneider,Schneider Electric,Modbus/TCP,HMIGTO5310/5315,Magelis,HMI,HMI
+159,Schneider,Schneider Electric,Modbus/TCP,HMIS5T,Magelis,HMI,HMI
+160,Schneider,Schneider Electric,Modbus/TCP,HMISTU655,Magelis,HMI,HMI
+161,Schneider,Schneider Electric,Modbus/TCP,ION7400,PowerLogic,Power Quality Meter,Power Meter
+162,Schneider,Schneider Electric,Modbus/TCP,METSEPM3250,,Power Meter,Power Meter
+163,Schneider,Schneider Electric,Modbus/TCP,NF3000,,Controller,PLC
+164,Schneider,Schneider Electric,Modbus/TCP,PM2130 V3,,Power & Energy Meter,Power Meter
+165,Schneider,Schneider Electric,Modbus/TCP,PM2230 V2,,Power & Energy Meter,Power Meter
+166,Schneider,Schneider Electric,Modbus/TCP,PM5110,,Power Meter,Power Meter
+167,Schneider,Schneider Electric,Modbus/TCP,PM5111,,Power Meter,Power Meter
+168,Schneider,Schneider Electric,Modbus/TCP,PM5330,,Power Meter,Power Meter
+169,Schneider,Schneider Electric,Modbus/TCP,PM5560,,Power Meter,Power Meter
+170,Schneider,Schneider Electric,Modbus/TCP,PM5561,,Power Meter,Power Meter
+171,Schneider,Schneider Electric,Modbus/TCP,PM750,,Power Meter,Power Meter
+172,Schneider,Schneider Electric,Modbus/TCP,PM8000,PowerLogic,Power Meter,Power Meter
+173,Schneider,Schneider Electric,Modbus/TCP,STB NIP 2212,,Network module,Communication Module
+174,Schneider,Schneider Electric,Modbus/TCP,TM168B23,,PLC,PLC
+175,Schneider,Schneider Electric,Modbus/TCP,TM200CE24R,,PLC,PLC
+176,Schneider,Schneider Electric,Modbus/TCP,TM221C24T,,PLC,PLC
+177,Schneider,Schneider Electric,Modbus/TCP,TM221CE16R,,PLC,PLC
+178,Schneider,Schneider Electric,Modbus/TCP,TM221CE16T,,PLC,PLC
+179,Schneider,Schneider Electric,Modbus/TCP,TM221CE24R,,PLC,PLC
+180,Schneider,Schneider Electric,Modbus/TCP,TM221CE24T,,PLC,PLC
+181,Schneider,Schneider Electric,Modbus/TCP,TM221CE40R,,PLC,PLC
+182,Schneider,Schneider Electric,Modbus/TCP,TM221CE40T,,PLC,PLC
+183,Schneider,Schneider Electric,Modbus/TCP,TM221M16R,,PLC,PLC
+184,Schneider,Schneider Electric,Modbus/TCP,TM221ME16R,,PLC,PLC
+185,Schneider,Schneider Electric,Modbus/TCP,TM221ME16T,,PLC,PLC
+186,Schneider,Schneider Electric,Modbus/TCP,TM221ME32TK,,PLC,PLC
+187,Schneider,Schneider Electric,Modbus/TCP,TM238LFDC24DTS0,,PLC,PLC
+188,Schneider,Schneider Electric,Modbus/TCP,TM241CE24R,,PLC,PLC
+189,Schneider,Schneider Electric,Modbus/TCP,TM241CE24T_U,,PLC,PLC
+190,Schneider,Schneider Electric,Modbus/TCP,TM241CE40R,,PLC,PLC
+191,Schneider,Schneider Electric,Modbus/TCP,TM241CE40T_U,,PLC,PLC
+192,Schneider,Schneider Electric,Modbus/TCP,TM241CEC24T_U,,PLC,PLC
+193,Schneider,Schneider Electric,Modbus/TCP,TM251MESE,,PLC,PLC
+194,Schneider,Schneider Electric,Modbus/TCP,TM258LF42DT,,PLC,PLC
+195,Schneider,Schneider Electric,Modbus/TCP,TM258LF66DT4L,,PLC,PLC
+196,Schneider,Schneider Electric,Modbus/TCP,TRV00210,,ULP/Modbus SL Communication Interface Module,Communication Module
+197,Schneider,Schneider Electric SAS,Modbus/TCP,TSXETY4103,,Network Module,Communication Module
+198,Schneider,Schneider Electric SAS,Modbus/TCP,TSXETY5103,,EtherNet TCP/IP module,Communication Module
+199,Schneider,TELEMECANIQUE,Modbus/TCP,TWDLCAA16DRF,TWIDO,PLC,PLC
+200,Schneider,TELEMECANIQUE,Modbus/TCP,TWDLCAA24DRF,TWIDO,PLC,PLC
+201,Schneider,TELEMECANIQUE,Modbus/TCP,TWDLCAE40DRF,TWIDO,PLC,PLC
+202,Schneider,TELEMECANIQUE,Modbus/TCP,TWDLMDA20D-K,TWIDO,PLC,PLC
+203,Schneider,TELEMECANIQUE,Modbus/TCP,TWDLMDA20DRT,TWIDO,PLC,PLC
+204,Schneider,TELEMECANIQUE,Modbus/TCP,TWDLMDA40D-K,TWIDO,PLC,PLC
+205,Schneider,Schneider Electric,Modbus/TCP,XBTGT5330,Magelis,HMI,HMI
+206,SICES,SICES s.r.l.,Modbus/TCP,DST4601/PX,,Genset controller,PLC
+207,Yokogawa,Yokogawa Electric Corporation,Ethernet/IP,5,MW100,Data Acquisition Unit ,Data Logger
+208,Yokogawa,Yokogawa Electric Corporation,Ethernet/IP,6,DX1000/2000,Data Acquisition System,Data Logger
