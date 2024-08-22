@@ -5,7 +5,8 @@ This repository includes all data and the implementation of compared methods men
 ## Directory Structure
 The directory structure of this repository is as follows:
 >device_information
->>device_information_anonymized.csv  
+>>device_information_anonymized.csv
+
 >network_traffic
 >>enip_YYYYMMDD_roundX_Country_anonymized.pcap  
 >>modbus_YYYYMMDD_roundX_Country_anonymized.pcap  
