@@ -37,13 +37,13 @@ The directory structure of this repository is as follows:
 ```
 
 ## Directory Description
-*The folder "device_information" contains all device information including IP addresses, corporations, vendors, device types, models, etc..
+* The folder "device_information" contains all device information including IP addresses, corporations, vendors, device types, models, etc..
 
-*The folder "network_traffic" stores all captured network traffic of ICS devices in the form of .pcap files. The name of the pcap file provides some useful information, such as ICS protocol, scanning time, country and so on.
+* The folder "network_traffic" stores all captured network traffic of ICS devices in the form of .pcap files. The name of the pcap file provides some useful information, such as ICS protocol, scanning time, country and so on.
 
-*The folder "projects" involves all necessary data and programs to study some existing device fingerprinting methods.
+* The folder "projects" involves all necessary data and programs to study some existing device fingerprinting methods.
 
-*The folder "scanning_logs" records the scanning results of all ICS devices on the scanning list, at which all .csv files correspond to the .pcap files in the folder "network_traffic".
+* The folder "scanning_logs" records the scanning results of all ICS devices on the scanning list, at which all .csv files correspond to the .pcap files in the folder "network_traffic".
 
-*The folder "vendor_product" provides two lists of the device vendors and the device models which our deteced ICS devices belong to.
+* The folder "vendor_product" provides two lists of the device vendors and the device models which our deteced ICS devices belong to.
 
