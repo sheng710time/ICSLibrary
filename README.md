@@ -22,8 +22,10 @@ The directory structure of this repository is as follows:
 │       ├── IoTDevID
 │       └── attack_classification
 ├── scanning_logs
-│   ├── enip_YYYYMMDD_roundX_Country_anonymized_log.pcap
-│   └── modbus_YYYYMMDD_roundX_Country_anonymized_log.pcap
+│   ├── enip_YYYYMMDD_roundX_China_anonymized_log.pcap
+│   ├── enip_YYYYMMDD_roundX_Australia_anonymized_log.pcap
+│   ├── modbus_YYYYMMDD_roundX_China_anonymized_log.pcap
+│   └── modbus_YYYYMMDD_roundX_Australia_anonymized_log.pcap
 ├── vendor_product
 │   ├── product_list.csv
 │   ├── product_list.xlsx
