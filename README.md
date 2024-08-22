@@ -27,3 +27,16 @@ The directory structure of this repository is as follows:
 >vendor_product  
 >>product_list  
 >>vendor_list  
+
+├── src
+│   ├── main.py
+│   ├── utils.py
+│   └── ...
+├── data
+│   ├── raw
+│   ├── processed
+│   └── ...
+├── tests
+│   ├── test_main.py
+│   └── ...
+└── README.md
