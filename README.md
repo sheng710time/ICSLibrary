@@ -45,5 +45,5 @@ The directory structure of this repository is as follows:
 
 * The folder "scanning_logs" records the scanning results of all ICS devices on our scanning list, at which all .csv files correspond to the .pcap files in the folder "network_traffic".
 
-* The folder "vendor_product" provides two lists of the device vendors and the device models which our detected ICS devices belong to.
+* The folder "vendor_product" provides two lists of the device vendors and the device models to which our detected ICS devices belong.
 
