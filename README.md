@@ -47,3 +47,4 @@ The directory structure of this repository is as follows:
 
 * The folder "vendor_product" provides two lists of the device vendors and the device models to which our detected ICS devices belong.
 
+## Security & Privacy
