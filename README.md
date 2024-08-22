@@ -43,7 +43,7 @@ The directory structure of this repository is as follows:
 
 * The folder "projects" involves all necessary data and programs to study some existing device fingerprinting methods by ICSLibrary.
 
-* The folder "scanning_logs" records the scanning results of all ICS devices on the scanning list, at which all .csv files correspond to the .pcap files in the folder "network_traffic".
+* The folder "scanning_logs" records the scanning results of all ICS devices on our scanning list, at which all .csv files correspond to the .pcap files in the folder "network_traffic".
 
 * The folder "vendor_product" provides two lists of the device vendors and the device models which our deteced ICS devices belong to.
 
