@@ -4,4 +4,8 @@ This repository includes all data and the implementation of compared methods men
 
 ## Directory Structure
 The directory structure of this repository is as follows:
->
+>device_information
+>network_traffic
+>projects
+>scanning_logs
+>vendor_product
