@@ -50,6 +50,6 @@ The directory structure of this repository is as follows:
 ## Security & Privacy
 * All the scanning requests conform to the corresponding ICS protocol specifications to reduce their potential influence.
 * We anonymize all IP addresses of our detected ICS devices through a prefix-preserving anonymization algorithm. 
-* Any IP addresses that apprear in ICSLibrary do not represent the real-world IP addresses of ICS devices. In other words, the individual IP address in ICSLibrary is meaningless, but the relationships between IP addresses are remained for further anapysis.
+* Any IP addresses that apprear in ICSLibrary do not represent the real-world IP addresses of ICS devices. In other words, the individual IP address in ICSLibrary is meaningless, but the relationships between IP addresses are remained for further analysis.
 
 
