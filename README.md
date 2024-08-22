@@ -49,7 +49,7 @@ The directory structure of this repository is as follows:
 
 ## Security & Privacy
 * All the scanning requests conform to the corresponding ICS protocol specifications to reduce their potential influence.
-* We anonymize all IP addresses of our detected ICS devices through a prefix-preserving anonymization algorithm. So any IP addresses in ICSLibrary does not represent the real IP addresses of real-world ICS devices. In other words, the individual IP address in ICSLibrary is meaningless, but the relationships between IP addresses are remained for further anapysis.
-* Any IP addresss that apprear in ICSLibrary does not mean that they have be exposed.
+* We anonymize all IP addresses of our detected ICS devices through a prefix-preserving anonymization algorithm. 
+* Any IP addresses that apprear in ICSLibrary do not represent the real IP addresses of real-world ICS devices. In other words, the individual IP address in ICSLibrary is meaningless, but the relationships between IP addresses are remained for further anapysis.
 
 
