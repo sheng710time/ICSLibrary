@@ -29,22 +29,29 @@ The directory structure of this repository is as follows:
 >>vendor_list  
 
 ```bash
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
-├── README.md
-├── package.json
-├── bower.json (if using bower)
-└── .gitignore
+├── device_information
+│   ├── device_information_anonymized.csv
+├── network_traffic
+│   ├── enip_YYYYMMDD_roundX_Country_anonymized.pcap
+│   ├── modbus_YYYYMMDD_roundX_Country_anonymized.pcap
+├── projects
+│   ├── data
+│   │   ├── csv
+│   │   ├── device_information
+│   │   ├── ip_list
+│   │   ├── pcap
+│   ├── device_identification
+│   │   ├── IoTDevID
+│   │   ├── attack_classification
+├── scanning_logs
+│   ├── enip_YYYYMMDD_roundX_Country_anonymized_log.pcap
+│   ├── modbus_YYYYMMDD_roundX_Country_anonymized_log.pcap
+├── vendor_product
+│   ├── product_list.csv
+│   ├── product_list.xlsx
+│   ├── vendor_list.csv
+│   └── vendor_list.xlsx
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
