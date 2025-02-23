@@ -9,11 +9,20 @@ The directory structure of this repository is as follows:
 │   └── device_information_anonymized.csv
 ├── network_traffic
 │   ├── enip
-│   │   ├── enip_YYYYMMDD_roundX_China_anonymized.pcap
-│   │   └── enip_YYYYMMDD_roundX_Australia_anonymized.pcap
-│   └── modbus
-│       ├── modbus_YYYYMMDD_roundX_China_anonymized.pcap
-│       └── modbus_YYYYMMDD_roundX_Australia_anonymized.pcap
+│   │   ├── Australia
+│   │   │   └── enip_YYYYMMDD_roundX_Australia_anonymized.pcap
+│   │   └── China
+│   │       └── enip_YYYYMMDD_roundX_China_anonymized.pcap
+│   ├── modbus
+│   │   ├── Australia
+│   │   │   └── modbus_YYYYMMDD_roundX_Australia_anonymized.pcap
+│   │   └── China
+│   │       └── modbus_YYYYMMDD_roundX_China_anonymized.pcap
+│   └── s7comm
+│       ├── Australia
+│       │   └── s7_YYYYMMDD_roundX_Australia_anonymized.pcap
+│       └── China
+│           └── s7_YYYYMMDD_roundX_China_anonymized.pcap
 ├── projects
 │   ├── data
 │   │   ├── csv
@@ -25,11 +34,20 @@ The directory structure of this repository is as follows:
 │       └── attack_classification
 ├── scanning_logs
 │   ├── enip
-│   │   ├── enip_YYYYMMDD_roundX_China_anonymized_log.csv
-│   │   └── enip_YYYYMMDD_roundX_Australia_anonymized_log.csv
-│   └── modbus
-│       ├── modbus_YYYYMMDD_roundX_China_anonymized_log.csv
-│       └── modbus_YYYYMMDD_roundX_Australia_anonymized_log.csv
+│   │   ├── Australia
+│   │   │   └── enip_YYYYMMDD_roundX_Australia_anonymized_log.csv
+│   │   └── China
+│   │       └── enip_YYYYMMDD_roundX_China_anonymized_log.csv
+│   ├── modbus
+│   │   ├── Australia
+│   │   │   └── modbus_YYYYMMDD_roundX_Australia_anonymized_log.csv
+│   │   └── China
+│   │       └── modbus_YYYYMMDD_roundX_China_anonymized_log.csv
+│   └── s7comm
+│       ├── Australia
+│       │   └── s7_YYYYMMDD_roundX_Australia_anonymized_log.csv
+│       └── China
+│           └── s7_YYYYMMDD_roundX_China_anonymized_log.csv
 ├── vendor_product
 │   ├── product_list.csv
 │   ├── product_list.xlsx
