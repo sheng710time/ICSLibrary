@@ -1,4 +1,4 @@
-# ICSLibrary: A Versatile Dataset for Network-Traffic-Based CPS Device Identification
+# Collecting Industrial Control System Devices on the Internet: A Dataset for Domain Benchmark
 
 This repository includes all data and the implementation of compared methods mentiond in our paper.
 
