@@ -1,4 +1,4 @@
-# Collecting Industrial Control System Devices on the Internet: A Dataset for Domain Benchmark
+# Collecting Industrial Control System Device Data on the Internet: A Dataset for Domain Benchmark
 
 This repository includes all data and the implementation of compared methods mentiond in our paper.
 
