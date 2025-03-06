@@ -7,6 +7,15 @@ The directory structure of this repository is as follows:
 ```bash
 ├── device_information
 │   └── device_information_anonymized.csv
+├── ics_scanner
+│   ├── scanners
+│   │   ├── enip
+│   │   ├── modbus
+│   │   └── s7
+│   └── schedulers
+│       ├── enip
+│       ├── modbus
+│       └── s7
 ├── network_traffic
 │   ├── enip
 │   │   ├── Australia
@@ -60,6 +69,8 @@ The directory structure of this repository is as follows:
 
 ## Directory Description
 * The folder "device_information" contains all device information including IP addresses, corporations, vendors, device types, models, etc..
+
+* The folder "ics_scanner" includes ICS scanners for Modbus/TCP, EtherNet/IP, and S7comm protocols.
 
 * The folder "network_traffic" stores all captured network traffic of ICS devices in the form of .pcap files. The name of the .pcap file provides some useful information, such as ICS protocol, scanning time, country and so on.
 
