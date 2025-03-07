@@ -77,8 +77,6 @@ The directory structure of this repository is as follows:
 * The "vendor_product" folder provides two lists of the device vendors and the device models to which our detected ICS devices belong.
 
 ## Security & Privacy
-* All the scanning requests conform to the corresponding ICS protocol specifications to reduce their potential influence.
-* We anonymize all IP addresses of our detected ICS devices through a prefix-preserving anonymization algorithm. 
-* Any IP addresses that apprear in ICSLibrary do not represent the real-world IP addresses of ICS devices. In other words, the individual IP address in ICSLibrary is meaningless, but the relationships between IP addresses are remained for further analysis.
+Considering security and privacy concerns, all IP addresses have been anonymized using a prefix-preserving anonymization algorithm. As a result, the IP addresses do not correspond to the real-world IP addresses of exposed ICS devices, and any matches with existing ICS devices should be considered incidental. Despite the anonymization, the IP addresses remain consistent across all files, including network traffic, scanning logs, and device information. The prefix-preserving anonymization algorithm alters the IP addresses while maintaining the original prefix structure. This preservation ensures that anonymized addresses sharing the same prefix group together, which is essential for subsequent network traffic analysis, such as calculating network distance and inferring device groups.
 
 
