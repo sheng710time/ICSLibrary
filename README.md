@@ -5,17 +5,26 @@ This repository includes all data and the implementation of compared methods men
 ## Directory Structure
 The directory structure of this repository is as follows:
 ```bash
+├── codes
+│   ├── data
+│   │   ├── csv
+│   │   ├── device_information
+│   │   ├── ip_list
+│   │   └── pcap
+│   ├── device_identification
+│   │   ├── IoTDevID
+│   │   └── attack_classification
+│   └── ics_scanner
+│       ├── scanners
+│       │   ├── enip
+│       │   ├── modbus
+│       │   └── s7
+│       └── schedulers
+│           ├── enip
+│           ├── modbus
+│           └── s7
 ├── device_information
 │   └── device_information_anonymized.csv
-├── ics_scanner
-│   ├── scanners
-│   │   ├── enip
-│   │   ├── modbus
-│   │   └── s7
-│   └── schedulers
-│       ├── enip
-│       ├── modbus
-│       └── s7
 ├── network_traffic
 │   ├── enip
 │   │   ├── Australia
@@ -32,15 +41,6 @@ The directory structure of this repository is as follows:
 │       │   └── s7_YYYYMMDD_roundX_Australia_anonymized.pcap
 │       └── China
 │           └── s7_YYYYMMDD_roundX_China_anonymized.pcap
-├── projects
-│   ├── data
-│   │   ├── csv
-│   │   ├── device_information
-│   │   ├── ip_list
-│   │   └── pcap
-│   └── device_identification
-│       ├── IoTDevID
-│       └── attack_classification
 ├── scanning_logs
 │   ├── enip
 │   │   ├── Australia
@@ -68,13 +68,11 @@ The directory structure of this repository is as follows:
 ```
 
 ## Directory Description
+* The "codes" folder includes all necessary data and programs for studying existing device fingerprinting methods using ICSLibrary, as well as ICS scanners for the Modbus/TCP, EtherNet/IP, and S7comm protocols.
+
 * The folder "device_information" contains all device information including IP addresses, corporations, vendors, device types, models, etc..
 
-* The folder "ics_scanner" includes ICS scanners for Modbus/TCP, EtherNet/IP, and S7comm protocols.
-
 * The folder "network_traffic" stores all captured network traffic of ICS devices in the form of .pcap files. The name of the .pcap file provides some useful information, such as ICS protocol, scanning time, country and so on.
-
-* The folder "projects" involves all necessary data and programs to study some existing device fingerprinting methods by ICSLibrary.
 
 * The folder "scanning_logs" records the scanning results of all ICS devices on our scanning list, at which all .csv files correspond to the .pcap files in the folder "network_traffic".
 
