@@ -62,8 +62,6 @@ The directory structure of this repository is as follows:
 │   ├── product_list.xlsx
 │   ├── vendor_list.csv
 │   └── vendor_list.xlsx
-├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
