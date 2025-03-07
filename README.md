@@ -1,6 +1,6 @@
 # Collecting Industrial Control System Device Data on the Internet: A Dataset for Domain Benchmark
 
-This repository includes all data and the implementation of compared methods mentiond in our paper.
+Due to the limited understanding of Industrial Control Systems (ICSs), device identification has become increasingly vital for threat detection and security defense in ICS environments. However, the narrow range of device types and models in the existing datasets has significantly hindered the effectiveness and scalability of current device identification methods. To address this gap, we introduce a novel data collection framework specifically designed for ICS devices and present the resulting dataset, ICSLibrary, which we have made publicly available. To the best of the authors' knowledge, ICSLibrary is the first dataset dedicated to device identification in ICS security. It encompasses the most extensive range of device types, models and instances from 27 industrial vendors, collected across two countries over a 21-month period. Furthermore, we use ICSLibrary as a benchmark to evaluate several typical device fingerprinting methods, revealing a notable 16% drop in accuracy in the device model identification task, which highlights the unique challenges posed by ICSLibrary.
 
 ## Directory Structure
 The directory structure of this repository is as follows:
