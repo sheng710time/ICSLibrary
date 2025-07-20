@@ -5,59 +5,77 @@ Due to the limited understanding of Industrial Control Systems (ICSs), device id
 ## Directory Structure
 The directory structure of this repository is as follows:
 ```bash
-├── codes
-│   ├── data
-│   │   ├── csv
-│   │   ├── device_information
-│   │   ├── ip_list
-│   │   └── pcap
-│   ├── device_identification
-│   │   ├── IoTDevID
-│   │   └── attack_classification
-│   └── ics_scanner
-│       ├── scanners
-│       │   ├── enip
-│       │   ├── modbus
-│       │   └── s7
-│       └── schedulers
-│           ├── enip
-│           ├── modbus
-│           └── s7
-├── device_information
+ICSLibrary/
+├── codes/
+│   ├── data/
+│   │   ├── csv/
+│   │   ├── device_information/
+│   │   ├── ip_list/
+│   │   └── pcap/
+│   ├── device_identification/
+│   │   ├── attack_classification/
+│   │   ├── IoTDevID/
+│   │   └── pcap_parsing_samples/
+│   └── ics_scanner/
+│       ├── scanners/
+│       │   ├── enip/
+│       │   ├── modbus/
+│       │   └── s7/
+│       └── schedulers/
+│           ├── enip/
+│           ├── modbus/
+│           └── s7/
+├── device_information/
 │   └── device_information_anonymized.csv
-├── network_traffic
-│   ├── enip
-│   │   ├── Australia
+├── network_traffic/
+│   ├── enip/
+│   │   ├── Australia/
 │   │   │   └── enip_YYYYMMDD_roundX_Australia_anonymized.pcap
-│   │   └── China
+│   │   └── China/
 │   │       └── enip_YYYYMMDD_roundX_China_anonymized.pcap
-│   ├── modbus
-│   │   ├── Australia
+│   ├── modbus/
+│   │   ├── Australia/
 │   │   │   └── modbus_YYYYMMDD_roundX_Australia_anonymized.pcap
-│   │   └── China
+│   │   └── China/
 │   │       └── modbus_YYYYMMDD_roundX_China_anonymized.pcap
-│   └── s7comm
-│       ├── Australia
+│   └── s7comm/
+│       ├── Australia/
 │       │   └── s7_YYYYMMDD_roundX_Australia_anonymized.pcap
-│       └── China
+│       └── China/
 │           └── s7_YYYYMMDD_roundX_China_anonymized.pcap
-├── scanning_logs
-│   ├── enip
-│   │   ├── Australia
+├── network_traffic_encrypted/
+│   ├── enip/
+│   │   ├── Australia/
+│   │   │   └── enip_YYYYMMDD_roundX_Australia_anonymized_encrypted.pcap
+│   │   └── China/
+│   │       └── enip_YYYYMMDD_roundX_China_anonymized_encrypted.pcap
+│   ├── modbus/
+│   │   ├── Australia/
+│   │   │   └── modbus_YYYYMMDD_roundX_Australia_anonymized_encrypted.pcap
+│   │   └── China/
+│   │       └── modbus_YYYYMMDD_roundX_China_anonymized_encrypted.pcap
+│   └── s7comm/
+│       ├── Australia/
+│       │   └── s7_YYYYMMDD_roundX_Australia_anonymized_encrypted.pcap
+│       └── China/
+│           └── s7_YYYYMMDD_roundX_China_anonymized_encrypted.pcap
+├── scanning_logs/
+│   ├── enip/
+│   │   ├── Australia/
 │   │   │   └── enip_YYYYMMDD_roundX_Australia_anonymized_log.csv
-│   │   └── China
+│   │   └── China/
 │   │       └── enip_YYYYMMDD_roundX_China_anonymized_log.csv
-│   ├── modbus
-│   │   ├── Australia
+│   ├── modbus/
+│   │   ├── Australia/
 │   │   │   └── modbus_YYYYMMDD_roundX_Australia_anonymized_log.csv
-│   │   └── China
+│   │   └── China/
 │   │       └── modbus_YYYYMMDD_roundX_China_anonymized_log.csv
-│   └── s7comm
-│       ├── Australia
+│   └── s7comm/
+│       ├── Australia/
 │       │   └── s7_YYYYMMDD_roundX_Australia_anonymized_log.csv
-│       └── China
+│       └── China/
 │           └── s7_YYYYMMDD_roundX_China_anonymized_log.csv
-├── vendor_product
+├── vendor_product/
 │   ├── product_list.csv
 │   ├── product_list.xlsx
 │   ├── vendor_list.csv
