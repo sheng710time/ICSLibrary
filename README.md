@@ -90,6 +90,8 @@ ICSLibrary/
 
 * The "network_traffic" folder stores all captured network traffic of ICS devices in the form of .pcap files. The name of the .pcap file provides some useful information, such as ICS protocol, scanning time, country and so on.
 
+* The "network_traffic_encryption" folder provides an encrypted version of the same traffic, enabling metadata analysis to assess how much information about exposed ICS devices can still be inferred from encrypted communications.
+
 * The "scanning_logs" folder records the scanning results of all ICS devices on our scanning list, at which all .csv files correspond to the .pcap files in the folder "network_traffic".
 
 * The "vendor_product" folder provides two lists of the device vendors and the device models to which our detected ICS devices belong.
