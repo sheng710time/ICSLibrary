@@ -14,17 +14,17 @@ ICSLibrary/
 │   │   └── pcap/
 │   ├── device_identification/
 │   │   ├── attack_classification/
-│   │   ├── IoTDevID/
-│   │   └── pcap_parsing_samples/
-│   └── ics_scanner/
-│       ├── scanners/
-│       │   ├── enip/
-│       │   ├── modbus/
-│       │   └── s7/
-│       └── schedulers/
-│           ├── enip/
-│           ├── modbus/
-│           └── s7/
+│   │   └── IoTDevID/
+│   ├── ics_scanner/
+│   │   ├── scanners/
+│   │   │   ├── enip/
+│   │   │   ├── modbus/
+│   │   │   └── s7/
+│   │   └── schedulers/
+│   │       ├── enip/
+│   │       ├── modbus/
+│   │       └── s7/
+│   └── pcap_parsing_samples/
 ├── device_information/
 │   └── device_information_anonymized.csv
 ├── network_traffic/
