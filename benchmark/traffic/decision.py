@@ -3,7 +3,7 @@ from common import *
 from fractions import Fraction
 from collections import defaultdict
 from statistics import mean
-from device_identification.pingpong.experiment import _signature_evidence,_training_label_ranks
+from methods.pingpong.experiment import _signature_evidence,_training_label_ranks
 
 POLICIES=['min4','short_fallback','min2','all']
 

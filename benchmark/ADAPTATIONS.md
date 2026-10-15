@@ -31,11 +31,12 @@ training labels and are kept separate from inference inputs.
 
 ## Sources
 
-The CPU adapters implement the LSIF, IDT-AIM, XGB-IDI, PingPong and WiFinger
-methods cited in the paper. `traffic/device_identification/wifinger_fmlcs/`
-contains the supplied FMLCS implementation used by the WiFinger adapter;
-`pingpong/` and `wifinger/` contain the ICS task adaptations. The distribution
-retains only the functions used by this benchmark.
+The [methods directory](methods/README.md) contains separate implementations of
+LSIF, IDT-AIM, XGB-IDI, PingPong, WiFinger, and the TrafficFormer adaptation.
+`methods/wifinger/fmlcs/` contains the supplied extraction and FMLCS algorithms
+used by `methods/wifinger/source_adapter.py` and `methods/wifinger/matcher.py`.
+These files form one WiFinger method; no alternative matcher is selected by
+the benchmark. Shared experiment configuration and evaluation are in `traffic/`.
 
 TrafficFormer source is obtained from [IDP-code/TrafficFormer](https://github.com/IDP-code/TrafficFormer),
 commit `6d0ba64d82e74fb130c6c7301ef20885dbfbdf29`.

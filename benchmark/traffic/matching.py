@@ -2,10 +2,10 @@
 from common import digest, signature_from_dict
 from fractions import Fraction
 from collections import defaultdict
-from device_identification.pingpong.core import ExtractionConfig, match_signature_flows
-from device_identification.wifinger.core import Fingerprint, MatchConfig
-from device_identification.wifinger.experiment import _overlap_upper_bound
-from source_matching import SourceFMLCS
+from methods.pingpong.core import ExtractionConfig, match_signature_flows
+from methods.wifinger.core import Fingerprint, MatchConfig
+from methods.wifinger.experiment import _overlap_upper_bound
+from methods.wifinger.matcher import SourceFMLCS
 
 
 class Matcher:

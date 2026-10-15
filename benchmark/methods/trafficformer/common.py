@@ -17,7 +17,7 @@ PLAN_VERSION = 'CSI-EXP-20260930-flow-identifier-v3'
 ADAPTER_VERSION = 'ics-trafficformer-flow-identifier-v3.1'
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(AUTHOR_ROOT))
-sys.path.insert(0, str(CODE_ROOT.parent / 'data'))
+sys.path.insert(0, str(CODE_ROOT.parents[1] / 'data'))
 
 from dataset_io import rows, index_file
 from identifier_dataset_io import IdentifierDataset
@@ -42,9 +42,9 @@ def input_binding():
             'operation_mapping_sha256': digest(index_file(ADDON_ROOT, 'flow_operations.csv')),
             'addon_flows_sha256': digest(index_file(ADDON_ROOT, 'flows.csv')),
             'sample_assignments_sha256': digest(index_file(DATA_ROOT, 'sample_assignments.csv')),
-            'identifier_loader_sha256': digest(CODE_ROOT.parent / 'data' / 'identifier_dataset_io.py'),
+            'identifier_loader_sha256': digest(CODE_ROOT.parents[1] / 'data' / 'identifier_dataset_io.py'),
             'adapter_common_sha256': digest(__file__),
-            'pcap_control_sha256': digest(CODE_ROOT.parent / 'data' / 'pcap_views.py'),
+            'pcap_control_sha256': digest(CODE_ROOT.parents[1] / 'data' / 'pcap_views.py'),
             'official_serializer_sha256': digest(AUTHOR_ROOT / 'data_generation' / 'finetuning_data_gen.py'),
             'official_classifier_sha256': digest(AUTHOR_ROOT / 'fine-tuning' / 'run_classifier.py'),
             'official_config_sha256': digest(AUTHOR_ROOT / 'models' / 'bert' / 'base_config.json'),

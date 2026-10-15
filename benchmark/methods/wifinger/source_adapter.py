@@ -1,30 +1,24 @@
-"""ICS adapter and regression oracle for the supplied WiFinger implementation.
+"""Adapt pre-segmented ICS interactions to the supplied WiFinger extractor.
 
-The author code operates on labeled Wi-Fi event traces represented as
-``(timestamp, size, direction)`` tuples.  ICSTracker already separates traffic
-into probing interactions, so this module only translates those interaction
-sequences to and from the author format.  The task adaptation reuses the
-pairwise/refinement extractor and removes its artificial anchor; the supplied
-FMLCS matcher is retained as a test oracle for the native matcher.
+The extractor uses a synthetic timeline to align independent executions. Its
+artificial zero-length anchor is removed before model identification. Matching
+uses the supplied FMLCS implementation through matcher.py.
 """
 
 from __future__ import annotations
 
 from contextlib import redirect_stderr, redirect_stdout
 from io import StringIO
-from math import ceil, inf
 from typing import Sequence
 
-from device_identification.wifinger_fmlcs.fmlcs.extraction import (
+from methods.wifinger.fmlcs.extraction import (
     obtain_fingerprint_from_large_file,
 )
-from device_identification.wifinger_fmlcs.fmlcs.lcs import approximate_match
 
 from .core import (
     CLIENT_TO_DEVICE,
     DEVICE_TO_CLIENT,
     MatchConfig,
-    MatchResult,
     PacketPoint,
     normalize_sequence,
 )
@@ -130,47 +124,4 @@ def extract_method_fingerprint(
     fingerprint = extract_source_fingerprint(samples, config, max_samples)
     return normalize_sequence(
         tuple(packet for packet in fingerprint if packet.size != 0)
-    )
-
-
-def match_source_fmlcs(
-    fingerprint: Sequence[PacketPoint],
-    target: Sequence[PacketPoint],
-    config: MatchConfig | None = None,
-) -> MatchResult:
-    """Match one ICS interaction with the authors' baseline FMLCS routine."""
-
-    config = config or MatchConfig()
-    if config.epsilon != 1:
-        raise ValueError("The supplied WiFinger source fixes its size threshold at 1")
-    left = normalize_sequence(fingerprint)
-    right = normalize_sequence(target)
-    if not left or not right:
-        return MatchResult(False, 0, len(left), 0.0, inf, 0.0, (), "SOURCE-FMLCS")
-
-    distance, author_pairs = approximate_match(
-        _author_sequence(right),
-        _author_sequence(left),
-    )
-    # approximate_match returns (target index, fingerprint index).
-    pairs = tuple(
-        (fingerprint_index, target_index)
-        for target_index, fingerprint_index in author_pairs
-    )
-    match_ratio = len(pairs) / len(left)
-    temporal_distance = float(distance)
-    success = (
-        len(pairs) >= ceil(len(left) * config.gamma)
-        and temporal_distance < config.beta
-    )
-    temporal_factor = 0.0 if temporal_distance == inf else 1.0 / (1.0 + temporal_distance)
-    return MatchResult(
-        success=success,
-        matched_packets=len(pairs),
-        fingerprint_packets=len(left),
-        match_ratio=match_ratio,
-        temporal_distance=temporal_distance,
-        score=match_ratio * temporal_factor,
-        matched_pairs=pairs,
-        algorithm="SOURCE-FMLCS",
     )

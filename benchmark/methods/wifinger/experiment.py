@@ -1,7 +1,6 @@
 from __future__ import annotations
-import os
-from collections import defaultdict, Counter
-from typing import Iterable, Sequence
+from collections import defaultdict
+from typing import Iterable
 from .core import Fingerprint, MatchConfig
 from .data import Interaction
 from .source_adapter import extract_method_fingerprint

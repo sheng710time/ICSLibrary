@@ -1,7 +1,5 @@
-"""Method adapters. ICS model-identification adaptations."""
-from common import *
+"""IDT-AIM feature-weighted trees and AdaBoost adaptation."""
 import numpy as np
-from collections import Counter,defaultdict
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.preprocessing import StandardScaler
@@ -48,7 +46,7 @@ class IDTAIM:
   self.scaler=StandardScaler().fit(X); Z=self.scaler.transform(X)
   # Reuse the prior ICS Relief implementation's neighbor loop; all training
   # packets remain eligible. Numeric differences use its documented adaptation.
-  from numeric_features import compute_feature_weights
+  from .features import compute_feature_weights
   mn=Z.min(axis=0); span=np.ptp(Z,axis=0); span[span==0]=1
   raw,weight=compute_feature_weights((Z-mn)/span,y,np.array([i in (2,5,6,10) for i in range(X.shape[1])]),self.config['relief_iterations'],self.config['relief_neighbors'],len(X),self.seed)
   self.raw_weights=raw; self.feature_weights=weight
@@ -56,14 +54,3 @@ class IDTAIM:
   self.classifier=AdaBoostClassifier(estimator=base,n_estimators=self.config['n_estimators'],learning_rate=self.config['learning_rate'],random_state=self.seed)
   self.classifier.fit(Z,y); return self
  def predict_proba(self,X): return self.classifier.predict_proba(self.scaler.transform(X))
-
-class LSIF:
- def fit(self,rows,labels):
-  by=defaultdict(list)
-  for endpoint,digest in rows:
-   if digest is not None: by[endpoint].append(np.unpackbits(np.frombuffer(bytes.fromhex(digest),dtype=np.uint8)).astype(float)*2-1)
-  self.endpoints=sorted(by); self.labels=[labels[e] for e in self.endpoints]
-  self.mean_bits=np.array([np.mean(by[e],axis=0) for e in self.endpoints]); return self
- def scores(self,digests):
-  bits=np.array([np.unpackbits(np.frombuffer(bytes.fromhex(d),dtype=np.uint8)).astype(float)*2-1 for d in digests])
-  return bits@self.mean_bits.T/2

@@ -9,10 +9,10 @@ import sys
 from collections import OrderedDict
 from math import ceil, inf
 import numpy as np
-from common import digest
-from device_identification.wifinger.core import MatchResult, normalize_sequence
-from device_identification.wifinger.source_adapter import _author_sequence
-from device_identification.wifinger_fmlcs.fmlcs.lcs import approximate_match
+from traffic.common import digest
+from methods.wifinger.core import MatchResult, normalize_sequence
+from methods.wifinger.source_adapter import _author_sequence
+from methods.wifinger.fmlcs.lcs import approximate_match
 
 
 class SourceFMLCS:

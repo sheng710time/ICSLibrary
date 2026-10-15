@@ -5,6 +5,12 @@ methods and the paired response case study. Experiments start from the released
 PCAP/response inputs. Model predictions are computed during execution; they are
 not supplied as inputs to evaluation.
 
+## Code organization
+
+The [methods directory](methods/README.md) contains one directory per traffic-based method: LSIF, IDT-AIM, XGB-IDI, PingPong, WiFinger, and TrafficFormer. WiFinger's required extraction and FMLCS routines are inside `methods/wifinger/fmlcs/`; they are part of the single WiFinger implementation.
+
+`traffic/` holds shared data preparation, configuration, and CPU evaluation code. The five CPU methods use `traffic/run.py` or the matrix runner `run_traffic.py`; TrafficFormer uses `methods/trafficformer/run.py`. Response-based methods remain in `agent/`.
+
 ## 1. Obtain the data
 
 Run all commands from the repository root. Choose one data source:
@@ -81,7 +87,7 @@ git clone https://github.com/IDP-code/TrafficFormer.git external/TrafficFormer
 git -C external/TrafficFormer checkout 6d0ba64d82e74fb130c6c7301ef20885dbfbdf29
 python3.11 -m venv .venv-tf
 .venv-tf/bin/python -m pip install torch==2.0.1+cu118 --index-url https://download.pytorch.org/whl/cu118
-.venv-tf/bin/python -m pip install -r benchmark/trafficformer/requirements.txt
+.venv-tf/bin/python -m pip install -r benchmark/methods/trafficformer/requirements.txt
 ```
 
 Download and unpack the pretrained model linked by the
@@ -91,7 +97,7 @@ The expected `nomoe_bertflow_pre-trained_model.bin-120000` SHA-256 is
 Place it under `external/weights/` and run:
 
 ```bash
-.venv-tf/bin/python benchmark/trafficformer/run.py \
+.venv-tf/bin/python benchmark/methods/trafficformer/run.py \
   --base "$ICS_BASE" --addon "$ICS_ADDON" \
   --author-source external/TrafficFormer \
   --weights external/weights/nomoe_bertflow_pre-trained_model.bin-120000 \

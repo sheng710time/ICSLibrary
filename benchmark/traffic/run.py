@@ -13,7 +13,8 @@ def run(args):
     import numpy as np
     from identifier_dataset_io import IdentifierDataset
     from extract import extract
-    from models import IDTAIM,LSIF
+    from methods.idt_aim.model import IDTAIM
+    from methods.lsif.model import LSIF
     cfg=json.loads(Path(__file__).with_name('config.json').read_text())
     with IdentifierDataset(args.base,args.addon) as ds:
         mode='tabular' if args.method in ('IDT-AIM','XGB-IDI') else 'signatures'
@@ -26,8 +27,8 @@ def run(args):
         y=np.array([classes.index(train[s]['model_label']) for s in ids])
         seed=41+args.fold; method=args.method; policy=None
         if method=='XGB-IDI':
-            from xgboost import XGBClassifier
-            model=XGBClassifier(**cfg[method],random_state=seed).fit(np.array([data[s]['xgb'] for s in ids]),y)
+            from methods.xgb_idi.model import fit_classifier
+            model=fit_classifier(np.array([data[s]['xgb'] for s in ids]),y,cfg[method],seed)
             def predict(selected):
                 ss=sorted(selected); p=model.predict_proba(np.array([data[s]['xgb'] for s in ss]))
                 return {s:classes[int(v.argmax())] for s,v in zip(ss,p)}
@@ -54,12 +55,12 @@ def run(args):
             from matching import Matcher
             from decision import POLICIES,model_context,choose_operation,decide
             if method=='PINGPONG':
-                from device_identification.pingpong.experiment import build_signatures
-                from device_identification.pingpong.core import ExtractionConfig
+                from methods.pingpong.experiment import build_signatures
+                from methods.pingpong.core import ExtractionConfig
                 key='pingpong'; model=build_signatures([i for s in ids for i in data[s][key]],labels,ExtractionConfig(**cfg[method]))
             else:
-                from device_identification.wifinger.experiment import build_fingerprints
-                from device_identification.wifinger.core import MatchConfig
+                from methods.wifinger.experiment import build_fingerprints
+                from methods.wifinger.core import MatchConfig
                 key='wifinger';model=build_fingerprints([i for s in ids for i in data[s][key]],labels,MatchConfig(**cfg[method]),cfg['wifinger_max_samples'])
             artifact=dict(fingerprints=[f.to_dict() for f in model],training_support=dict(support))
             matcher=Matcher(method,artifact,cfg[method]);shared=shared_units(ds,args.protocol)

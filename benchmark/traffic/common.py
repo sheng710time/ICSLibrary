@@ -2,6 +2,7 @@ from pathlib import Path
 import csv, hashlib, json, os, sys
 for key in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','NUMEXPR_NUM_THREADS']:
     os.environ.setdefault(key,'4')
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'data'))
 def sha(path):
     with Path(path).open('rb') as f: return hashlib.file_digest(f,'sha256').hexdigest()
@@ -15,7 +16,7 @@ def write_json(path,value):
 
 
 def signature_from_dict(r):
-    from device_identification.pingpong.core import PingPongSignature,SequenceComponent
+    from methods.pingpong.core import PingPongSignature,SequenceComponent
     return PingPongSignature(endpoint=r['endpoint'],port=r['port'],operation=r['operation'],label=r['label'],
         components=tuple(SequenceComponent(tuple(c['directions']),tuple(tuple(v) for v in c['variants']),c['support']) for c in r['components']),
         training_events=r['training_events'],validation_matches=r['validation_matches'])

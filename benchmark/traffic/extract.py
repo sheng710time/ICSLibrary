@@ -4,12 +4,13 @@ import argparse, io, pickle, time, ipaddress, ast
 from collections import defaultdict, Counter
 import numpy as np
 from nilsimsa import Nilsimsa
-from device_identification.pingpong.data import Interaction as PI
-from device_identification.pingpong.core import PacketPoint as PP
-from device_identification.wifinger.data import Interaction as WI
-from device_identification.wifinger.core import PacketPoint as WP
+from methods.pingpong.data import Interaction as PI
+from methods.pingpong.core import PacketPoint as PP
+from methods.wifinger.data import Interaction as WI
+from methods.wifinger.core import PacketPoint as WP
 
-from numeric_features import compute_entropy as entropy, compute_statistics as stats
+from methods.xgb_idi import features as xgb_features
+from methods.xgb_idi.features import compute_entropy as entropy, compute_statistics as stats
 IDT_FEATURES=['ttl','tos','df_flag','packet_length','ecn','mf_flag','protocol','src_port','dst_port','window_size','ics_protocol','num','av','var','max','min','mr']
 XGB_FEATURES=['std_dev','coefficient_variation','skewness','range','iqr','std_dev_hex_sum','coefficient_variation_hex_sum','skewness_hex_sum','range_hex_sum','iqr_hex_sum']
 
@@ -23,7 +24,7 @@ def shared_operation(row):
 
 def fingerprint_for(ds,protocol,view,mode):
  return {'base':sha(ds.root/'files.sha256.json'),'addon':sha(ds.addon/'files.sha256.json'),
-         'extractor':sha(__file__), 'features':sha(Path(__file__).with_name('numeric_features.py')),
+         'extractor':sha(__file__), 'features':sha(xgb_features.__file__),
          'mode':mode,'protocol':protocol,'view':view}
 
 def extract(ds,protocol,view,mode,work):
@@ -33,8 +34,13 @@ def extract(ds,protocol,view,mode,work):
  dest=Path(work)/f'{protocol}_{view}_{mode}.pkl'
  dest.parent.mkdir(parents=True,exist_ok=True)
  if dest.exists():
-  with dest.open('rb') as f: existing=pickle.load(f)
-  if existing['fingerprint']==fingerprint: print('cache valid',dest,flush=True); return existing['data']
+  try:
+   with dest.open('rb') as f: existing=pickle.load(f)
+  except (ImportError, AttributeError):
+   # A previous code layout may have serialized classes at different paths.
+   existing=None
+   print('rebuilding cache from an earlier code layout',dest,flush=True)
+  if existing is not None and existing['fingerprint']==fingerprint: print('cache valid',dest,flush=True); return existing['data']
  wanted={s:r for s,r in ds.samples.items() if r['protocol']==protocol}
  flowrows=defaultdict(list)
  for r in rows(index_file(ds.addon,'flows.csv')):

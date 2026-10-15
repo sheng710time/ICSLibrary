@@ -35,8 +35,14 @@ ICSLibrary/
 │   └── scanning_info/
 ├── ics scanners/             # Collection scanner and scheduler source code
 ├── benchmark/                # Evaluation methods, configurations, and run instructions
-│   ├── traffic/              # Five CPU traffic methods
-│   ├── trafficformer/        # TrafficFormer adaptation
+│   ├── methods/              # Six traffic-based methods
+│   │   ├── lsif/
+│   │   ├── idt_aim/
+│   │   ├── xgb_idi/
+│   │   ├── pingpong/
+│   │   ├── wifinger/         # Includes the required fmlcs/ implementation
+│   │   └── trafficformer/
+│   ├── traffic/              # Shared CPU data preparation and evaluation
 │   ├── agent/                # Response-identification methods
 │   ├── cases/                # 90 endpoints and 180 paired response inputs
 │   └── data/                 # Loaders and traffic-view transformations
@@ -50,7 +56,7 @@ ICSLibrary/
 | [network_traffic](network_traffic/README.md) | Full captures for Collections A, B, and C; `captures.csv` maps collection rounds to PCAP files. [views/](network_traffic/views/README.md) provides the three paired benchmark views and shared indices. |
 | [scanning_logs](scanning_logs/README.md) | A/B query records for the labeled resource, a separate scope covering all scanned endpoints, collection metadata, and `round_summary.csv`. |
 | [ics scanners](ics%20scanners/README.md) | Java and SQL source files documenting collection operations and scheduling. |
-| [benchmark](benchmark/README.md) | Runnable method adaptations, configurations, dependencies, and instructions. [cases/](benchmark/cases/README.md) contains the fixed response-based case study inputs. |
+| [benchmark](benchmark/README.md) | [Six method implementations](benchmark/methods/README.md), shared evaluation code, configurations, dependencies, and instructions. [cases/](benchmark/cases/README.md) contains the fixed response-based case study inputs. |
 
 ## Archive downloads
 

@@ -21,7 +21,7 @@ def main():
                 for view in a.views:
                     name=f'{method}-{protocol}-f{fold}-{view}'
                     metricfile=work/'metrics'/(name+'.json');metricfile.parent.mkdir(parents=True,exist_ok=True)
-                    cmd=[sys.executable,str(ROOT/('trafficformer' if method=='TrafficFormer' else 'traffic')/'run.py'),
+                    cmd=[sys.executable,str(ROOT/('methods/trafficformer' if method=='TrafficFormer' else 'traffic')/'run.py'),
                          '--base',a.base,'--addon',a.addon,'--work',str(work/('trafficformer' if method=='TrafficFormer' else 'traffic')),
                          '--output',str(metricfile),'--protocol',protocol,'--fold',str(fold),'--view',view]
                     if method=='TrafficFormer':cmd+=['--author-source',a.author_source,'--weights',a.weights,'--workers',str(a.workers)]
