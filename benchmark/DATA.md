@@ -1,6 +1,6 @@
 # Data archives
 
-Download the files from the [ICSLibrary release](https://github.com/sheng710time/ICSLibrary/releases/latest). The release is the data distribution point for this repository.
+Download the files from the [ICSLibrary release](https://github.com/sheng710time/ICSLibrary/releases/latest). Full collection records can also be browsed in [device_information](../device_information/README.md), [network_traffic](../network_traffic/README.md), and [scanning_logs](../scanning_logs/README.md). The archives provide bulk downloads and the paired benchmark inputs.
 
 | Archive | Contents | Use |
 | --- | --- | --- |

@@ -142,7 +142,7 @@ Failures stop a run rather than being counted as abstentions.
   before aggregation. Scores use decimals.
 
 See [ADAPTATIONS.md](ADAPTATIONS.md) for the method inputs and task adaptations.
-The collection scanner source is under [`scanners/`](../scanners/README.md); benchmark commands
+The collection scanner source is under [`ics scanners/`](../ics%20scanners/README.md); benchmark commands
 operate on downloaded records and do not invoke them.
 
 ## Generated files
