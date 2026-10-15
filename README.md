@@ -1,110 +1,51 @@
 # ICSLibrary
 
-ICSLibrary is a dataset of anonymized network traffic, scanning logs, and device information collected from industrial control system (ICS) devices that are reachable from the public Internet.
+ICSLibrary provides labeled network traffic and protocol responses from Internet-facing industrial control system (ICS) devices, together with a benchmark for model identification.
 
-It is designed for studying whether an exposed ICS device can be recognized from its network behavior. In practice, that means using real Internet-facing network traffic to build and evaluate methods for identifying a device's vendor, device type, or model.
+**[Download the dataset and code](https://github.com/sheng710time/ICSLibrary/releases/latest)** · **[Run the benchmark](benchmark/README.md)** · **[Data guide](benchmark/DATA.md)**
 
-This repository contains both the dataset itself and the protocol-specific scanner code used to collect it. The release covers `Modbus/TCP`, `EtherNet/IP`, and `S7comm`.
+## Resource overview
 
-## Model-identification benchmark
+- **2,205 labeled endpoints**, spanning **20 vendors, 8 device types, and 165 models**.
+- Three protocols: **Modbus/TCP, EtherNet/IP, and S7comm**.
+- **180 anonymized PCAP files** across Collections A, B, and C, with 20 rounds per protocol in each collection.
+- Device information tables, plus scanning logs for Collections A and B.
+- A model-identification benchmark covering **1,505 endpoints and 71 models**, with fixed endpoint folds and **40,781 endpoint-round samples** in each traffic view.
 
-The [benchmark](benchmark/README.md) provides fixed endpoint folds, sample indices,
-paired traffic views, and runnable method adapters. The task uses 1,505 endpoints
-and 71 models from the full resource. Follow the documented commands to compute
-new experimental results from the released data. Data archives are described in
-[benchmark/DATA.md](benchmark/DATA.md).
+Collections A and B were conducted from the same scanner location 28 days apart. Collection C was conducted from a second location during the later collection period. Consistent IP address anonymization links observations of the same endpoint across the collection records.
 
-## At A Glance
+## Download the data
 
-- Covers `13,002` responsive Internet-facing ICS endpoints
-- Includes `2,205` labeled endpoints spanning `20` vendors, `8` device types, and `165` device models
-- Supports `3` ICS protocols: `Modbus/TCP`, `EtherNet/IP`, and `S7comm`
-- Organizes the measurements into `3` collections: `collection_A`, `collection_B`, and `collection_C`
-- Provides `60` scanning rounds per protocol and `180` released PCAP files in total
-- Uses consistent prefix-preserving anonymization of IP addresses across device information, network traffic, and scanning logs
+The [release](https://github.com/sheng710time/ICSLibrary/releases/latest) contains the complete data archives and a standalone code package. All files needed for the resource are listed below; downloading or cloning the repository alone provides the code, not the data archives.
 
-## Dataset Organization
+| Download | Contents |
+| --- | --- |
+| [Complete collections](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_collections_ABC_20261015.zip) | All 180 anonymized PCAPs, source device information tables, normalized labels for 2,205 endpoints, and collection/round mapping. |
+| [Scanning logs](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_scanning_logs_AB_20261015.zip) | Anonymized query records, collection metadata, and round summaries for Collections A and B. |
+| [Benchmark data](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_benchmark_data_20261015.zip) | Labels, endpoint folds, sample and connection indices, raw and instance-controlled traffic, and paired response inputs. |
+| [Identifier-masked view](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_identifier_masked_20261015.zip) | Identifier-masked traffic and corresponding connection/operation indices. |
+| [Source code](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_code_20261015.zip) | Scanner source, benchmark code, configurations, dependencies, and instructions; an alternative to cloning this repository. |
 
-The dataset is organized into three collections:
+[SHA256SUMS](https://github.com/sheng710time/ICSLibrary/releases/latest/download/SHA256SUMS) provides checksums for the five archives. See the [data guide](benchmark/DATA.md) for archive contents and extraction paths.
 
-- `collection_A`
-  - region: `Region A`
-  - study role: the earlier `Region A` collection, used with `collection_B` for cross-time comparison
-  - `modbus_ra`: rounds `21-40`
-  - `enip_ra`: rounds `3-22`
-  - `s7_ra`: rounds `21-40`
-- `collection_B`
-  - region: `Region A`
-  - study role: the later `Region A` collection, gathered `28` days after `collection_A`, used with `collection_A` for cross-time comparison and with `collection_C` for cross-location comparison
-  - `modbus_ra`: rounds `41-60`
-  - `enip_ra`: rounds `50-69`
-  - `s7_ra`: rounds `41-60`
-- `collection_C`
-  - region: `Region B`
-  - study role: the `Region B` collection aligned with the later collection stage represented by `collection_B`, used with `collection_B` for cross-location comparison
-  - `modbus_rb`: rounds `41-60`
-  - `enip_rb`: rounds `50-69`
-  - `s7_rb`: rounds `41-60`
+## Run the benchmark
 
-The three collections are designed to capture temporal and location-based variation: `collection_A` and `collection_B` are two `Region A` collections gathered `28` days apart, while `collection_C` is collected from `Region B`. This organization supports cross-time comparison between `collection_A` and `collection_B`, and cross-location comparison between `collection_B` and `collection_C`. In this release, `collection_A` and `collection_B` include both PCAP files and scanning-log CSV files, while `collection_C` provides PCAP files.
+The benchmark evaluates same-endpoint model recognition and unseen-endpoint model identification using six traffic-based methods: LSIF, IDT-AIM, XGB-IDI, PingPong, WiFinger, and TrafficFormer. Three paired traffic views support comparisons of instance information and explicit model identifiers. The response-based case study compares protocol rules, neural extraction, and an adapted NS-FirmID pipeline.
 
-## Repository Layout
+1. Clone this repository or extract the source-code archive.
+2. Download and extract the benchmark-data and identifier-masked archives into `data/` at the repository root.
+3. Follow the [environment setup and execution instructions](benchmark/README.md) for the selected method.
+
+The complete collections and scanning logs support broader identification and measurement studies; they are optional for running the benchmark. Each evaluation workflow computes predictions and metrics from the released inputs.
+
+## Repository contents
 
 ```text
 ICSLibrary/
-|-- device_information/
-|   |-- enip_device_information.csv
-|   |-- modbus_device_information.csv
-|   `-- s7_device_information.csv
-|-- ics scanners/
-|   |-- ScannersMoreTest.java
-|   |-- scanners/
-|   |-- schedulers/
-|   `-- sqls/
-|-- network_traffic/
-|   |-- collection_A/
-|   |-- collection_B/
-|   `-- collection_C/
-|-- scanning_logs/
-|   |-- collection_A/
-|   `-- collection_B/
-`-- README.md
+├── benchmark/       # Evaluation code, configurations, dependencies, and data guide
+├── scanners/        # Collection scanner and scheduler source code
+├── LICENSE
+└── README.md
 ```
 
-## What You'll Find In This Repository
-
-### `device_information/`
-
-Protocol-specific device information for labeled endpoints. The tables contain both protocol-reported identity fields and normalized labels so that users can either work with the original returned values or directly use the benchmark labels.
-
-The main fields can be interpreted as follows:
-
-- `vendor`, `product_code`, `product_name`, and `model_name` are the original identity fields extracted from protocol-specific responses.
-- `vendor_label`, `type_label`, and `model_label` are normalized labels intended for vendor-, type-, and model-level identification tasks.
-- `model_label` is a canonical model identifier derived from the extracted identity fields, using the form `vendor_label::product_code::product_name::model_name`; empty segments are preserved when some protocol-specific fields are unavailable.
-- `valid` indicates that the entry is retained as a reliable labeled endpoint; in the released tables, all rows have `valid = 1`.
-
-### `network_traffic/`
-
-Anonymized network traffic in PCAP format grouped by collection, protocol, and round. File names encode the protocol, scanning round, and region suffix:
-
-- `ra`: Region A
-- `rb`: Region B
-
-### `scanning_logs/`
-
-Per-round scanning logs corresponding to the released network traffic in `collection_A` and `collection_B`. These CSV files include timestamps, response summaries, scan modes, and extracted metadata when available.
-
-### `ics scanners/`
-
-Protocol-specific scanner and scheduler source files used during data collection. These files are included to document the probing logic behind the released measurements.
-
-## Anonymization
-
-All released IP addresses are anonymized with a prefix-preserving transformation. The anonymized addresses remain consistent across the device information, network traffic, and scanning logs, allowing cross-file linkage without exposing the original public endpoints.
-
-## Notes
-
-- The scanner source files are provided for transparency and code inspection.
-- Some source files depend on components from the original collection environment and may require additional project context to run directly.
-- The released data are intended for research on ICS device fingerprinting, label extraction, temporal variation, and cross-location robustness under Internet-facing measurement conditions.
+The [scanner source](scanners/README.md) documents collection operations. Benchmark execution uses the released records offline and does not run the Internet scanners.
