@@ -10,6 +10,8 @@ Download the files from the [ICSLibrary release](https://github.com/sheng710time
 | [ICSLibrary_scanning_logs_AB_20261015.zip](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_scanning_logs_AB_20261015.zip) | Anonymized A/B query records, collection metadata, and round summaries | Collection and response-availability studies |
 | [ICSLibrary_code_20261015.zip](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_code_20261015.zip) | Scanner source, benchmark code, configurations, and documentation | Alternative to a Git checkout |
 
+The three traffic views can also be browsed directly under [network_traffic/views](../network_traffic/views/README.md), together with their sample and connection indices. For the benchmark commands, use the archive extraction paths below; both distributions contain identical connection PCAPs.
+
 ## Extraction and verification
 
 Verify downloads using the release's [SHA256SUMS](https://github.com/sheng710time/ICSLibrary/releases/latest/download/SHA256SUMS). Each data archive also contains a SHA-256 manifest of its members.

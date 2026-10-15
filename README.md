@@ -22,7 +22,11 @@ ICSLibrary/
 ├── network_traffic/          # All 180 collection PCAPs and their round index
 │   ├── collection_A/
 │   ├── collection_B/
-│   └── collection_C/
+│   ├── collection_C/
+│   └── views/                # Three paired views and shared sample/connection indices
+│       ├── raw/
+│       ├── instance_controlled/
+│       └── identifier_masked/
 ├── scanning_logs/            # Query records and collection metadata
 │   ├── collection_A/         # Records for the labeled resource
 │   ├── collection_B/
@@ -37,14 +41,14 @@ ICSLibrary/
 | Directory | Contents |
 | --- | --- |
 | [device_information](device_information/README.md) | Three protocol-specific source tables and `labels.csv`, the normalized labels for the 2,205 retained endpoints. |
-| [network_traffic](network_traffic/README.md) | Full captures for Collections A, B, and C; `captures.csv` maps collection rounds to PCAP files. |
+| [network_traffic](network_traffic/README.md) | Full captures for Collections A, B, and C; `captures.csv` maps collection rounds to PCAP files. [views/](network_traffic/views/README.md) provides the three paired benchmark views and shared indices. |
 | [scanning_logs](scanning_logs/README.md) | A/B query records for the labeled resource, a separate scope covering all scanned endpoints, collection metadata, and `round_summary.csv`. |
 | [ics scanners](ics%20scanners/README.md) | Java and SQL source files documenting collection operations and scheduling. |
 | [benchmark](benchmark/README.md) | Runnable method adaptations, configurations, dependencies, and instructions for the traffic benchmark and response-based case study. |
 
 ## Archive downloads
 
-The [release](https://github.com/sheng710time/ICSLibrary/releases/latest) provides archives for bulk download. The collection and log archives contain the data available in the corresponding repository directories. The benchmark archives additionally provide paired traffic views and fixed evaluation inputs.
+The [release](https://github.com/sheng710time/ICSLibrary/releases/latest) provides archives for bulk download. The collection and log archives contain the data available in the corresponding repository directories. The benchmark archives bundle the paired traffic views and fixed evaluation inputs in the layout used by the evaluation code.
 
 | Download | Contents |
 | --- | --- |
@@ -58,7 +62,7 @@ The [release](https://github.com/sheng710time/ICSLibrary/releases/latest) provid
 
 ## Model-identification benchmark
 
-The benchmark evaluates same-endpoint model recognition and unseen-endpoint model identification using six traffic-based methods: LSIF, IDT-AIM, XGB-IDI, PingPong, WiFinger, and TrafficFormer. Three paired traffic views support comparisons of instance information and explicit model identifiers. The response-based case study compares protocol rules, neural extraction, and an adapted NS-FirmID pipeline.
+The benchmark evaluates same-endpoint model recognition and unseen-endpoint model identification using six traffic-based methods: LSIF, IDT-AIM, XGB-IDI, PingPong, WiFinger, and TrafficFormer. The [raw](network_traffic/views/raw/), [instance-controlled](network_traffic/views/instance_controlled/), and [identifier-masked](network_traffic/views/identifier_masked/) views support comparisons of instance information and explicit model identifiers. The response-based case study compares protocol rules, neural extraction, and an adapted NS-FirmID pipeline.
 
 To run the benchmark, obtain the source code and extract the benchmark-data and identifier-masked archives into `data/` at the repository root. Follow the [environment setup and execution instructions](benchmark/README.md) for the selected method. Full collection captures and query logs support broader measurement studies and are optional for benchmark execution.
 

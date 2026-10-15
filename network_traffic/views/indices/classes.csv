@@ -1,0 +1,72 @@
+protocol,class_id,model_label,n_endpoints
+enip,0,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,14
+enip,1,Allen-Bradley::120::1769-L35E Ethernet Port::,10
+enip,2,Allen-Bradley::141::2080-LC50-24QWB::,4
+enip,3,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,12
+enip,4,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,9
+enip,5,Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::,4
+enip,6,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,8
+enip,7,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,21
+enip,8,Allen-Bradley::158::1769-L32E Ethernet Port::,41
+enip,9,Allen-Bradley::166::1756-EN2T/C::,3
+enip,10,Allen-Bradley::166::1756-EN2T/D::,8
+enip,11,Allen-Bradley::176::1747-L551/C C/10 - DC::,3
+enip,12,Allen-Bradley::176::1747-L551/C C/11 - DC::,5
+enip,13,Allen-Bradley::176::1747-L551/C C/13 - DC::,7
+enip,14,Allen-Bradley::180::2080-LC20-20QWB::,4
+enip,15,Allen-Bradley::185::1763-L16A::,13
+enip,16,Allen-Bradley::185::1763-L16B::,55
+enip,17,Allen-Bradley::185::1763-L16D::,5
+enip,18,Allen-Bradley::58::1756-ENBT/A::,29
+enip,19,Allen-Bradley::90::1766-L32A::,52
+enip,20,Allen-Bradley::90::1766-L32B::,150
+enip,21,Allen-Bradley::99::1761-NET-ENI/D::,3
+enip,22,Keyence::105::KV-NC1EP::,3
+enip,23,Omron::11::CJ1W-EIP21::,3
+enip,24,Omron::23::CJ2M-EIP21::,13
+modbus,0,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,8
+modbus,1,SE-Elektronic::::E-DDC::EDDC31,9
+modbus,2,SE-Elektronic::::E-DDC::_040,11
+modbus,3,Schneider Electric::171 CBU 98090::::,8
+modbus,4,Schneider Electric::BMX NOE 0100::::,40
+modbus,5,Schneider Electric::BMX NOR 0200::::,10
+modbus,6,Schneider Electric::BMX P34 1000::::,3
+modbus,7,Schneider Electric::BMX P34 2020::::,104
+modbus,8,Schneider Electric::BMX P34 20302::::,8
+modbus,9,Schneider Electric::HMIS5T::Magelis::HMIS5T,6
+modbus,10,Schneider Electric::ION7400::PowerLogic::ION7400,7
+modbus,11,Schneider Electric::PM5110::::,5
+modbus,12,Schneider Electric::PM5111::::,13
+modbus,13,Schneider Electric::PM5561::::,3
+modbus,14,Schneider Electric::TM221CE16R::::,3
+modbus,15,Schneider Electric::TM221CE16T::::,3
+modbus,16,Schneider Electric::TM221CE24R::::,4
+modbus,17,Schneider Electric::TM221CE24T::::,14
+modbus,18,Schneider Electric::TM221CE40R::::,48
+modbus,19,Schneider Electric::TM221CE40T::::,20
+modbus,20,Schneider Electric::TM221M16R::::,3
+modbus,21,Schneider Electric::TM221ME16R::::,6
+modbus,22,Schneider Electric::TM238LFDC24DTS0::::,4
+modbus,23,Schneider Electric::TM241CE24R::::,4
+modbus,24,Schneider Electric::TM241CE24T_U::::,10
+modbus,25,Schneider Electric::TM241CE40T_U::::,10
+modbus,26,Schneider Electric::TSXETY4103::::,8
+modbus,27,Telemecanique::BMX P34 2020::::,6
+modbus,28,Telemecanique::TWDLCAA24DRF::TWIDO::,14
+modbus,29,Telemecanique::TWDLCAE40DRF::TWIDO::,81
+modbus,30,Telemecanique::TWDLMDA20D-K::TWIDO::,3
+modbus,31,Telemecanique::TWDLMDA20DRT::TWIDO::,16
+modbus,32,Telemecanique::TWDLMDA40D-K::TWIDO::,3
+modbus,33,Telemecanique::XBTGT5330::Magelis::XBTGT5330,3
+modbus,34,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,40
+s7,0,Siemens::0AB0::::6ES7 151-8,25
+s7,1,Siemens::0AB0::::6ES7 313-5,5
+s7,2,Siemens::0AB0::::6ES7 314-6,36
+s7,3,Siemens::0AB0::::6ES7 315-2,74
+s7,4,Siemens::0AB0::::6ES7 317-2,8
+s7,5,Siemens::0XB0::::6ES7 211-1,9
+s7,6,Siemens::0XB0::::6ES7 212-1,66
+s7,7,Siemens::0XB0::::6ES7 214-1,137
+s7,8,Siemens::0XB0::::6ES7 215-1,15
+s7,9,Siemens::0XB0::::6ES7 217-1,3
+s7,10,Siemens::0XE0::::6GK7 343-1,110

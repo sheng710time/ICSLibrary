@@ -1,0 +1,1506 @@
+endpoint_id,protocol,model_label,heldout_fold,split_id
+enip-00f6bdabb9c2629c,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-0178556c697bcc27,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-01a523cf5d6e1acc,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-02360c981fc9092b,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-03e43290a8a23458,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-04a309f20fa85be3,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-04ba99a9231756c6,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-04f8d61f739cf3c0,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-04feaf4d156eb758,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-05084de0ec6a0fec,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,3,core_v4_threefold_seed42
+enip-05a24dc5bff02ea7,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-05c981d50b14ec8f,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-06363e228e848490,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-06495487dc2e545a,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-0665436067d040d6,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-06f54203b7fefa18,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-074859ca4cc0fc97,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-07764bdd4ab00b8b,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-07c0de043b888ef4,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,3,core_v4_threefold_seed42
+enip-098b5bc2e0d6134e,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-09fa08f4c9207547,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-0a5fc41781d3ff06,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-0aa151dbee38a04b,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-0b05b99f40c30ac2,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-0b0868e94e01437d,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-0bb3eafae3f635b0,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-0bbf24428e4eb17a,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-0bc1a790c8f4653b,enip,Allen-Bradley::185::1763-L16A::,3,core_v4_threefold_seed42
+enip-0c888502b1fc7dc1,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-0da42032abe9877f,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,3,core_v4_threefold_seed42
+enip-0db8084ab02eb4ad,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-0e3eb40275eb62fc,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-0ee43886e41d279e,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-0f91e5ad2ff8568b,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-0fd249ae5e7b01c3,enip,Allen-Bradley::185::1763-L16D::,3,core_v4_threefold_seed42
+enip-108457f000c693d0,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-10b33056cc9f87ae,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-1131c7992862686b,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-1278277113db53e4,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-1303ec1cca3930f4,enip,Allen-Bradley::180::2080-LC20-20QWB::,3,core_v4_threefold_seed42
+enip-133075e084792f21,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-136c404407dab51e,enip,Omron::11::CJ1W-EIP21::,2,core_v4_threefold_seed42
+enip-13ff729e3e29b26f,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-1417d4c5056899a7,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-1427d95e9700a22b,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-1443ca637dbfee7a,enip,Allen-Bradley::176::1747-L551/C C/11 - DC::,3,core_v4_threefold_seed42
+enip-14530e3c17927636,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-1480211cbe9e1e1e,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-14d67489f64ff6fc,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,3,core_v4_threefold_seed42
+enip-15878acc25192531,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-158e165c6ea46678,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-15b6726b1fac63d7,enip,Allen-Bradley::166::1756-EN2T/D::,3,core_v4_threefold_seed42
+enip-15c7cf766cfc1874,enip,Allen-Bradley::176::1747-L551/C C/10 - DC::,2,core_v4_threefold_seed42
+enip-166b99518cf1375e,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-1845639dd9ffb471,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-194d9015bcfcfc97,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-19d54a288d0120e4,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-1a46a5a50cf1c58c,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-1b3bdea00f546aa1,enip,Allen-Bradley::141::2080-LC50-24QWB::,3,core_v4_threefold_seed42
+enip-1b97a944c4dd12fa,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-1be59fe141299d1e,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-1c3703089f1ebb0f,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,3,core_v4_threefold_seed42
+enip-1d3e34fd85febbc4,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-1d558bd792d7cee9,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,2,core_v4_threefold_seed42
+enip-1d568a43e1879631,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-1d84c05eda00f12a,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-1ddbcf64b13008e5,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-1e283c921bf5fd0b,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-1e6c3148c2c3f441,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-1ee4a635175e9f98,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-1f1f91c42c9605cf,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-1f7bec3ad525f3b2,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-1fb1032e71353382,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-2003eee3eb5f7192,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-202331388e336394,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,3,core_v4_threefold_seed42
+enip-21063526ee635c23,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-2162d4bb9dad48c3,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-231c0acbb832dcbb,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-235e8506cb759b12,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-23e67b1ac783b5a6,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-25db3c6ba896de3a,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-261322ba42c50df0,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-2670fbbd33139be6,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-26f742b6bc8188e3,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-283f0334c7471cae,enip,Allen-Bradley::166::1756-EN2T/D::,3,core_v4_threefold_seed42
+enip-28d40ab6a9972a4f,enip,Allen-Bradley::166::1756-EN2T/D::,2,core_v4_threefold_seed42
+enip-295643d9dfbbfe8d,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-298a0043ca28544d,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,3,core_v4_threefold_seed42
+enip-29d8bb7ee9c3f511,enip,Omron::23::CJ2M-EIP21::,3,core_v4_threefold_seed42
+enip-2b18138d154e5032,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-2d21d36b8c341395,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-2da0524e80a86232,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-2eac0a760bc35943,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-2ecf3a619e3049d9,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-2ede5934b730f93b,enip,Allen-Bradley::185::1763-L16A::,3,core_v4_threefold_seed42
+enip-2f8b7fd36ba7f255,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-3052ea9c70629d39,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-316bdc41ef9f82a0,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-3239cd9fd2afe670,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-3280d1bf3e7239d9,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-343444c894536f7a,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-34415c0502d557a0,enip,Allen-Bradley::166::1756-EN2T/C::,2,core_v4_threefold_seed42
+enip-346447fdcba19018,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-34f35e37ab2040a1,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-37357823c586dbdf,enip,Keyence::105::KV-NC1EP::,2,core_v4_threefold_seed42
+enip-3926df91ce5a5ce0,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-3a1d48ab4a259bce,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-3ad2117bfc89bf10,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-3adb98bfa465248b,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-3af0af3929527fcf,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-3b81b94939c026e4,enip,Omron::23::CJ2M-EIP21::,3,core_v4_threefold_seed42
+enip-3bda500427aa3b01,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-3caa597e34322450,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-3cadee55ccb215d7,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-3cdbbc9cc890dce4,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-3ce0ae2ab07f4240,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-3dbd17a7bbd4713b,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-3e2b9b8fb8ebe83a,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-3ed470f30c7bd707,enip,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-3f40d473855762cf,enip,Allen-Bradley::185::1763-L16A::,1,core_v4_threefold_seed42
+enip-3f599eaa8e0edc27,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-408dfc26fb4aa5ad,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-4177a3a12f3f2670,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,2,core_v4_threefold_seed42
+enip-41d2cd5b1b802795,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-41e614aa03bcc536,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-426c9824b0348cd0,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-43539d28c0d56fd5,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-43cfcac15acc7887,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,3,core_v4_threefold_seed42
+enip-457a773096ed5af2,enip,Allen-Bradley::185::1763-L16A::,2,core_v4_threefold_seed42
+enip-45fdae2e22b3702a,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-466305804bb742f3,enip,Omron::23::CJ2M-EIP21::,1,core_v4_threefold_seed42
+enip-477371b6b2f76ec4,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-47749071101d3485,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,1,core_v4_threefold_seed42
+enip-478893234823b64a,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-481d84c124e44d0f,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-4947a164b8bacfe1,enip,Omron::23::CJ2M-EIP21::,2,core_v4_threefold_seed42
+enip-49a89649dcb0f429,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-4a914f236a5d44c0,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-4b2a293a72a0f917,enip,Omron::11::CJ1W-EIP21::,1,core_v4_threefold_seed42
+enip-4c381e9f061f27db,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-4d0b0b429c032128,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-4d6c11eb0d34cdeb,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-4d93e44e2b0d14cf,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-4dc5072832b51a66,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-4e6d845adc724377,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-4eee7fe581198265,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-4fdc7db7ed75ef80,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-511a5b8a66384938,enip,Omron::23::CJ2M-EIP21::,3,core_v4_threefold_seed42
+enip-514a0c413b67adad,enip,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-52358a6e228a5923,enip,Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::,3,core_v4_threefold_seed42
+enip-5244abd1435baf45,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-5250ff4b294b185a,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-52b2c9f1eb073b34,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-52f077709891f262,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,3,core_v4_threefold_seed42
+enip-533e0ccfa7031091,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-536851774c8db6d9,enip,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-53b01290ee1a5d33,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-53ba847a20fdc3df,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-53c4a18ae4861178,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-53c82029c7413540,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-54446d2fdf837f69,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-54770143bbc2e21f,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-550cbd171919104a,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-553a8fb19e15e448,enip,Allen-Bradley::176::1747-L551/C C/13 - DC::,3,core_v4_threefold_seed42
+enip-55557299d0989fed,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,2,core_v4_threefold_seed42
+enip-55a8c5de83c8a679,enip,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-563b3eff489eed86,enip,Allen-Bradley::176::1747-L551/C C/10 - DC::,1,core_v4_threefold_seed42
+enip-56b1e62f43d88924,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-575418149aae72da,enip,Allen-Bradley::185::1763-L16A::,3,core_v4_threefold_seed42
+enip-594a7cbf9cd02c2b,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-59eef62b02e3e1d8,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-59f12eb4e3473384,enip,Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::,1,core_v4_threefold_seed42
+enip-5a8ccfb3afc51487,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-5acbdbe72389445e,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,2,core_v4_threefold_seed42
+enip-5b54fc83c65ae59e,enip,Allen-Bradley::166::1756-EN2T/D::,1,core_v4_threefold_seed42
+enip-5bcc451f98e9dc28,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-5c064ce3ce5d6ef7,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-5c39b14a87e04313,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,1,core_v4_threefold_seed42
+enip-5c77271fabefdf4e,enip,Allen-Bradley::99::1761-NET-ENI/D::,2,core_v4_threefold_seed42
+enip-5d0267f245152ed4,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-5e008dc12513152a,enip,Omron::23::CJ2M-EIP21::,2,core_v4_threefold_seed42
+enip-600a01e176a72319,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-60187212e504f248,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-605fc0869434f6e6,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-60b17152c8235777,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-60f2fafcbb0d16fe,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-61074a0d7711a053,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-612feac38482ce1a,enip,Omron::23::CJ2M-EIP21::,1,core_v4_threefold_seed42
+enip-61583e28bb14931b,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-61c6f2d7c4ebb4ee,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-632fedc15fbf0e0e,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-63da4dc2e9c46e39,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-64901b2ceb148bda,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-65820fe550de001a,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-65eb495bdd7002fe,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-65ecfbd28af30ece,enip,Allen-Bradley::185::1763-L16A::,2,core_v4_threefold_seed42
+enip-66aada3790466859,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-66ce9ebbc3c2bccd,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-684e93d7d3830188,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-69588d52c42c54cf,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-696036618682e2cb,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-69d76d87338ab7ea,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-69d8ed4162b19e2f,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,1,core_v4_threefold_seed42
+enip-6a7506418d81aaba,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-6a8798259fc4aba3,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-6c9c1d4b05556378,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-6cd8011b07560165,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-6db75d44639f6cac,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-6ecde4d4f48ba9f2,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-6ee4ea08a2984b09,enip,Allen-Bradley::166::1756-EN2T/D::,1,core_v4_threefold_seed42
+enip-6ef1284b75d18995,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-6f53be737e5be0c7,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-6fe2f3d60da841f8,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-70db9a819a1a8613,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-71a63c068ccc6129,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,1,core_v4_threefold_seed42
+enip-71c4fdba56893a2d,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-71da2a2b8d64c975,enip,Allen-Bradley::141::2080-LC50-24QWB::,1,core_v4_threefold_seed42
+enip-72a38b5dbad5083c,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-7360829864882eca,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-7454fe256073aab5,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-746f36e9e92e43fc,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-750fe5091bd8ecde,enip,Allen-Bradley::180::2080-LC20-20QWB::,1,core_v4_threefold_seed42
+enip-7522a5d6cdaeb21f,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-75b5a26a957d6ee8,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-75d4769feef75680,enip,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-75d90462d18bc068,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-760bfc53e0c74d81,enip,Allen-Bradley::176::1747-L551/C C/13 - DC::,1,core_v4_threefold_seed42
+enip-7665dcdba274e8e0,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-768f3707415808b0,enip,Allen-Bradley::176::1747-L551/C C/10 - DC::,3,core_v4_threefold_seed42
+enip-777cfc8614619a58,enip,Allen-Bradley::166::1756-EN2T/D::,2,core_v4_threefold_seed42
+enip-77f658b8893263d4,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-79ffc55f78117e1f,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-7a0d8c337f119b0c,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-7a879a8c1dab9080,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-7b9b238414478e75,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-7c4fdaa1736ca872,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-7cfe9beae04693bd,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-7d2d324863914fc4,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-7dad7287ea088913,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-7e958054e1052f64,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-7ede9fdaa7f4f06c,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-7f0e858217f3e099,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-7f28245679a6424d,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-7fa297c81c4e64be,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,1,core_v4_threefold_seed42
+enip-7fbc53c80cbc8395,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-7ff1513e5e960591,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-803edb08e8fea82a,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-8055b555002bee40,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-80850b3d8fc4e473,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,2,core_v4_threefold_seed42
+enip-80c7c46484365b91,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-8123c72f1012eae3,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-821fcf7630264595,enip,Allen-Bradley::176::1747-L551/C C/13 - DC::,2,core_v4_threefold_seed42
+enip-82e6612968760c23,enip,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-8382e581abd65ca1,enip,Allen-Bradley::180::2080-LC20-20QWB::,1,core_v4_threefold_seed42
+enip-839278446158c41e,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-842564a08b0bb680,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-8452d252c4c0bc6a,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-84afb81f400aa89b,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-8558a477a3eb7375,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-857d0367260a02e4,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-8628b20336f77681,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-86f8ad4355ca150e,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-8757c9a361310df5,enip,Keyence::105::KV-NC1EP::,1,core_v4_threefold_seed42
+enip-87993403960cb826,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-895f265f77044c9d,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-89de6186546e5d5a,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,3,core_v4_threefold_seed42
+enip-8a9113818ffb8cf9,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-8aaae8a5c588aa0a,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-8af5e9fc10c4c80d,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,2,core_v4_threefold_seed42
+enip-8b6ca0ff727e924c,enip,Allen-Bradley::176::1747-L551/C C/13 - DC::,1,core_v4_threefold_seed42
+enip-8ba64856202e71ff,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-8be2223dd64b415a,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-8c2ffc2ba3d8438f,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-8c3c2209889e9ae8,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-8d5cafd19bf780cf,enip,Allen-Bradley::185::1763-L16A::,1,core_v4_threefold_seed42
+enip-8ddf5c90adb90519,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-8f3626564c2927cf,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-8fb0a60abb6465f1,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-905c97548128ddee,enip,Allen-Bradley::166::1756-EN2T/D::,1,core_v4_threefold_seed42
+enip-90e186faa19c757a,enip,Omron::23::CJ2M-EIP21::,1,core_v4_threefold_seed42
+enip-90e49c1db1749d97,enip,Allen-Bradley::176::1747-L551/C C/11 - DC::,1,core_v4_threefold_seed42
+enip-91475bd59b2cc812,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,3,core_v4_threefold_seed42
+enip-91d3b73ba3f25c71,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-91e965a3a8529abf,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,1,core_v4_threefold_seed42
+enip-92105296feb1bf52,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-923959b9c08f699d,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-932c6db8d4cab658,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-93de64cd705c8f4e,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-940bf910d75be712,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-95944b5c46f65f47,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-95eaac433c6f3f8f,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,1,core_v4_threefold_seed42
+enip-96ecbc92a35b781f,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-97b9b377c995e837,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-98009b677898801f,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-980540432f3f320f,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-9966ae8c09757a5e,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-9a19e15bccede934,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-9a870af6e8cf767c,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-9ac50a8ee185c879,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-9af74759fc846913,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-9b4433f131d37344,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-9c1e49151564f38d,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-9c71d532f11e43db,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,2,core_v4_threefold_seed42
+enip-9c883f9b8992d026,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-9cb1dbaccf3287eb,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,2,core_v4_threefold_seed42
+enip-9cd47e07f195faa5,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-9cd6f2cb26f0bebf,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-9dc1766f318c1c48,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-9e85eb3f1bc870bc,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-9e90849574ee3a39,enip,Allen-Bradley::141::2080-LC50-24QWB::,1,core_v4_threefold_seed42
+enip-9eaf325509cea23b,enip,Allen-Bradley::99::1761-NET-ENI/D::,1,core_v4_threefold_seed42
+enip-9ecf8f0f758c30dd,enip,Allen-Bradley::176::1747-L551/C C/11 - DC::,2,core_v4_threefold_seed42
+enip-9f18c504125ff061,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,1,core_v4_threefold_seed42
+enip-9f6b7226b52523b4,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-9fe81881646d13fe,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-a0bff3cd53f91c73,enip,Allen-Bradley::185::1763-L16A::,1,core_v4_threefold_seed42
+enip-a1135eba589619d5,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-a16aa533c1e889aa,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-a27f5b962f3053a0,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-a2b62e32c57d8811,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-a2b722811b98dfdf,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-a392cbf328156258,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-a3950fb2d3d7fdfe,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-a430d5aa91b95529,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-a43f741331ea0469,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-a49e78c630f44572,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-a66b58e83346d03a,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-a808d02c965bec69,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-a8539cc77534dc60,enip,Allen-Bradley::176::1747-L551/C C/13 - DC::,1,core_v4_threefold_seed42
+enip-a85e02ce0b5dc3f3,enip,Allen-Bradley::58::1756-ENBT/A::,1,core_v4_threefold_seed42
+enip-a8b5a282e00644b7,enip,Allen-Bradley::185::1763-L16D::,1,core_v4_threefold_seed42
+enip-a8b69704c5b47f8a,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,1,core_v4_threefold_seed42
+enip-a90c7e571002b88f,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,3,core_v4_threefold_seed42
+enip-aa7f31efde88a21a,enip,Allen-Bradley::185::1763-L16D::,2,core_v4_threefold_seed42
+enip-ab4074abd93ba3e8,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-abc89a70008740b9,enip,Allen-Bradley::166::1756-EN2T/C::,1,core_v4_threefold_seed42
+enip-ac199b7287ee8400,enip,Allen-Bradley::185::1763-L16D::,1,core_v4_threefold_seed42
+enip-ac6df96e79cd7814,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-acac84d273e300f2,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,3,core_v4_threefold_seed42
+enip-ae2cfd7d629f142b,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-ae6860944d7fb8f7,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-af2413c57db1b0bd,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-b04f42540b033b5c,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,1,core_v4_threefold_seed42
+enip-b08cbffddf0b5f48,enip,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-b0d77b0f81e8ad49,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-b27afc33d5d2422c,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-b2a5d97c0508114e,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,1,core_v4_threefold_seed42
+enip-b2f72fdccb7ecba6,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-b34ee6558fc1e399,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-b3b690c205123c7c,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-b530e51a30fa3d60,enip,Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-b55daa3f157fbac1,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,2,core_v4_threefold_seed42
+enip-b58f82297bf33af9,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-b5c5d14797e3cda6,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-b5f52c7089c41c26,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-b67afa67362b42e6,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-b6ee9fb5bfe67351,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-b9818954ee231fc6,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-ba4df9d19a86d4b6,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-ba514b5def5a3633,enip,Omron::23::CJ2M-EIP21::,2,core_v4_threefold_seed42
+enip-ba5f5636ad0908a2,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-bacfeb0b49946530,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,1,core_v4_threefold_seed42
+enip-bb3c996975e2f09b,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-bb6a2f44e6deeb8c,enip,Allen-Bradley::185::1763-L16A::,2,core_v4_threefold_seed42
+enip-bb775361f9ec70e6,enip,Omron::23::CJ2M-EIP21::,1,core_v4_threefold_seed42
+enip-bb91903f0e86cf3e,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-bbb1808155f4a91d,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-bc68162cec497500,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-bf0ad13d73d24b76,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-bfe57a7adc252714,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,1,core_v4_threefold_seed42
+enip-c0188f2071b20fed,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-c0c1847cb9d85fbf,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,2,core_v4_threefold_seed42
+enip-c119add3f6a0424a,enip,Allen-Bradley::99::1761-NET-ENI/D::,3,core_v4_threefold_seed42
+enip-c1473d1883e39aa4,enip,Allen-Bradley::185::1763-L16A::,1,core_v4_threefold_seed42
+enip-c188952684636517,enip,Allen-Bradley::176::1747-L551/C C/11 - DC::,1,core_v4_threefold_seed42
+enip-c18c6c096f46b9cb,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-c303478dd01e6879,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-c3236a5db186726f,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-c43ab25b7e73cb94,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-c57b25196e7a1165,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-c794e10588bd6bf1,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-c7b9d9697c5cbaa5,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-c7be11fb88f2b6aa,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-c7c421fb0cfbbc65,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-c8a2eec0eda15225,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-c8c971a4e28028ae,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-c969c9cdd5ac57e7,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-c982e6cf6755df8b,enip,Omron::23::CJ2M-EIP21::,3,core_v4_threefold_seed42
+enip-c98c84b02005537f,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-c9c15613a1ef1ba9,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-ca4717db8fafd403,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-cb0868ea239a37c3,enip,Allen-Bradley::176::1747-L551/C C/13 - DC::,3,core_v4_threefold_seed42
+enip-cb99f51284726098,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,2,core_v4_threefold_seed42
+enip-cbb2fae7a048b4a6,enip,Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::,2,core_v4_threefold_seed42
+enip-cc0b277f412dffcf,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-cc3256ab4c6359f8,enip,Allen-Bradley::180::2080-LC20-20QWB::,2,core_v4_threefold_seed42
+enip-cc4d6fc92bdce1a7,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-cd1a6a266e54c8f0,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-cd8ac3e585915eeb,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-cdf7dee0bff58704,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,2,core_v4_threefold_seed42
+enip-ce420ddf190196a1,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,1,core_v4_threefold_seed42
+enip-cf0584f393181c07,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-cf75dc6755e6ec8e,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-cfb71655e7dcab72,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,3,core_v4_threefold_seed42
+enip-cff84c55137d8ac7,enip,Omron::11::CJ1W-EIP21::,3,core_v4_threefold_seed42
+enip-d01a1348d21fde47,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-d23b55caa56f2f22,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-d35069c038b52106,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-d400fc2d8544c49f,enip,Allen-Bradley::185::1763-L16A::,3,core_v4_threefold_seed42
+enip-d49426c7de9681a5,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-d61e4ba81c7daec3,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-d62bdecdaf867d39,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-d6a9c9c8fa82b78b,enip,Allen-Bradley::185::1763-L16D::,2,core_v4_threefold_seed42
+enip-d6ef9e86165ffad6,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-d8615851d4610382,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-d9b74e80edd6d3b8,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-db040ea7ff33e179,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-db38d1c8876b7246,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-dc06e8e27a4cb2ab,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-dc44a1421baf1138,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-dcb2f3d63e20c68c,enip,Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::,1,core_v4_threefold_seed42
+enip-dd195266ee28a7ef,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,2,core_v4_threefold_seed42
+enip-dd75aaf10b18e37f,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-dd8a8128e0d7d0bc,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-df598aa2374439b2,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-e013b906d5c234a5,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-e1e1f5479e0ef306,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,1,core_v4_threefold_seed42
+enip-e1fea1157eaeeb84,enip,Allen-Bradley::166::1756-EN2T/D::,2,core_v4_threefold_seed42
+enip-e22ee078af9248c2,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-e24b4cddd51a5055,enip,Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::,1,core_v4_threefold_seed42
+enip-e252fffaed412b4c,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-e2ef2adfbc3cbf22,enip,Allen-Bradley::185::1763-L16A::,2,core_v4_threefold_seed42
+enip-e36c5436c39ba789,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-e3d9ebd43c6e4c63,enip,Allen-Bradley::166::1756-EN2T/C::,3,core_v4_threefold_seed42
+enip-e4bbe5eee5240150,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-e51e98c6831fd604,enip,Allen-Bradley::176::1747-L551/C C/11 - DC::,2,core_v4_threefold_seed42
+enip-e527f3825615a1fa,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-e6056ac82f2d833b,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-e6d841bddc0c5b24,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-e821f2f5f9838878,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-e82d010213793eab,enip,Allen-Bradley::141::2080-LC50-24QWB::,2,core_v4_threefold_seed42
+enip-e89df75076ed114e,enip,Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::,2,core_v4_threefold_seed42
+enip-e8a658bb84405224,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-e8d31a1dca499660,enip,Allen-Bradley::90::1766-L32A::,1,core_v4_threefold_seed42
+enip-e907d5390f7506d4,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-e95d2c32e5de1471,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-eab9ee23e970f776,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-ebd4f499df9e52e5,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-ec5e001419d23b2c,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-ec9b3abe56c7e51a,enip,Allen-Bradley::58::1756-ENBT/A::,3,core_v4_threefold_seed42
+enip-ecbe7bc0a4b7d668,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-ee01733e3bbce225,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-ee830d347606f402,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,1,core_v4_threefold_seed42
+enip-eec5ee410e0df4b7,enip,Allen-Bradley::185::1763-L16B::,2,core_v4_threefold_seed42
+enip-f1451ffeb9c44720,enip,Allen-Bradley::185::1763-L16B::,3,core_v4_threefold_seed42
+enip-f18c515ea2e08e38,enip,Allen-Bradley::90::1766-L32A::,3,core_v4_threefold_seed42
+enip-f19277e7f6b3cd57,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-f21fe437629079a1,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-f3aaa4752ea4b8e1,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-f3dcb3d103e52f77,enip,Allen-Bradley::90::1766-L32B::,1,core_v4_threefold_seed42
+enip-f3e769fea870f3a8,enip,Allen-Bradley::120::1769-L35E Ethernet Port::,2,core_v4_threefold_seed42
+enip-f472d1b65eb056bb,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-f5385da2104d3cb5,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,2,core_v4_threefold_seed42
+enip-f5db8a118508e159,enip,Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::,2,core_v4_threefold_seed42
+enip-f5f38f72acc61d32,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,1,core_v4_threefold_seed42
+enip-f73efe0f79319cd6,enip,Keyence::105::KV-NC1EP::,3,core_v4_threefold_seed42
+enip-f8165b5d894e8753,enip,Allen-Bradley::185::1763-L16A::,1,core_v4_threefold_seed42
+enip-f8f7b9fcf8d3408b,enip,Allen-Bradley::90::1766-L32B::,3,core_v4_threefold_seed42
+enip-f90aa18c8661e58a,enip,Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::,3,core_v4_threefold_seed42
+enip-fb27c0a33c28916b,enip,Allen-Bradley::176::1747-L551/C C/13 - DC::,2,core_v4_threefold_seed42
+enip-fb8ac5b271a76b99,enip,Omron::23::CJ2M-EIP21::,2,core_v4_threefold_seed42
+enip-fc37ed0bf68263c8,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-fc3e8ef6eda552b6,enip,Allen-Bradley::58::1756-ENBT/A::,2,core_v4_threefold_seed42
+enip-fc6ca7fdc5ef4812,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+enip-fdb4ec9d2c10e49d,enip,Allen-Bradley::90::1766-L32A::,2,core_v4_threefold_seed42
+enip-fe5991e689316978,enip,Allen-Bradley::158::1769-L32E Ethernet Port::,3,core_v4_threefold_seed42
+enip-ff33850ef29706d7,enip,Allen-Bradley::90::1766-L32B::,2,core_v4_threefold_seed42
+enip-ff46854e91992ddf,enip,Omron::23::CJ2M-EIP21::,1,core_v4_threefold_seed42
+enip-ffdfa5bd397a8f0d,enip,Allen-Bradley::185::1763-L16B::,1,core_v4_threefold_seed42
+modbus-00f6772f96d6d910,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-013306a4ed8ba857,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-01ad04a2b258f8e4,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-02b8ad31cc6bc953,modbus,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,3,core_v4_threefold_seed42
+modbus-0308aeacd9ad4705,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-03b3a5c0b43b87a6,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,3,core_v4_threefold_seed42
+modbus-03d2781b116699a4,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-045028bfd7ee273e,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-0481d2f5a3521b65,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-05469f9aa8c0c64f,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-0568e6fd2d98e477,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-062154c301e75528,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-0644ae9297dd53da,modbus,Telemecanique::TWDLMDA20D-K::TWIDO::,2,core_v4_threefold_seed42
+modbus-06717535bac25bde,modbus,Schneider Electric::TM221M16R::::,2,core_v4_threefold_seed42
+modbus-06f40b80abfafd20,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-0729ac5cd93eb522,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-07733f1bf8fae0d8,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-08217803b2342d66,modbus,Schneider Electric::BMX NOR 0200::::,3,core_v4_threefold_seed42
+modbus-082e52492f3c5657,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-096c593950d15400,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-09cdec0b763d6cb0,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-09fb2aeeb509bc75,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-0ae2f2e081be358b,modbus,Telemecanique::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-0b15c5c05a5fa170,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-0b4b131171e3974e,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-0b596a5d381f8c4a,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-0b9c4f9f82d5c2e6,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-0bf2f477287b9c40,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-0cf0f450870303b3,modbus,Schneider Electric::BMX P34 20302::::,3,core_v4_threefold_seed42
+modbus-0d0122ea05d75be8,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-0d3842036cf4d199,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-0d4f02ed9ad950b7,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-0f299f747900bfd8,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,2,core_v4_threefold_seed42
+modbus-0f83b3b2919d6760,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,2,core_v4_threefold_seed42
+modbus-10ce51edc86e0525,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-10da3e57712acdfd,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-119586653d4a0865,modbus,Schneider Electric::TM241CE24T_U::::,3,core_v4_threefold_seed42
+modbus-11de5be2abbb473d,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-12072503869f2d9e,modbus,Telemecanique::XBTGT5330::Magelis::XBTGT5330,2,core_v4_threefold_seed42
+modbus-122ab53bc985cbdb,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-12888a32c0a4ff27,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-12aab46c26c9c35e,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-13eefc7fd79d0ac1,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-1446c96df6952b3e,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-1558143bfbce0574,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-158a052c259889b7,modbus,Schneider Electric::BMX P34 20302::::,3,core_v4_threefold_seed42
+modbus-15fa9792a2d1fccf,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-1654081c24a10da7,modbus,Schneider Electric::ION7400::PowerLogic::ION7400,3,core_v4_threefold_seed42
+modbus-169de80947fe0ea2,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-16e57cc9486fbb9f,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-172ef14a72307d27,modbus,Schneider Electric::TM241CE24R::::,3,core_v4_threefold_seed42
+modbus-1776c9a9941ece0b,modbus,Schneider Electric::TM241CE40T_U::::,3,core_v4_threefold_seed42
+modbus-17c7ee8f7eae9d23,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-18b2f4343293f489,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-194bfd12486f54e8,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-1988f7de1715fa33,modbus,Schneider Electric::TM221CE24T::::,3,core_v4_threefold_seed42
+modbus-198988d1c1de33cc,modbus,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,3,core_v4_threefold_seed42
+modbus-1ad6d0d1d1ce41cb,modbus,Schneider Electric::PM5110::::,3,core_v4_threefold_seed42
+modbus-1b2b027095cb2195,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-1be6be798ac4839a,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-1c3929215c9b20af,modbus,Schneider Electric::TM238LFDC24DTS0::::,3,core_v4_threefold_seed42
+modbus-1c7277c8dec91315,modbus,Schneider Electric::TSXETY4103::::,3,core_v4_threefold_seed42
+modbus-1d0fab933c9b6391,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-1e3254b9712747ec,modbus,Schneider Electric::TM221CE16T::::,2,core_v4_threefold_seed42
+modbus-1ec30b7eede8fb20,modbus,Schneider Electric::TM221ME16R::::,3,core_v4_threefold_seed42
+modbus-1f193bcf595ce9bd,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-1ff185697c05c6fe,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-2016120b18fedf6c,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-2092ae313575ff02,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-20f6eec8c51101cc,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-2141633e53299b0f,modbus,Schneider Electric::PM5111::::,3,core_v4_threefold_seed42
+modbus-2165127d690a966d,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-21b26f1436e3066e,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,3,core_v4_threefold_seed42
+modbus-22d78a9ddd7bd6df,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-22fa5b37a58c3386,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-239c099a0b59846b,modbus,Schneider Electric::TM221CE24T::::,3,core_v4_threefold_seed42
+modbus-23b7776f62bf1ccf,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-2409625efed7a552,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-24b5276ab10537a1,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-24c2c33d3953e24c,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-2500e051d747edbc,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-25dce8e6c4cfa188,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-260245c70806c58a,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,3,core_v4_threefold_seed42
+modbus-26625ae69eaeeee4,modbus,Schneider Electric::PM5111::::,3,core_v4_threefold_seed42
+modbus-2706ebb0037f35f8,modbus,Schneider Electric::PM5111::::,1,core_v4_threefold_seed42
+modbus-289ec4687d64880e,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-290749633652e96e,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-293ef28be44bf910,modbus,Schneider Electric::TM221ME16R::::,1,core_v4_threefold_seed42
+modbus-29be44589387a573,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-29df23de4b9f8dd9,modbus,Schneider Electric::171 CBU 98090::::,3,core_v4_threefold_seed42
+modbus-2a3f963ac8c7f4ab,modbus,Schneider Electric::TM221CE16T::::,1,core_v4_threefold_seed42
+modbus-2a7e8382f5304868,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-2b180e18bc368dd5,modbus,Schneider Electric::TM241CE40T_U::::,3,core_v4_threefold_seed42
+modbus-2b28a9f8776cdd19,modbus,Schneider Electric::TM221M16R::::,1,core_v4_threefold_seed42
+modbus-2b50b1aa7d9724b9,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-2b828e23c6b505b3,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-2c31f6a6a6c902ce,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-2ca5d2c645fe6737,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,1,core_v4_threefold_seed42
+modbus-2cde0a2d3b2cc1a7,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-2cf327b01116da16,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-2cff85e31a3d4321,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-2ddb1a4933ec28af,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-2e309a5365ef6fa4,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-2e562373b42e7187,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-2efe4273ac40cecd,modbus,Schneider Electric::TM221CE24T::::,2,core_v4_threefold_seed42
+modbus-2fb4d3c9d9cbf340,modbus,Schneider Electric::TM221CE40T::::,3,core_v4_threefold_seed42
+modbus-30468f56368b5ffa,modbus,Schneider Electric::BMX P34 20302::::,2,core_v4_threefold_seed42
+modbus-306e93d3e625f685,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-3084dc1267af2027,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,1,core_v4_threefold_seed42
+modbus-31782a5ee5e96982,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-31cb2d992541aca7,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-31d1a27da75fb9b1,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-3209d9950d518081,modbus,SE-Elektronic::::E-DDC::EDDC31,3,core_v4_threefold_seed42
+modbus-32419f3e5aba36b6,modbus,Schneider Electric::BMX NOR 0200::::,3,core_v4_threefold_seed42
+modbus-32603b68e4303d4f,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,1,core_v4_threefold_seed42
+modbus-332d755b9a8570d5,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-339fad92755fb983,modbus,SE-Elektronic::::E-DDC::EDDC31,3,core_v4_threefold_seed42
+modbus-33b6b92c392acdc1,modbus,Schneider Electric::TM221CE24R::::,3,core_v4_threefold_seed42
+modbus-342ddc5c364343c9,modbus,Schneider Electric::TM221CE40T::::,2,core_v4_threefold_seed42
+modbus-347caf96f066e546,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-34babb73b89e522f,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-3573a0d4eb076d17,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-35d6ca0322d7c95b,modbus,Telemecanique::TWDLMDA20D-K::TWIDO::,1,core_v4_threefold_seed42
+modbus-3622db837ce8cc73,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-372ae7876f03dfc2,modbus,Schneider Electric::PM5111::::,2,core_v4_threefold_seed42
+modbus-380403cec27f81ce,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-3822c91d8396b17e,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-394adc101336cb66,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-396fc5dda7354462,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-3a17b7c8209a853a,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-3a5908eb52c553a9,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-3a9f8a4246900d38,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-3ba24d04fd253f37,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-3c6b92915bf6b2e8,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-3c9616bb5cc55b65,modbus,Schneider Electric::PM5111::::,3,core_v4_threefold_seed42
+modbus-3d19a235192d86c7,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-3d2d494ebbccf8fe,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-3d5e87610223266c,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-3e4b30e133fd371c,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-3e6ec0520550109b,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-3ec3b16719f59450,modbus,Schneider Electric::BMX P34 20302::::,1,core_v4_threefold_seed42
+modbus-3fb93cd8e3fe8e23,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-3fbd6ef596c32655,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-3fc5a5337daf3fea,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-40a889f081448d5c,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-41f9d85fdf88d3d9,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-41fc9d18b5a6c176,modbus,Schneider Electric::BMX P34 20302::::,1,core_v4_threefold_seed42
+modbus-4229eb6a15faf7e1,modbus,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,2,core_v4_threefold_seed42
+modbus-4231215bc6a77935,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-425063888b50b0aa,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-42708db0f1a244cd,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-42857aa1c3ca5ef7,modbus,Schneider Electric::TM241CE40T_U::::,1,core_v4_threefold_seed42
+modbus-43dccd1218b1b9df,modbus,Schneider Electric::TSXETY4103::::,3,core_v4_threefold_seed42
+modbus-43eeffc30d52c5b2,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-4442922f3c61bc20,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-44a0a9cc47834d39,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-44f69c4d459d5fc7,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-455be96ee32e1414,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-460200721cd19529,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-46347612f9c97adc,modbus,Schneider Electric::TM238LFDC24DTS0::::,1,core_v4_threefold_seed42
+modbus-472df297ea245ffb,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-47bbd201c3bc1fca,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-47cdd1a9207839bd,modbus,Schneider Electric::BMX P34 20302::::,2,core_v4_threefold_seed42
+modbus-47d9fb0569c59b65,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-490512e685a8e4f1,modbus,Schneider Electric::PM5111::::,2,core_v4_threefold_seed42
+modbus-49624a76d0da9015,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-4999b98c8b4a4577,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-49b418b87ad37235,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-4b0411172780a006,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-4b6b484860fb83fb,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,2,core_v4_threefold_seed42
+modbus-4b7c385de74d221a,modbus,Schneider Electric::TM221CE16R::::,2,core_v4_threefold_seed42
+modbus-4bc9b7badd137221,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-4bee6f2fb481f262,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-4c29e06b9e75ebd6,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-4d11b0385253fa66,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-4dfcae0c9a76b092,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-4e374176fac89fdb,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-4e51e853f3f536a5,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-4f346f1e8b618eeb,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-4f71a51caea8d3e1,modbus,Schneider Electric::HMIS5T::Magelis::HMIS5T,3,core_v4_threefold_seed42
+modbus-50cee357d2a03f31,modbus,SE-Elektronic::::E-DDC::_040,3,core_v4_threefold_seed42
+modbus-512894db8f516432,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-51de45ed949d8690,modbus,Schneider Electric::BMX NOR 0200::::,1,core_v4_threefold_seed42
+modbus-5361172709c2d3ce,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-5381de55d2c06591,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-53a7e08750540614,modbus,SE-Elektronic::::E-DDC::EDDC31,2,core_v4_threefold_seed42
+modbus-53e52d523990356b,modbus,Schneider Electric::PM5561::::,2,core_v4_threefold_seed42
+modbus-53eafbd863249891,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-54264f2881b66a04,modbus,Schneider Electric::TM221ME16R::::,2,core_v4_threefold_seed42
+modbus-5449aab6ebf8875d,modbus,Schneider Electric::TM221CE24T::::,2,core_v4_threefold_seed42
+modbus-54945d53f63a5581,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-56208d05275429f7,modbus,SE-Elektronic::::E-DDC::_040,3,core_v4_threefold_seed42
+modbus-563d006cac0571b2,modbus,Schneider Electric::TM221CE24T::::,3,core_v4_threefold_seed42
+modbus-569361bb50cd2024,modbus,Schneider Electric::TM241CE24T_U::::,3,core_v4_threefold_seed42
+modbus-56c93155cddfcf57,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-56de0029147fdbb1,modbus,Schneider Electric::BMX NOR 0200::::,1,core_v4_threefold_seed42
+modbus-5778e91ec83669ea,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-57f6449ec46d0a36,modbus,Schneider Electric::171 CBU 98090::::,3,core_v4_threefold_seed42
+modbus-589259a77cd47e99,modbus,Telemecanique::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-58984ebb245dd34c,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-59ba52eb54903365,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-5b341cf19b01403b,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-5b3606a09d814c16,modbus,Schneider Electric::TSXETY4103::::,2,core_v4_threefold_seed42
+modbus-5ba87f2596f2945f,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-5bf097144073b2e5,modbus,Schneider Electric::TM221ME16R::::,1,core_v4_threefold_seed42
+modbus-5c3230350af6c416,modbus,Schneider Electric::TM221CE40T::::,3,core_v4_threefold_seed42
+modbus-5caa534f4be2ee2e,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-5db3208f64a46265,modbus,Schneider Electric::TM221CE24T::::,2,core_v4_threefold_seed42
+modbus-5de79dac7ad5d331,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-5ea55f04077a86dc,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-5ec3759684430cb8,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-5f3f0920c5dc2630,modbus,Schneider Electric::PM5110::::,1,core_v4_threefold_seed42
+modbus-5f809e89f6ca2e4c,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-5f92b1e6d20b48e0,modbus,Schneider Electric::TM221CE16R::::,1,core_v4_threefold_seed42
+modbus-60226776a5bf7203,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-609c133e55097662,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-60cd5624ffce3ccd,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-6105eefc3721174b,modbus,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,1,core_v4_threefold_seed42
+modbus-62894fcdb052b777,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-62ec19c70c4ad9ef,modbus,Schneider Electric::TM221CE40T::::,3,core_v4_threefold_seed42
+modbus-635a828ec4fe311d,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-639c4003fed2a09b,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-6425fa524c91a222,modbus,Telemecanique::XBTGT5330::Magelis::XBTGT5330,1,core_v4_threefold_seed42
+modbus-642e8d80ec94c56a,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-64431ea642f7cd5b,modbus,Schneider Electric::TM221CE24T::::,1,core_v4_threefold_seed42
+modbus-6463cc786527e5f5,modbus,Schneider Electric::PM5110::::,2,core_v4_threefold_seed42
+modbus-64b1e54c979757ac,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-65032c1e172e121c,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-65b9dfeca0482b42,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,1,core_v4_threefold_seed42
+modbus-66399ba65c2ddcec,modbus,Schneider Electric::TM221CE24R::::,1,core_v4_threefold_seed42
+modbus-67088ce1fb06109b,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-670a913675e63145,modbus,Schneider Electric::TM241CE40T_U::::,1,core_v4_threefold_seed42
+modbus-67f2df8b419d8f89,modbus,Telemecanique::XBTGT5330::Magelis::XBTGT5330,3,core_v4_threefold_seed42
+modbus-69014ab1f59015ad,modbus,Schneider Electric::TM241CE40T_U::::,3,core_v4_threefold_seed42
+modbus-696a5203bd1d7812,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-69a5c3c8764a0858,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-6a8faabefe37ef05,modbus,Schneider Electric::BMX NOR 0200::::,3,core_v4_threefold_seed42
+modbus-6adb25f2f90d1296,modbus,Schneider Electric::HMIS5T::Magelis::HMIS5T,1,core_v4_threefold_seed42
+modbus-6af990090b3999f1,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-6bed280a2ccdc0f1,modbus,SE-Elektronic::::E-DDC::_040,1,core_v4_threefold_seed42
+modbus-6bfbda8662496b3a,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-6c3bcefc0382ba7e,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-6c8258d597c1e45e,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-6cc997c786db87fa,modbus,Schneider Electric::TM241CE24R::::,1,core_v4_threefold_seed42
+modbus-6d6bdbf274e29727,modbus,Schneider Electric::TM221CE40T::::,1,core_v4_threefold_seed42
+modbus-6d7d52823faf5bd4,modbus,Schneider Electric::TM221CE40T::::,1,core_v4_threefold_seed42
+modbus-6daddc6e81f8eb18,modbus,Schneider Electric::171 CBU 98090::::,2,core_v4_threefold_seed42
+modbus-6f85f9d383cd6030,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-701594c6b079adc9,modbus,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,1,core_v4_threefold_seed42
+modbus-702b35afafcae217,modbus,Schneider Electric::TM221CE40T::::,2,core_v4_threefold_seed42
+modbus-70b63c5eda811220,modbus,Telemecanique::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-711fe59d61f00e10,modbus,Schneider Electric::TM221CE40T::::,3,core_v4_threefold_seed42
+modbus-71ed72e8e6a0e5b7,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-720f5702be86f6bc,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-734551e7ba9b841f,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-734a743d30b8d46d,modbus,Schneider Electric::PM5111::::,1,core_v4_threefold_seed42
+modbus-739178db952470af,modbus,Schneider Electric::BMX P34 20302::::,1,core_v4_threefold_seed42
+modbus-73a6c84925799c17,modbus,Schneider Electric::TM241CE24R::::,1,core_v4_threefold_seed42
+modbus-747137adaa0a8d92,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-74977ef1ad5bac8a,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,1,core_v4_threefold_seed42
+modbus-74d0e558ba002ff8,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-750a92c0d02736e8,modbus,Schneider Electric::TM241CE40T_U::::,2,core_v4_threefold_seed42
+modbus-751d5ecfe9d4c99c,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-75596f90ed4f2369,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-764ba1d8dc491ce8,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-7662ff368b4afb89,modbus,Schneider Electric::TM241CE24R::::,2,core_v4_threefold_seed42
+modbus-76f4dca9187e3c80,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-770f7300e2c5b698,modbus,Schneider Electric::TM241CE24T_U::::,1,core_v4_threefold_seed42
+modbus-77c2ee8f4f7f7b6d,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-78eaed8d1621bd50,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-795cceb8b0e83d93,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-79e7c686fd1c4600,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-7a06e75802edc03f,modbus,Schneider Electric::171 CBU 98090::::,1,core_v4_threefold_seed42
+modbus-7b787afdfd562ca4,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-7ba53dc14008d372,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-7bbfeac2ce74255d,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-7bf3d33756b98149,modbus,SE-Elektronic::::E-DDC::_040,1,core_v4_threefold_seed42
+modbus-7c3cec0afc993e56,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-7d642db5ad7a30ae,modbus,Schneider Electric::TM221CE24R::::,1,core_v4_threefold_seed42
+modbus-7dd7c3e983acc342,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-7e76ef71255b96a9,modbus,Schneider Electric::PM5111::::,1,core_v4_threefold_seed42
+modbus-7eb1dfa486ce3946,modbus,Schneider Electric::TM221CE24R::::,2,core_v4_threefold_seed42
+modbus-7ec2af020f963e60,modbus,SE-Elektronic::::E-DDC::EDDC31,1,core_v4_threefold_seed42
+modbus-7f367afdf81e1804,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-7f81b253f68a8b66,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-8045a515ae1dce6a,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-8072547bd82b8253,modbus,Schneider Electric::BMX P34 1000::::,2,core_v4_threefold_seed42
+modbus-8099b44b65573554,modbus,Schneider Electric::TM221CE40T::::,3,core_v4_threefold_seed42
+modbus-80dbadbfb91c5d0d,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-835fcdfd171e99e5,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-83eeeaf920d21ce9,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-84f1bc2b0978bc42,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-850de680704ecfcc,modbus,Schneider Electric::TM221CE40T::::,1,core_v4_threefold_seed42
+modbus-8526cf9bdffbc9a1,modbus,Schneider Electric::PM5111::::,2,core_v4_threefold_seed42
+modbus-85300d2a4d62667c,modbus,Schneider Electric::TM241CE40T_U::::,2,core_v4_threefold_seed42
+modbus-85995b34002186d1,modbus,Schneider Electric::BMX NOR 0200::::,2,core_v4_threefold_seed42
+modbus-85b2fb1eba45c8b5,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-864135c5e2e716fb,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-865cae1ea46224cc,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-86a663bc03e09dca,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-879c81d7ae0a408d,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-8818eff93fe8fe30,modbus,Schneider Electric::PM5110::::,1,core_v4_threefold_seed42
+modbus-885a1dfde8830b00,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-88d5bca31eb45796,modbus,Schneider Electric::ION7400::PowerLogic::ION7400,1,core_v4_threefold_seed42
+modbus-89548fc62ffe7827,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-896e836632a31714,modbus,Schneider Electric::ION7400::PowerLogic::ION7400,2,core_v4_threefold_seed42
+modbus-89ae6129613ccbea,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-8a08599d8ed975a1,modbus,Schneider Electric::TM241CE40T_U::::,1,core_v4_threefold_seed42
+modbus-8a713d3c8dc07c3f,modbus,Schneider Electric::TM221CE40T::::,2,core_v4_threefold_seed42
+modbus-8acf25d18812866d,modbus,Schneider Electric::PM5111::::,1,core_v4_threefold_seed42
+modbus-8b63419143631d72,modbus,Schneider Electric::TSXETY4103::::,1,core_v4_threefold_seed42
+modbus-8b69fbc275cb2a19,modbus,Schneider Electric::TM221ME16R::::,2,core_v4_threefold_seed42
+modbus-8bb3f0d43fb97aec,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-8bc4682f5a5be0f2,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-8be2f046f3239a09,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-8c678cc885861323,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-8d25ad0e8ec3cab7,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-8ec42f6cb40c99bd,modbus,SE-Elektronic::::E-DDC::EDDC31,2,core_v4_threefold_seed42
+modbus-8efc3e80903b37fb,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-8fb70a74b663d78a,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-9057834e20d6b410,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-919fb443adb79d4e,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-91c7bfea713b56a9,modbus,Schneider Electric::TSXETY4103::::,1,core_v4_threefold_seed42
+modbus-934a0c6752cda340,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-9392f504b6f6f8b7,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-93bcf764042f69ee,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-940bcb73c1f9249c,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-94b4a12f5b45281f,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-94b9ae716b2ef145,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-94ef8ec68ab3513a,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-94f4c342df553eb6,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-95d3a73a0c6d82ac,modbus,Schneider Electric::BMX NOR 0200::::,2,core_v4_threefold_seed42
+modbus-9670f84ab8576ffe,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-9768bc46b0799311,modbus,Schneider Electric::TM238LFDC24DTS0::::,1,core_v4_threefold_seed42
+modbus-9a7d2e1335ccf5a6,modbus,Schneider Electric::PM5561::::,1,core_v4_threefold_seed42
+modbus-9ca0613fffcbb162,modbus,Telemecanique::TWDLMDA40D-K::TWIDO::,2,core_v4_threefold_seed42
+modbus-9cc7d29138e03340,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,3,core_v4_threefold_seed42
+modbus-9ced9c3483bf1e5f,modbus,Schneider Electric::HMIS5T::Magelis::HMIS5T,2,core_v4_threefold_seed42
+modbus-9d5b149ff52a917a,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-9e23e20c15fbca97,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-9ea6768b0a3e8033,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-9eeee8a3f85d1ba6,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-a05074b65f96d9bf,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-a093eb6dcad3cd8e,modbus,Schneider Electric::TM241CE24T_U::::,1,core_v4_threefold_seed42
+modbus-a184b3c3fe4992ee,modbus,Schneider Electric::PM5111::::,3,core_v4_threefold_seed42
+modbus-a1be5276743d949b,modbus,Schneider Electric::ION7400::PowerLogic::ION7400,1,core_v4_threefold_seed42
+modbus-a1cd541b369ed3ea,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-a1fb5851e76d686a,modbus,Schneider Electric::171 CBU 98090::::,1,core_v4_threefold_seed42
+modbus-a21910cccb7c2799,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-a3f500ecb066ffd1,modbus,SE-Elektronic::::E-DDC::EDDC31,3,core_v4_threefold_seed42
+modbus-a4088ab94bad692f,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-a4113e954d6db2b3,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-a455b1b88107d078,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-a4680931dd4190c6,modbus,Schneider Electric::TM241CE24T_U::::,3,core_v4_threefold_seed42
+modbus-a4b3f0d47d8c7d12,modbus,Schneider Electric::BMX P34 1000::::,1,core_v4_threefold_seed42
+modbus-a5160ab7bd6132f4,modbus,SE-Elektronic::::E-DDC::_040,2,core_v4_threefold_seed42
+modbus-a53203f59ea0ace0,modbus,SE-Elektronic::::E-DDC::_040,2,core_v4_threefold_seed42
+modbus-a55cb05f69e26c42,modbus,Schneider Electric::TM221CE40T::::,2,core_v4_threefold_seed42
+modbus-a5aaa3c793309c5f,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-a628e78260ff6c69,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-a7bcc091fc501d08,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-a8f2b9073013aae6,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-a92d1a8c4c987462,modbus,Schneider Electric::ION7400::PowerLogic::ION7400,1,core_v4_threefold_seed42
+modbus-a940cdfbf39014d2,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-a99eecbf08189e0c,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-a9a5e93e6eeee8bb,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-a9e4515c7ed6760a,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-a9e6814553509073,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-aa348a7d5c6fd022,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-ab206b91cfc152b6,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-ab8edcdd017b68a0,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-abd9fbec1ec2ca3b,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-abf2ebebf80aa2ac,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-ac2593c80489c310,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-adb28c9ff8296b73,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-aec185f17fe271e8,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-b00bbdb1ec3cd04e,modbus,Telemecanique::TWDLMDA20D-K::TWIDO::,3,core_v4_threefold_seed42
+modbus-b05cc8c5fc770d7c,modbus,Schneider Electric::TM221CE24T::::,1,core_v4_threefold_seed42
+modbus-b08f372b9ab6de1d,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-b0a14d10e066e83f,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-b17853309fdd24aa,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-b1b453ab0797cede,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-b1f8c2830cfabe8d,modbus,Schneider Electric::PM5561::::,3,core_v4_threefold_seed42
+modbus-b221ea1a490d1a6e,modbus,Telemecanique::TWDLCAA24DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-b2e7e2b8d9f9a2c1,modbus,Schneider Electric::171 CBU 98090::::,2,core_v4_threefold_seed42
+modbus-b4488bdb134a5f00,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-b5da9a1d98103da8,modbus,SE-Elektronic::::E-DDC::EDDC31,1,core_v4_threefold_seed42
+modbus-b5ea3909aee4096c,modbus,Schneider Electric::TM221CE40T::::,2,core_v4_threefold_seed42
+modbus-b70891930e82a538,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-b7c542339f85a599,modbus,Schneider Electric::ION7400::PowerLogic::ION7400,3,core_v4_threefold_seed42
+modbus-b85b17197dd291f3,modbus,Telemecanique::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-b989ce5c98cf40b1,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-ba165f6d54868b58,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-bb55754b8e8d61c6,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,2,core_v4_threefold_seed42
+modbus-bb6cec2900d6821a,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-bbbd28938a3a483e,modbus,Schneider Electric::TM221CE24T::::,1,core_v4_threefold_seed42
+modbus-bbff3fafb8aafaef,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-bc1de051f677c227,modbus,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,2,core_v4_threefold_seed42
+modbus-bc49c707b44c126d,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-bc4adc894952e28c,modbus,Schneider Electric::TM241CE24T_U::::,2,core_v4_threefold_seed42
+modbus-bc5349962b3b30b4,modbus,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,1,core_v4_threefold_seed42
+modbus-bc6ee9e35d3c5333,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-bc7275e0ade604a8,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-bdd61dd57d0ec1bc,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-bdd6bac514f6fb89,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-be253d3020625e42,modbus,Schneider Electric::TM241CE24T_U::::,2,core_v4_threefold_seed42
+modbus-be86428e2bc5c067,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-be9e35357c521713,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-beccb4f7e87c1467,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-bfd0d24b76226695,modbus,Schneider Electric::TM221CE24T::::,2,core_v4_threefold_seed42
+modbus-c00bc48e057f6779,modbus,Schneider Electric::ION7400::PowerLogic::ION7400,2,core_v4_threefold_seed42
+modbus-c030b8965f107669,modbus,Schneider Electric::HMIS5T::Magelis::HMIS5T,1,core_v4_threefold_seed42
+modbus-c1b9cb6b61ff433a,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-c24012a2c0a01ee4,modbus,Schneider Electric::171 CBU 98090::::,1,core_v4_threefold_seed42
+modbus-c2d0c80974852b58,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-c2d86fd901786aa6,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-c368fc749a2e0c07,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,2,core_v4_threefold_seed42
+modbus-c3b2c7395062b9d6,modbus,Schneider Electric::BMX NOR 0200::::,1,core_v4_threefold_seed42
+modbus-c49c3ad08554771e,modbus,Schneider Electric::BMX NOR 0200::::,1,core_v4_threefold_seed42
+modbus-c4a48211639ed860,modbus,Telemecanique::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-c549ef64d9bb74a6,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-c5c493b0356381e6,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-c62e1d4481ce1228,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-c7a37fc8e378262d,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,1,core_v4_threefold_seed42
+modbus-c7c0e9b2e61d99d8,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-c83d15c102764770,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-c8431b6a4d668600,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-c8a56c87f30be3be,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-c93f3da6f46faf91,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-ca9f621ee1981534,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-cafb3f0432970b98,modbus,Schneider Electric::TM221CE24T::::,3,core_v4_threefold_seed42
+modbus-cb34ff58d8bbeba2,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-cbabeb2abf016615,modbus,Telemecanique::TWDLMDA40D-K::TWIDO::,1,core_v4_threefold_seed42
+modbus-cbbf03374015fc97,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-cc01208183516a58,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-cc5a9dffdcbc66ea,modbus,Schneider Electric::TM221CE24T::::,2,core_v4_threefold_seed42
+modbus-cd4b4a4bf01563eb,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-ce93ab5141ed90d9,modbus,Schneider Electric::PM5111::::,2,core_v4_threefold_seed42
+modbus-cf02a0b3371943e1,modbus,Schneider Electric::TM221CE40T::::,1,core_v4_threefold_seed42
+modbus-cf2ef2f33a3c0e28,modbus,Schneider Electric::TM221CE40T::::,1,core_v4_threefold_seed42
+modbus-cf8a2153707ae309,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-d022eb8799417630,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-d078346bc4124583,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-d0af4152e8047248,modbus,Schneider Electric::BMX NOR 0200::::,2,core_v4_threefold_seed42
+modbus-d146abcba4ebeeea,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-d203e8c14d2494df,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-d2f06f9026e7d85d,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-d352b9bb0a84559f,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-d485f768f85fd7df,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-d4ea6cc25b888bbc,modbus,Schneider Electric::BMX NOE 0100::::,1,core_v4_threefold_seed42
+modbus-d5bc65592e1998dc,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-d5e54aec23f4e054,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-d6066f2a2a078c12,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-d60bd9bc38cc6bf9,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-d643ba19312ce49c,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-d65604aa05fcd9c4,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-d6c6372403482bd3,modbus,Schneider Electric::TM241CE40T_U::::,1,core_v4_threefold_seed42
+modbus-d74cd2883e00df5c,modbus,Telemecanique::TWDLMDA20DRT::TWIDO::,3,core_v4_threefold_seed42
+modbus-d7b57d9322b39470,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-d902ee706bf7722c,modbus,Schneider Electric::PM5111::::,1,core_v4_threefold_seed42
+modbus-d9850629ee0c2086,modbus,Schneider Electric::TM221CE24T::::,1,core_v4_threefold_seed42
+modbus-d9f0c907333a80a4,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-dabdd9d63b3e5626,modbus,Schneider Electric::TSXETY4103::::,2,core_v4_threefold_seed42
+modbus-dbdbd119d025ff65,modbus,Schneider Electric::TM221CE16T::::,3,core_v4_threefold_seed42
+modbus-dce761102b074232,modbus,Schneider Electric::PM5110::::,2,core_v4_threefold_seed42
+modbus-dd73589845516a6e,modbus,SE-Elektronic::::E-DDC::_040,2,core_v4_threefold_seed42
+modbus-dd883199b1950461,modbus,Schneider Electric::HMIS5T::Magelis::HMIS5T,2,core_v4_threefold_seed42
+modbus-ddcbb9cd81b7065c,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-de185723bd19e2d4,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-de30ce8a03e7187e,modbus,Telemecanique::TWDLMDA40D-K::TWIDO::,3,core_v4_threefold_seed42
+modbus-de346623cdaa913c,modbus,Schneider Electric::TM238LFDC24DTS0::::,2,core_v4_threefold_seed42
+modbus-de452d839eeea844,modbus,Schneider Electric::TM221CE40T::::,1,core_v4_threefold_seed42
+modbus-de508cf74413337d,modbus,Schneider Electric::BMX P34 20302::::,2,core_v4_threefold_seed42
+modbus-dea92a02e2e7715b,modbus,SE-Elektronic::::E-DDC::_040,1,core_v4_threefold_seed42
+modbus-deb75605c130e8db,modbus,SE-Elektronic::::E-DDC::_040,1,core_v4_threefold_seed42
+modbus-df65d7fd1702a16b,modbus,Schneider Electric::TM241CE40T_U::::,2,core_v4_threefold_seed42
+modbus-df855f421f2fab25,modbus,SE-Elektronic::::E-DDC::EDDC31,1,core_v4_threefold_seed42
+modbus-e02ede35247e7e5a,modbus,Schneider Electric::TM221CE40R::::,1,core_v4_threefold_seed42
+modbus-e08cce88e0b9a3fb,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,1,core_v4_threefold_seed42
+modbus-e1687b54d5a7a7d5,modbus,Schneider Electric::TM241CE24T_U::::,1,core_v4_threefold_seed42
+modbus-e1f559e4ef52bb22,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-e201e329c2887238,modbus,Schneider Electric::TM221CE40T::::,3,core_v4_threefold_seed42
+modbus-e24e75145580648b,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-e2a5ac6ac51f5f8a,modbus,Schneider Electric::BMX NOE 0100::::,3,core_v4_threefold_seed42
+modbus-e34bc01d68ce3eaf,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-e3fe4b8acd85f9aa,modbus,Schneider Electric::BMX P34 1000::::,3,core_v4_threefold_seed42
+modbus-e47c693fcd7ebc11,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-e4a8b62780aa9d62,modbus,Schneider Electric::TM221CE40R::::,3,core_v4_threefold_seed42
+modbus-e4d0aaa8998243c1,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-e573798609bd13dd,modbus,Schneider Electric::TM241CE24T_U::::,1,core_v4_threefold_seed42
+modbus-e5f09bb6e2a831ac,modbus,Schneider Electric::TM221ME16R::::,3,core_v4_threefold_seed42
+modbus-e625d120d17d41bf,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-e773dd816172a7d8,modbus,Schneider Electric::TM221CE40T::::,2,core_v4_threefold_seed42
+modbus-e78e76af9dd6a827,modbus,Telemecanique::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-e79ffd4d751c7ef6,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-e7b8a73cca35150e,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-e999b8667b01ac0c,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-e9a257210997d0e4,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-ea8aae586a0c0086,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-eabe2e70b52c35c8,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-eb6e4c6bab2309c5,modbus,Schneider Electric::TSXETY4103::::,1,core_v4_threefold_seed42
+modbus-ed6e6091eb495267,modbus,Schneider Electric::TM221M16R::::,3,core_v4_threefold_seed42
+modbus-edc0ad8a32d3b02e,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-ef45f64ba332f49c,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-ef5d86f7eedcd640,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-f0381c45254ea505,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,3,core_v4_threefold_seed42
+modbus-f0ede91fd3daa0f8,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-f0f37903a4d45f91,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-f1cff8a6ce205317,modbus,SE-Elektronic::::E-DDC::_040,2,core_v4_threefold_seed42
+modbus-f321713e943765d0,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,2,core_v4_threefold_seed42
+modbus-f3326a6d32c7f0e6,modbus,Schneider Electric::171 CBU 98090::::,2,core_v4_threefold_seed42
+modbus-f48bba589f6494bd,modbus,Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01,2,core_v4_threefold_seed42
+modbus-f493074906f380c5,modbus,Schneider Electric::TSXETY4103::::,2,core_v4_threefold_seed42
+modbus-f59895b2f6c377a5,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-f5ed74e5f4c2b8cf,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-f6e50ab30dcac9d9,modbus,Schneider Electric::TM221CE40T::::,2,core_v4_threefold_seed42
+modbus-f7009de13eacc663,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-f763575c951a01ca,modbus,ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS,2,core_v4_threefold_seed42
+modbus-f7c01859f34cfeca,modbus,Schneider Electric::BMX NOE 0100::::,2,core_v4_threefold_seed42
+modbus-f857dfa2080ac453,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+modbus-f875a0be8a9d43cc,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-f89b1f170b183a45,modbus,Schneider Electric::TM221CE24T::::,1,core_v4_threefold_seed42
+modbus-f8bdc01047912886,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-f914ed447d41bae3,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-fb17a4ce7098c2df,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-fb3609cfd7797681,modbus,Schneider Electric::BMX P34 2020::::,3,core_v4_threefold_seed42
+modbus-fc21b451156c9ee6,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,1,core_v4_threefold_seed42
+modbus-fd3c0b243aec1d8c,modbus,Schneider Electric::TM221CE40T::::,1,core_v4_threefold_seed42
+modbus-fd94589235e5772a,modbus,Schneider Electric::TM221CE40R::::,2,core_v4_threefold_seed42
+modbus-fdb72bdf2df883d5,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-fe497bb8821915f9,modbus,Schneider Electric::HMIS5T::Magelis::HMIS5T,3,core_v4_threefold_seed42
+modbus-fe8cd903b0e66b8c,modbus,Telemecanique::TWDLCAE40DRF::TWIDO::,3,core_v4_threefold_seed42
+modbus-fea2c716492e531b,modbus,Schneider Electric::TM221CE16R::::,3,core_v4_threefold_seed42
+modbus-fee0a62b69ae3e74,modbus,SE-Elektronic::::E-DDC::EDDC31,2,core_v4_threefold_seed42
+modbus-ff3965d328d63e0f,modbus,SE-Elektronic::::E-DDC::_040,3,core_v4_threefold_seed42
+modbus-ffae418ba795b6ff,modbus,Schneider Electric::BMX P34 2020::::,2,core_v4_threefold_seed42
+modbus-ffbb830d6237ac35,modbus,Schneider Electric::TM241CE24T_U::::,2,core_v4_threefold_seed42
+modbus-ffbfd2f6f7ef3b2f,modbus,Schneider Electric::BMX P34 2020::::,1,core_v4_threefold_seed42
+s7-0031aa7545000724,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-00d64d3730a7a0a9,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-01285d59b53be699,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-014b1bd4fe4697c1,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-017056f708db2f35,s7,Siemens::0AB0::::6ES7 317-2,3,core_v4_threefold_seed42
+s7-0186bbaae2d0405c,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-019b844e2f701ff0,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-01b231349bded5e5,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-020ba021af4ba1b7,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-02201c0da41caa94,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-0317c189598573d9,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-03ee6e01d83531f2,s7,Siemens::0AB0::::6ES7 317-2,3,core_v4_threefold_seed42
+s7-042b8a45a40db1b7,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-04f19c4d7bf5d922,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-0527c52139cfea07,s7,Siemens::0AB0::::6ES7 151-8,3,core_v4_threefold_seed42
+s7-069fa61c31f6e683,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-07b9f5cfae58af94,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-07dd2eff3f6b8093,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-0888dc7572be6e64,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-08f2f6d6da269717,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-0964ebb57d0da2f3,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-0a82a8ec6eb55cff,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-0d10b7bc21b6e82e,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-0e004343f961f33c,s7,Siemens::0AB0::::6ES7 151-8,2,core_v4_threefold_seed42
+s7-0e9fb288e13274ef,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-0fdbfd41de4bce12,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-1105f407118de894,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-119c82f294afcd63,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-11f14198438bfd95,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-1209e13b9d6d4044,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-121cdbf1c18b9b97,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-12eec75a4d8fc8f1,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-13783491635306f6,s7,Siemens::0AB0::::6ES7 151-8,2,core_v4_threefold_seed42
+s7-13823fe10636931b,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-14fb4362001b90bc,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-153ea22826b5f892,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-1555755b493d03e4,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-15988d89e78386a3,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-1646e3d4845ca5dd,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-165099af7d1b6674,s7,Siemens::0XB0::::6ES7 215-1,3,core_v4_threefold_seed42
+s7-1711a6bc0d975b11,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-173fdf6f8aabd945,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-17aa1814404991ec,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-17c4a613c85f4017,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-17fae594cd5e5db2,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-18442ec85469109e,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-1844ab7f66c42154,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-18c05cb121ce05eb,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-1933456948c329f8,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-196b874f041224b3,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-19dfaed6fe6f7585,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-1ada2f034ebc6716,s7,Siemens::0AB0::::6ES7 313-5,3,core_v4_threefold_seed42
+s7-1b2cb94438c1c3e7,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-1c283b2bda608002,s7,Siemens::0XB0::::6ES7 215-1,3,core_v4_threefold_seed42
+s7-1c54b21a9a55b14b,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-1d4d134482bbec51,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-1d5b1740ba766f80,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-1e7dbe0edc0c8fb6,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-1ecfd6541ab592b0,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-1ee33b297393733d,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-2104b804f2037a8e,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-2108690d4a6933fe,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-212394428e6910f8,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-215ea2c826cb4c28,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-217575296e338089,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-23221043ef9fcfe8,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-23abf60f36476908,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-248d65fd1897763c,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-24aec3da2a0cc102,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-24e12ae87b7e513d,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-26305df5e6309660,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-26dbc164fa79ef48,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-2723992a9fecfab8,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-2777e136b27a3013,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-27b216c9f6cd5686,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-289a6a6eee64365e,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-2990e7882e6d4ac3,s7,Siemens::0AB0::::6ES7 317-2,2,core_v4_threefold_seed42
+s7-29a7a38f85704a4a,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-29c1f7b8de838af8,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-2af2d90361aaa2c8,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-2b15ad54e2911693,s7,Siemens::0AB0::::6ES7 317-2,1,core_v4_threefold_seed42
+s7-2c205c3ee44bb46b,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-2c46d7bef453a46d,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-2c69181fe9b0daef,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-2d2d14fa1ee10367,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-2d466b3d1c7dab63,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-2d85bad30be3d8e3,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-2da0bb79c39e6da1,s7,Siemens::0XB0::::6ES7 211-1,3,core_v4_threefold_seed42
+s7-2da75765e52e7dcb,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-2e0be0f01b88ab71,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-2e552c4352923dd8,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-2e659306301f0ccc,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-2ec4dccaf4d8e1e3,s7,Siemens::0AB0::::6ES7 317-2,1,core_v4_threefold_seed42
+s7-30e28284b73cd63b,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-31ffbe61eb10ebcf,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-32024c812ba4969f,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-323197f023c032ec,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-327abfd2da5fd21e,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-32eb2b907ea2b662,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-33060699c1c67c15,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-334a28a1829e75ef,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-336b81914f2d1012,s7,Siemens::0AB0::::6ES7 151-8,3,core_v4_threefold_seed42
+s7-337e643e9886497f,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-3467508613c44a10,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-34d65bf86cf034f0,s7,Siemens::0AB0::::6ES7 151-8,3,core_v4_threefold_seed42
+s7-34fbd1c1af4afb40,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-358d2dfd2373a619,s7,Siemens::0XB0::::6ES7 215-1,2,core_v4_threefold_seed42
+s7-35d304a54e6de154,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-362d28549dc488c0,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-367d166238783ac6,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-36e9c50180649ad4,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-36f3e6d00fd11ffa,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-374b042e733e5c64,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-3866cb7e42ea0c78,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-38ee6ffca2263c1e,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-395a48efa2e120e1,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-3994443968bd0040,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-39b05260241608dd,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-39f8c131b41764bd,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-3ac6d147b4e52a33,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-3afbc1efbcea6f4b,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-3b13980494c163a0,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-3b40f2dcba5a7149,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-3b928fc02949c0ed,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-3c84637e8f1d6016,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-3ea883fac32f2936,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-3f1dfd773dfb8bf0,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-3f6bab8b40d08446,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-400b62bb53ea91e6,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-40a53e2ed26ab9dc,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-40ab308c490dc45c,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-40d8f95a54cafd97,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-42a11967fe6a51da,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-42f13b6c5ede0e17,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-43a427213b82f1a1,s7,Siemens::0AB0::::6ES7 313-5,1,core_v4_threefold_seed42
+s7-43b9dc97cfe6d56f,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-44c56b586905540d,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-44f018021787ae92,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-4504f1a02fbbbed5,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-452fc8e452869924,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-4587ca39d57bab2f,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-4646e8856fd9a624,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-46fe47170b172116,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-472f9a393aeb159b,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-4889a6aa0628f8f1,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-48bb4ee3fe74578b,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-491b54be6fc69377,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-49d597a0ca42ee61,s7,Siemens::0XB0::::6ES7 215-1,2,core_v4_threefold_seed42
+s7-4a02ac45170e8f42,s7,Siemens::0XB0::::6ES7 211-1,3,core_v4_threefold_seed42
+s7-4a51536936621e5d,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-4b05068feebd656e,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-4b0cffc74dbc2557,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-4b312f4451063497,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-4b3687f14e68435c,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-4b5fbfdbc302b028,s7,Siemens::0XB0::::6ES7 215-1,3,core_v4_threefold_seed42
+s7-4bb7be79c66c6c49,s7,Siemens::0AB0::::6ES7 151-8,3,core_v4_threefold_seed42
+s7-4bc9bca90a972aa6,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-4c979139e9635a85,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-4c9860e11242124a,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-4c9c707551ba4e6d,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-4e6d327483212d89,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-4e703efcd3f56ba1,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-4e996d40240ba425,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-4f81877671fbd206,s7,Siemens::0AB0::::6ES7 151-8,3,core_v4_threefold_seed42
+s7-506c44508ef69cfc,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-50d68e7293ce1a81,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-51191ddbaec2810d,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-5120b775a8e95f66,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-513957cd80716ace,s7,Siemens::0XB0::::6ES7 211-1,2,core_v4_threefold_seed42
+s7-5163adc05ec709aa,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-51d97e4052db45bf,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-5236703ba558a898,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-52793a733f947add,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-532a22d553100985,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-540d8f03f6e2a4bb,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-566ed819596c18d6,s7,Siemens::0XB0::::6ES7 211-1,1,core_v4_threefold_seed42
+s7-567b396422a332e6,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-56c378f6ec52546c,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-57441152bf84528e,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-57d384f09feb0271,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-588f3b94192a74d8,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-58be3a661f359fb9,s7,Siemens::0AB0::::6ES7 151-8,2,core_v4_threefold_seed42
+s7-5b4b0ff768e92368,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-5b6c41d3d3e8f445,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-5d61735e43b1f5b3,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-5da0db2ad6e70c68,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-5e219951867834f3,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-5e7d7aea226d5140,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-5ead97d839d75b6c,s7,Siemens::0XB0::::6ES7 215-1,2,core_v4_threefold_seed42
+s7-5edae9696f7f9e4a,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-5ee839444c50194c,s7,Siemens::0XB0::::6ES7 215-1,1,core_v4_threefold_seed42
+s7-603c87a7b572db7c,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-6151e1cce7cc42c3,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-624267d55d0c97f8,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-6253e34530130b23,s7,Siemens::0XB0::::6ES7 215-1,1,core_v4_threefold_seed42
+s7-636b3a9471935292,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-63792b362675f198,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-64191c8d3fd78d6c,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-64ffc4b45364f993,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-6579a89eee745762,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-6682c4fd1ca2dac0,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-67402932edd9e473,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-678d21014d8a8267,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-682c1c4aa7b81161,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-6939ab00cc41f2f8,s7,Siemens::0AB0::::6ES7 151-8,2,core_v4_threefold_seed42
+s7-6a90eda44d640903,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-6ac2459736b22b1a,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-6ad8603672fc7a39,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-6b54311a9ea5b847,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-6bab4e8966f8830d,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-6cc607a8e166c140,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-6ce4201f6fa3d303,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-6cf22777235b9ad0,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-6d0d15ab6b0548f7,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-6d4c79474cdfb6dc,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-6ddcadb27f2b3b89,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-6ec37e068cf8c23a,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-6edb2a58f1d7b910,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-70048c7a6d98790e,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-70828a379faa4891,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-70a3cd20a8f559fe,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-7239c95e24ec2bcc,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-72898af43e965954,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-72fa53b156fe2991,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-72fac97a8d48b15b,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-72ffb0f5f30bfe29,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-735383dae6f60c39,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-74fc81469ce5a039,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-75812ba2b2b26673,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-764e0afd30d9ac9f,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-766d4d3b9ba89aa6,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-7687c803020c2cc5,s7,Siemens::0XB0::::6ES7 211-1,2,core_v4_threefold_seed42
+s7-76c6b709449a22e4,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-7745d4d418741550,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-77767c9956732e07,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-77ce7b5cdfefdb20,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-781d082134d2d0c5,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-7882fff7d11cd65d,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-78ba2f05133e253c,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-78cf6412a331b49b,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-797221fe5c47a78f,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-79731efe2d157ce6,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-79a3a31a5611fdca,s7,Siemens::0AB0::::6ES7 313-5,2,core_v4_threefold_seed42
+s7-79d908e2050ea201,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-7a2c2d7b735edb8d,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-7b18f358d04102d8,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-7b34de2c48fa901e,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-7b49d3aac95d40f4,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-7c35dd768c1b3154,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-7c977f6dd4fb0792,s7,Siemens::0AB0::::6ES7 151-8,2,core_v4_threefold_seed42
+s7-7d87c0f7755556d1,s7,Siemens::0XB0::::6ES7 215-1,1,core_v4_threefold_seed42
+s7-7df2dc183553072e,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-7df4002ab52c94e5,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-7e7342d24ed5a051,s7,Siemens::0XB0::::6ES7 215-1,2,core_v4_threefold_seed42
+s7-7f519eb8926a0a49,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-7fad088767a5adab,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-7fc534c6ba403daa,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-80cd9877aa7fe31a,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-8123081e0a105d39,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-81916459ca5f126b,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-819983a3a50f0d39,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-821b24cccd9344b7,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-82307f87131280fc,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-8233d86e232278ff,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-825f63df09d57ac7,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-82867c483ceaa15d,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-82cc78c1423c57e5,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-82ff849e71f4cf49,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-836d9ae8e051cfde,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-83a47777ba88ad14,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-84bd9a324997a607,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-8538a1db2d20be97,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-857b5b8349ae3d9f,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-864efbde0be1f55f,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-877c7deb81624739,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-87c3e1410d74d17a,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-88a142c4f0211196,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-88b103f2f4964146,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-8969c699e7cc081c,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-89f8bac6bac0624d,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-89fe4d32cbf80d23,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-8ab219fccb50a833,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-8cc1fb111874d9da,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-8dbff97d569c6d2b,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-8e1176828d3ec38a,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-8f8c1e416913a4e7,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-8f98a23158ef9105,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-91a94a516b16d3c9,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-91be3b3f70eed0f9,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-9200465fa1f197ca,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-927ef2b1156cd419,s7,Siemens::0XB0::::6ES7 217-1,2,core_v4_threefold_seed42
+s7-9309dc2fadbe42b1,s7,Siemens::0AB0::::6ES7 317-2,2,core_v4_threefold_seed42
+s7-933f0098ed33dbb3,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-9407ec3fdf502c46,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-949eb787b958b730,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-94d2847b98f8a6e8,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-95956a7f1db4396e,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-95a37daa193e12df,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-95dc39bb2720fd71,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-969ddeb0af7a1b48,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-96a443b36e3fee81,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-98e32744b098eb9e,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-993cc6165955bb7b,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-997102f28cb8d618,s7,Siemens::0XB0::::6ES7 217-1,1,core_v4_threefold_seed42
+s7-99ed62afa430ab60,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-9b9d6745fd7f5fe5,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-9ba357fb641d5dd5,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-9bc385c26282f2ac,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-9bc44e6b73d389c6,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-9bf046c03d1baaf6,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-9bf0e6704db0b061,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-9c19318ed630da29,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-9c979e450ca62f02,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-9d5a50ff5dfb65fd,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-9d815d2924c72c84,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-9e5287d637598e67,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-9e704f427a022cb6,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-9ec3a6a382c0a4ae,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-9f3559a05eef8ae2,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-9f3ac1104bceb78d,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-9f7f8b1b97838b84,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-a08db1f452254cab,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-a10ec377d3c808ef,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-a112c88615496b0e,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-a146a7bebc23f70e,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-a19243f42991764a,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-a2378637f14f4f38,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-a28a431d9dbd43b6,s7,Siemens::0AB0::::6ES7 317-2,1,core_v4_threefold_seed42
+s7-a2b7ff8b852dd6be,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-a2bd5ca0a9aa85da,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-a2bf8e9807595ea9,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-a3b9e0d968255b6b,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-a3bec7177644040a,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-a3eafb19d981d029,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-a4df23db783bdd05,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-a6dca464e5c51949,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-a74265200fed14c8,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-a75a075eff9a7e66,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-a775f296d788f603,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-a7c2ef87bcfdc6a4,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-a85fc8bd5b3b6908,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-a8a1929b74ff9bc0,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-a9a1601c32f4af2f,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-aad0dd3225135860,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-ab5a7e1d0c1bc7ed,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-ab9efddde1ecd6ad,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-ac1f6fead418d2a0,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-ac33bb04a90d276c,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-ac734756da4888f0,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-acbb2791b474d20a,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-acfd2bf4993436c5,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-adb4cefb9da3a282,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-ae5504238b103456,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-b1541861185d41af,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-b24115e4c6ccac81,s7,Siemens::0AB0::::6ES7 317-2,2,core_v4_threefold_seed42
+s7-b25a3e7f315548bb,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-b3db3b2b729c78fc,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-b407240dcc15f1e4,s7,Siemens::0XB0::::6ES7 215-1,3,core_v4_threefold_seed42
+s7-b41e74065b8deb30,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-b44732e1f8d1438f,s7,Siemens::0AB0::::6ES7 151-8,2,core_v4_threefold_seed42
+s7-b56813d0590bbdd1,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-b619c2d22fba17a2,s7,Siemens::0XB0::::6ES7 217-1,3,core_v4_threefold_seed42
+s7-b693a29868f9062d,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-b7275230affbfe65,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-b7522472d97cff91,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-b7bae1fda3a60b63,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-b7d2e4f2ea0025d0,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-b863d7b657483664,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-b880b4d4a60f0f21,s7,Siemens::0XB0::::6ES7 215-1,3,core_v4_threefold_seed42
+s7-b8d5d77c421490ec,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-b91ab8b0cee30b5b,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-b9e40d6e99805c4e,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-ba3f1bce1d95a549,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-bbbec4da5d711fff,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-bcc15176a5ed8353,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-bcfd056bab8f0049,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-bd7f6ef3f47f4c91,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-be4ab80da0e0d269,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-be75d970323bf862,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-bf0d164af1dffc3b,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-bfb9744530359a06,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-bfcfe63e49c0d72b,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-c06401c51123ceca,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-c06868b13c132cb3,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-c087ea695f16cc8e,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-c10a50c8df1aa4e5,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-c199230759495686,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-c20b3a4d6af0317d,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-c22968051b1837bb,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-c2a209ce5d84b23e,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-c2b9bdd31c75cbbd,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-c2d45687e4aae62f,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-c3aa27d9aa3bc003,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-c3dfa8c76a8971ad,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-c4214d0d5da5b317,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-c4d751f357bbf43e,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-c6168d2df443d7b0,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-c66c9fd464f149ca,s7,Siemens::0AB0::::6ES7 151-8,1,core_v4_threefold_seed42
+s7-c6bfc1377bfd3c37,s7,Siemens::0AB0::::6ES7 151-8,3,core_v4_threefold_seed42
+s7-c738191847384432,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-c817928b0c43e5fe,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-c871891699390141,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-ca3f6d5a4bde980a,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-ca86c3a63acb25cf,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-cb5ec6cee1de44c5,s7,Siemens::0XB0::::6ES7 215-1,2,core_v4_threefold_seed42
+s7-ccd0f8e57877213a,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-ccdfec183dd3dc41,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-cd71e47db95bf1b5,s7,Siemens::0XB0::::6ES7 211-1,3,core_v4_threefold_seed42
+s7-cd96ee5c73442f89,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-cde93d634c49a099,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-ce8c9c5f5662faa4,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-d03d29888ae4bc6a,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-d089b2c4ea3acbfe,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-d1918301bb1f42e7,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-d54065c098bf80fd,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-d5b3fc25d85239b6,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-d65b85cf4e5ef2af,s7,Siemens::0XB0::::6ES7 215-1,1,core_v4_threefold_seed42
+s7-d6e509511b45d342,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-d7296f09b7491d3c,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-d72bf17c84c7b765,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-d75f544b123e8887,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-d7a4a562589568e5,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-d8aec26ce3b3e931,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-d8eadcb13ebcb945,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-d966f39ea193e4e5,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-d9756f94afd3a5f0,s7,Siemens::0AB0::::6ES7 313-5,1,core_v4_threefold_seed42
+s7-d977c58ab5fb81ab,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-da6da3ef69214427,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-dabb67468eea5b40,s7,Siemens::0XB0::::6ES7 215-1,1,core_v4_threefold_seed42
+s7-db27aac9dcfd8adf,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-db92f1ebd3e43723,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-dbf40da659b5b92f,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-dc398d68d0ce29d8,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-ddd9604bcd81f1bb,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-de163c9b30f84ca6,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-df1f37c70ea3cb16,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-e03b6940a2b2088e,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-e1265ffdd8b3ca6f,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-e27e98cfc5729375,s7,Siemens::0AB0::::6ES7 313-5,2,core_v4_threefold_seed42
+s7-e2be34f7c8805cb2,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-e2fed08822663a64,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-e32f6ddaa165b08c,s7,Siemens::0XB0::::6ES7 212-1,1,core_v4_threefold_seed42
+s7-e3403b8288770ee7,s7,Siemens::0AB0::::6ES7 314-6,1,core_v4_threefold_seed42
+s7-e3d3677698d047b5,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-e54929c149570f59,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-e58088273567535c,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-e5e5fe6666d44314,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-e6589d52b85489e4,s7,Siemens::0AB0::::6ES7 151-8,2,core_v4_threefold_seed42
+s7-e670dd0708b2fb2b,s7,Siemens::0AB0::::6ES7 151-8,2,core_v4_threefold_seed42
+s7-e6fdb3f1ff389f2a,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-e7a8c80c7bd01256,s7,Siemens::0AB0::::6ES7 314-6,3,core_v4_threefold_seed42
+s7-e7b08f0d3c6acc15,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-e8399f9a604afa39,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-e84092e497177f22,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-e93cb07bef38975d,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-e96faa42bd5b5df3,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-e98d7897caba24f9,s7,Siemens::0XB0::::6ES7 212-1,2,core_v4_threefold_seed42
+s7-ea09a347fa8135d1,s7,Siemens::0XE0::::6GK7 343-1,1,core_v4_threefold_seed42
+s7-ea0f79287e4c0aa8,s7,Siemens::0XB0::::6ES7 211-1,1,core_v4_threefold_seed42
+s7-ea1d897b479c2bcd,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-ea2e39bba85e9fb2,s7,Siemens::0AB0::::6ES7 151-8,3,core_v4_threefold_seed42
+s7-ea4444132a828020,s7,Siemens::0AB0::::6ES7 151-8,3,core_v4_threefold_seed42
+s7-ebcb44522e548347,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-ed66ec08901a7fff,s7,Siemens::0AB0::::6ES7 315-2,2,core_v4_threefold_seed42
+s7-ee4ba9caadc07b87,s7,Siemens::0XB0::::6ES7 212-1,3,core_v4_threefold_seed42
+s7-ee6ce7e7e08acddc,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-ef593b8c91ae456f,s7,Siemens::0AB0::::6ES7 315-2,1,core_v4_threefold_seed42
+s7-f0ae5a607d119e4c,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-f10c0d429133fd60,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-f1ce43444d52a437,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42
+s7-f1ec0d10cb420ef9,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-f356af9aa073fc6f,s7,Siemens::0XB0::::6ES7 211-1,1,core_v4_threefold_seed42
+s7-f4e9d429d133df03,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-f5104b13ea3d54d1,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-f545701a22c43077,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-f63c3b1829ad073e,s7,Siemens::0XB0::::6ES7 211-1,2,core_v4_threefold_seed42
+s7-f711eb4b396c82a1,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-f7af169934c59add,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-f8187c7374b885e2,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-f8a93f8d540632d4,s7,Siemens::0XE0::::6GK7 343-1,3,core_v4_threefold_seed42
+s7-f8bb886bfe6ce361,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-fa26eacf458e690d,s7,Siemens::0AB0::::6ES7 315-2,3,core_v4_threefold_seed42
+s7-fb14af557a44c821,s7,Siemens::0XB0::::6ES7 214-1,2,core_v4_threefold_seed42
+s7-fce29103eb475cfa,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-fd22d753c1dfdbb8,s7,Siemens::0XB0::::6ES7 214-1,1,core_v4_threefold_seed42
+s7-fe089784fccb4c85,s7,Siemens::0XB0::::6ES7 214-1,3,core_v4_threefold_seed42
+s7-fecd553cd288948e,s7,Siemens::0XE0::::6GK7 343-1,2,core_v4_threefold_seed42
+s7-ff897cadf98808be,s7,Siemens::0AB0::::6ES7 314-6,2,core_v4_threefold_seed42

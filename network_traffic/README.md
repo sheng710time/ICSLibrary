@@ -16,6 +16,14 @@ Each collection has `modbus/`, `enip/`, and `s7/` subdirectories. Captures prese
 
 ## Paired traffic views
 
-The benchmark uses selected endpoint-round samples to construct raw, instance-controlled, and identifier-masked views. These reusable views, their sample/connection indices, and endpoint folds are available in the [benchmark-data](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_benchmark_data_20261015.zip) and [identifier-masked](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_identifier_masked_20261015.zip) archives. See the [benchmark data guide](../benchmark/DATA.md) for loading them.
+The [views/](views/README.md) directory provides the three model-identification traffic views as connection PCAPs in TAR archives:
 
-The [complete-collection archive](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_collections_ABC_20261015.zip) contains the same 180 PCAPs and the collection mapping under `metadata/source_artifacts.csv`.
+- [raw/](views/raw/)
+- [instance_controlled/](views/instance_controlled/)
+- [identifier_masked/](views/identifier_masked/)
+
+Shared sample, endpoint-fold, and connection indices are in [views/indices/](views/indices/). Each view contains the same 40,781 endpoint-round samples, 270,289 connections, and 3,190,239 packets. See the [view guide](views/README.md) for file definitions and a loading example.
+
+Bulk downloads are also available in the [benchmark-data](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_benchmark_data_20261015.zip) and [identifier-masked](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_identifier_masked_20261015.zip) archives. Their PCAP/TAR contents match the view directories; the [benchmark data guide](../benchmark/DATA.md) explains the archive layout used by the evaluation commands.
+
+The [complete-collection archive](https://github.com/sheng710time/ICSLibrary/releases/latest/download/ICSLibrary_collections_ABC_20261015.zip) contains the same 180 source PCAPs and the collection mapping under `metadata/source_artifacts.csv`.
