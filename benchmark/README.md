@@ -7,12 +7,34 @@ not supplied as inputs to evaluation.
 
 ## 1. Obtain the data
 
-See [DATA.md](DATA.md) for the archives. Extract the benchmark-data and
-identifier-masked ZIPs into `data/` at the repository root. The resulting paths
-are `data/v4_threefold/` and `data/v4_identifier_addon_v3/`. Leave the inner TAR
-files intact: the loader reads individual connection PCAPs by byte offset.
-The full collection and scanning-log archives support broader measurement work
-and are not required to execute the benchmark adapters.
+Run all commands from the repository root. Choose one data source:
+
+**Git checkout.** The three views and their indices are already under `network_traffic/views/`, and the paired response cases are under `benchmark/cases/`:
+
+```bash
+git clone https://github.com/sheng710time/ICSLibrary.git
+cd ICSLibrary
+ICS_BASE=network_traffic/views
+ICS_ADDON=network_traffic/views
+```
+
+**Release archives.** Extract the source-code archive and enter its `ICSLibrary/` directory. Extract the benchmark-data and identifier-masked archives into `data/`, then set:
+
+```bash
+ICS_BASE=data/v4_threefold
+ICS_ADDON=data/v4_identifier_addon_v3
+```
+
+Both choices provide the same traffic, splits, and selected response cases. Keep the inner TAR files intact: the loader reads individual connection PCAPs by byte offset. See [DATA.md](DATA.md) for download links and file definitions. Full collection captures and query logs are optional for the benchmark.
+
+A quick standard-library check confirms that the selected data and one evaluation split can be loaded:
+
+```bash
+python benchmark/data/identifier_dataset_io.py \
+  --base "$ICS_BASE" --addon "$ICS_ADDON" \
+  --protocol modbus --fold 1 --collection A --role test_unseen \
+  --view identifier_masked
+```
 
 ## 2. Run the five CPU traffic methods
 
@@ -22,7 +44,7 @@ Use Python 3.13 and a separate environment for the pinned CPU dependencies:
 python3.13 -m venv .venv-traffic
 .venv-traffic/bin/python -m pip install -r benchmark/traffic/requirements.txt
 .venv-traffic/bin/python benchmark/traffic/run.py \
-  --base data/v4_threefold --addon data/v4_identifier_addon_v3 \
+  --base "$ICS_BASE" --addon "$ICS_ADDON" \
   --method XGB-IDI --protocol modbus --fold 1 --view instance_controlled \
   --work work/traffic --output outputs/xgb-modbus-f1-control.json
 ```
@@ -38,7 +60,7 @@ standard deviations, and paired Macro-F1 differences:
 
 ```bash
 .venv-traffic/bin/python benchmark/run_traffic.py \
-  --base data/v4_threefold --addon data/v4_identifier_addon_v3 \
+  --base "$ICS_BASE" --addon "$ICS_ADDON" \
   --work work/cpu-matrix --output outputs/cpu-matrix.json
 ```
 
@@ -70,7 +92,7 @@ Place it under `external/weights/` and run:
 
 ```bash
 .venv-tf/bin/python benchmark/trafficformer/run.py \
-  --base data/v4_threefold --addon data/v4_identifier_addon_v3 \
+  --base "$ICS_BASE" --addon "$ICS_ADDON" \
   --author-source external/TrafficFormer \
   --weights external/weights/nomoe_bertflow_pre-trained_model.bin-120000 \
   --protocol s7 --fold 1 --view instance_controlled \
@@ -86,10 +108,12 @@ not a formal benchmark result. For the full matrix, use `benchmark/run_traffic.p
 
 ## 4. Run the paired response case study
 
+The [case directory](cases/README.md) describes the 90 endpoints and 180 paired inputs. The loader selects the matching case records from either data source above.
+
 Rules require only Python's standard library:
 
 ```bash
-python benchmark/agent/run.py --base data/v4_threefold \
+python benchmark/agent/run.py --base "$ICS_BASE" \
   --methods rules --work work/agent --output outputs/agent-rules.json
 ```
 
@@ -106,7 +130,7 @@ python3.13 -m venv .venv-agent
   --revision a09a35458c702b33eeacc393d103063234e8bc28 \
   --local-dir external/Qwen2.5-7B-Instruct
 .venv-agent/bin/python benchmark/agent/run.py \
-  --base data/v4_threefold --author-source external/NS-FirmID \
+  --base "$ICS_BASE" --author-source external/NS-FirmID \
   --base-model external/Qwen2.5-7B-Instruct \
   --methods rules ea_only ns_firmid_full_model \
   --work work/agent --output outputs/agent-local.json

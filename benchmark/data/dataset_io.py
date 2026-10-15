@@ -9,16 +9,28 @@ from pathlib import Path
 
 
 def rows(path):
-    with Path(path).open(newline="", encoding="utf-8-sig") as stream:
+    path = Path(path)
+    opener = gzip.open if path.suffix == '.gz' else open
+    with opener(path, mode="rt", newline="", encoding="utf-8-sig") as stream:
         yield from csv.DictReader(stream)
+
+
+def index_file(root, name):
+    """Locate an index in the repository layout or the archive layout."""
+    root = Path(root)
+    directory = root / 'indices' if (root / 'indices').is_dir() else root
+    path = directory / name
+    compressed = path.with_name(path.name + '.gz')
+    return compressed if not path.exists() and compressed.exists() else path
 
 
 class Dataset:
     def __init__(self, root):
         self.root = Path(root).resolve()
         self.release = json.loads((self.root / 'release.json').read_text())
-        self.labels = {r['endpoint_id']: r for r in rows(self.root / 'labels.csv')}
-        self.samples = {r['sample_id']: r for r in rows(self.root / 'samples.csv')}
+        self.repository_layout = (self.root / 'indices').is_dir()
+        self.labels = {r['endpoint_id']: r for r in rows(index_file(self.root, 'labels.csv'))}
+        self.samples = {r['sample_id']: r for r in rows(index_file(self.root, 'samples.csv'))}
         self._handles = {}
 
     def __enter__(self):
@@ -39,7 +51,7 @@ class Dataset:
         return result
 
     def selection(self, protocol, fold, collection, role):
-        return {row['sample_id']: row for row in rows(self.root / 'sample_assignments.csv')
+        return {row['sample_id']: row for row in rows(index_file(self.root, 'sample_assignments.csv'))
                 if row['protocol'] == protocol and int(row['fold_id']) == int(fold)
                 and row['collection'] == collection and row['role'] == role}
 
@@ -60,15 +72,47 @@ class Dataset:
 
     def iter_flows(self, protocol, fold, collection, role, view):
         selected = self.selection(protocol, fold, collection, role)
-        for row in rows(self.root / 'flows.csv'):
+        for row in rows(index_file(self.root, 'flows.csv')):
             if row['sample_id'] in selected:
                 yield row, self.read_flow(row, view)
+
+    def case_root(self):
+        if not self.repository_layout:
+            return self.root
+        path = (self.root / self.release['response_cases']).resolve()
+        if not path.is_relative_to(self.root.parent.parent):
+            raise ValueError('Response case path escapes the repository')
+        expected = self.release['response_cases_manifest_sha256']
+        if hashlib.sha256((path / 'files.sha256.json').read_bytes()).hexdigest() != expected:
+            raise ValueError('Response cases do not match the dataset')
+        return path
+
+    def case_rows(self):
+        return rows(self.case_root() / 'agent_cases.csv')
 
     def agent_inputs(self, sample_ids, view='response_original'):
         if view not in ('response_original', 'model_evidence_controlled'):
             raise ValueError('Unknown agent evidence view')
-        key = 'agent_original_path' if view == 'response_original' else 'agent_controlled_path'
         wanted = set(sample_ids)
+        if self.repository_layout:
+            root = self.case_root()
+            name = view + '.jsonl.gz'
+            expected = json.loads((root / 'files.sha256.json').read_text())[name]
+            if hashlib.sha256((root / name).read_bytes()).hexdigest() != expected:
+                raise ValueError('Response input file hash mismatch')
+            found = set()
+            with gzip.open(root / name, 'rt', encoding='utf-8') as stream:
+                for line in stream:
+                    row = json.loads(line)
+                    if row['sample_id'] in wanted:
+                        if row['sample_id'] in found:
+                            raise ValueError('Duplicate response input')
+                        found.add(row['sample_id'])
+                        yield row
+            if found != wanted:
+                raise ValueError('Requested response inputs are not in the released cases')
+            return
+        key = 'agent_original_path' if view == 'response_original' else 'agent_controlled_path'
         for path in sorted({self.samples[s][key] for s in wanted}):
             with gzip.open(self.path(path), 'rt', encoding='utf-8') as stream:
                 for line in stream:

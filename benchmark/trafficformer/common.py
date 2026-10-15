@@ -19,7 +19,7 @@ sys.dont_write_bytecode = True
 sys.path.insert(0, str(AUTHOR_ROOT))
 sys.path.insert(0, str(CODE_ROOT.parent / 'data'))
 
-from dataset_io import rows
+from dataset_io import rows, index_file
 from identifier_dataset_io import IdentifierDataset
 
 
@@ -39,9 +39,9 @@ FEATURE_CONFIG = {'sequence_length': 320, 'packet_limit': 5, 'byte_hex_start': 2
 def input_binding():
     return {'release_manifest_sha256': digest(DATA_ROOT / 'files.sha256.json'),
             'addon_manifest_sha256': digest(ADDON_ROOT / 'files.sha256.json'),
-            'operation_mapping_sha256': digest(ADDON_ROOT / 'flow_operations.csv'),
-            'addon_flows_sha256': digest(ADDON_ROOT / 'flows.csv'),
-            'sample_assignments_sha256': digest(DATA_ROOT / 'sample_assignments.csv'),
+            'operation_mapping_sha256': digest(index_file(ADDON_ROOT, 'flow_operations.csv')),
+            'addon_flows_sha256': digest(index_file(ADDON_ROOT, 'flows.csv')),
+            'sample_assignments_sha256': digest(index_file(DATA_ROOT, 'sample_assignments.csv')),
             'identifier_loader_sha256': digest(CODE_ROOT.parent / 'data' / 'identifier_dataset_io.py'),
             'adapter_common_sha256': digest(__file__),
             'pcap_control_sha256': digest(CODE_ROOT.parent / 'data' / 'pcap_views.py'),
@@ -115,7 +115,7 @@ def load_pretrained(model):
 
 
 def class_labels(protocol):
-    found = sorted((r for r in rows(DATA_ROOT / 'classes.csv') if r['protocol'] == protocol),
+    found = sorted((r for r in rows(index_file(DATA_ROOT, 'classes.csv')) if r['protocol'] == protocol),
                    key=lambda r: int(r['class_id']))
     assert [int(r['class_id']) for r in found] == list(range(len(found)))
     return [r['model_label'] for r in found]

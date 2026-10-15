@@ -18,7 +18,7 @@ from pathlib import Path
 import numpy as np
 
 from common import (ADAPTER_VERSION, ADDON_ROOT, AUTHOR_ROOT, DATA_ROOT, RUN_ROOT, Dataset,
-                    class_labels, digest, input_binding, json_write, operations_for, rows)
+                    class_labels, digest, input_binding, json_write, operations_for, rows, index_file)
 from pcap_views import (Flow, CLIENT_IP, CLIENT_PORT, SERVER_IP, SERVER_PORTS, control_flow, parse_packet, read_pcap,
                         tcp_options, u16, u32)
 
@@ -213,7 +213,7 @@ def prepare(protocol, fold, view, collection, role, workers=8, limit_samples=Non
             raise ValueError(f'Incomplete cache requires inspection: {output}')
         pending = output.with_name(output.name + '.partial')
         pending.mkdir(parents=True, exist_ok=True)
-        flows = [row for row in rows(ADDON_ROOT / 'flows.csv') if row['sample_id'] in selected]
+        flows = [row for row in rows(index_file(ADDON_ROOT, 'flows.csv')) if row['sample_id'] in selected]
         flows.sort(key=lambda row: (row[view + '_archive'], int(row[view + '_offset'])))
         repeats = 5 if train else 1
         nrows = len(flows) * repeats

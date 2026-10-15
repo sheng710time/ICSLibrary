@@ -46,4 +46,4 @@ for view in ("raw", "instance_controlled", "identifier_masked"):
     print(view, row["flow_id"], len(pcap))
 ```
 
-[files.sha256.json](files.sha256.json) records checksums for the view files and indices. The PCAP/TAR bytes match the released benchmark-data and identifier-masked archives. This directory arranges the three views together for direct access; the [benchmark run instructions](../../benchmark/README.md) use the original archive layout documented in the [data guide](../../benchmark/DATA.md).
+[files.sha256.json](files.sha256.json) records checksums for the view files and indices. The PCAP/TAR bytes match the released benchmark-data and identifier-masked archives. The benchmark can read this directory directly using `--base network_traffic/views --addon network_traffic/views`. It also supports the original archive layout. See the [run instructions](../../benchmark/README.md) and [data guide](../../benchmark/DATA.md).

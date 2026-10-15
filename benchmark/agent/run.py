@@ -91,8 +91,9 @@ def run(args):
         pipeline=ModelTaskPipeline(cfg)
     api=json.loads((ROOT/'config/api.json').read_text())
     aliases=json.loads((ROOT/'config/scoring_aliases.json').read_text())
-    cases=list(rows(Path(args.base)/'agent_cases.csv'));results=[]
+    results=[]
     with Dataset(args.base) as ds:
+        cases=list(ds.case_rows())
         for view in ['response_original','model_evidence_controlled']:
             inputs={r['sample_id']:r['input'] for r in ds.agent_inputs([c['sample_id'] for c in cases],view)}
             for index,c in enumerate(cases,1):

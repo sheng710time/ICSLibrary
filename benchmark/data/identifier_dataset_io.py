@@ -5,7 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from dataset_io import Dataset, rows
+from dataset_io import Dataset, rows, index_file
 from identifier_policy import VIEW
 
 
@@ -14,11 +14,15 @@ class IdentifierDataset(Dataset):
         super().__init__(base)
         self.addon = Path(addon).resolve()
         self.addon_release = json.loads((self.addon / 'release.json').read_text())
-        expected = self.addon_release['base_manifest_sha256']
-        actual = hashlib.sha256((self.root / 'files.sha256.json').read_bytes()).hexdigest()
-        if actual != expected:
-            raise ValueError('Addon does not match the base release')
-        self.operations = {r['flow_id']: r for r in rows(self.addon / 'flow_operations.csv')}
+        if self.repository_layout:
+            if self.addon != self.root:
+                raise ValueError('Repository views use the same --base and --addon directory')
+        else:
+            expected = self.addon_release['base_manifest_sha256']
+            actual = hashlib.sha256((self.root / 'files.sha256.json').read_bytes()).hexdigest()
+            if actual != expected:
+                raise ValueError('Addon does not match the base release')
+        self.operations = {r['flow_id']: r for r in rows(index_file(self.addon, 'flow_operations.csv'))}
 
     def read_flow(self, row, view, verify_hash=False):
         if view != VIEW:
@@ -41,7 +45,7 @@ class IdentifierDataset(Dataset):
 
     def iter_flows(self, protocol, fold, collection, role, view):
         selected = self.selection(protocol, fold, collection, role)
-        for row in rows(self.addon / 'flows.csv'):
+        for row in rows(index_file(self.addon, 'flows.csv')):
             if row['sample_id'] in selected:
                 yield row, self.read_flow(row, view)
 

@@ -1,5 +1,5 @@
 {
-  "README.md": "ceb2be482add595c46b200d88c35623f4b28e834e3812a64698c72877c750046",
+  "README.md": "90c1cddc8fe17964ac693f1b10acc3f03fce42e51e3ab665d1d7e6d1d0aca1be",
   "identifier_masked/A-enip-r003-pcap.tar": "692d7665aba71edb43235d8e101941924cff81caff96a7bbc77b380eb07098bc",
   "identifier_masked/A-enip-r004-pcap.tar": "3286f5de9f4d891e245cb946aa17d9fd2fa5ee353df8e7869a886cb2e8d59452",
   "identifier_masked/A-enip-r005-pcap.tar": "918538e57de9e2d09e53540b3a359ee36058d18eddaae8344d89ad3926d5e750",
@@ -87,7 +87,7 @@
   "identifier_masked/README.md": "67d9507d94ef165a761f693e2c71e3a567dc13fd1bf393ed8b3bdd8308bb419e",
   "indices/classes.csv": "5143158ae5583a63d27888e977b539fd6dd83a14b574956897a06ce5c5d450cf",
   "indices/endpoint_folds.csv": "2e06840e4a47dc6cfff2bc5e6a725bdf7ff238b42d69f6084ea2a1bdcd0e0376",
-  "indices/flow_operations.csv.gz": "d0d3b83a4d0267e6b9ff5e6ae03546cf508adc665a86e4d651259114a227fb30",
+  "indices/flow_operations.csv.gz": "6b91b0cc3ae009f2e205f25d5c5a5813b4819d75f970da06036715b6e2a0ecd9",
   "indices/flows.csv.gz": "cb5de077e0b4107104dfd0ed2754292481439e7fc005c6b0ffd0bbcce77ef6b0",
   "indices/labels.csv": "3a2bb42d110f44e6a04720139247b3e9410a269327b194fbdfafb09261611599",
   "indices/sample_assignments.csv": "015867f5080e85788137c5cc69e56156c814c3af608dc1c8edb4df51a3a37243",
@@ -261,5 +261,6 @@
   "raw/C-s7-r058-pcap.tar": "b6b8ad6a21ef58a1fe85dbee1665b12415d3c3755aa718e809afb0153cbc7d01",
   "raw/C-s7-r059-pcap.tar": "d1822b28f62f68d8c0b58bb88e5f17f539d761df4876f9ef559aff42f5e2659e",
   "raw/C-s7-r060-pcap.tar": "cff97e68b7eb60f225d3ce67c8ba29c9f3e4ae1973809fccd3f5843c8ab97832",
-  "raw/README.md": "3dadb05e40d5915418fa6451754b8ae3e83c35747ec2fe90f6e2d209795b3494"
+  "raw/README.md": "3dadb05e40d5915418fa6451754b8ae3e83c35747ec2fe90f6e2d209795b3494",
+  "release.json": "6d92dde9e69ebfc4fc52b5a20f8a4c60d63ec9d9f54f4841eb39a5f3b554eb81"
 }

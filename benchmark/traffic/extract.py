@@ -27,7 +27,7 @@ def fingerprint_for(ds,protocol,view,mode):
          'mode':mode,'protocol':protocol,'view':view}
 
 def extract(ds,protocol,view,mode,work):
- from dataset_io import rows
+ from dataset_io import rows,index_file
  from pcap_views import read_pcap,parse_packet,u16,SERVER_IP,SERVER_PORTS
  fingerprint=fingerprint_for(ds,protocol,view,mode)
  dest=Path(work)/f'{protocol}_{view}_{mode}.pkl'
@@ -37,7 +37,7 @@ def extract(ds,protocol,view,mode,work):
   if existing['fingerprint']==fingerprint: print('cache valid',dest,flush=True); return existing['data']
  wanted={s:r for s,r in ds.samples.items() if r['protocol']==protocol}
  flowrows=defaultdict(list)
- for r in rows(ds.addon/'flows.csv'):
+ for r in rows(index_file(ds.addon,'flows.csv')):
   if r['sample_id'] in wanted: flowrows[r['sample_id']].append(r)
  output={}; audit=Counter(); flow_audit=[]; started=time.time()
  for ix,(sid,sample) in enumerate(wanted.items(),1):

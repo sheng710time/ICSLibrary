@@ -1,0 +1,15 @@
+{
+  "release_id": "shared-v4-threefold-20260930",
+  "split_id": "core_v4_threefold_seed42",
+  "layout": "repository-paired-views-v1",
+  "views": [
+    "raw",
+    "instance_controlled",
+    "identifier_masked"
+  ],
+  "samples": 40781,
+  "connections_per_view": 270289,
+  "packets_per_view": 3190239,
+  "response_cases": "../../benchmark/cases",
+  "response_cases_manifest_sha256": "29f7db280c036503f349e665ae3abbd8fb6e94fb0317c0e23e845580a7413d2c"
+}
