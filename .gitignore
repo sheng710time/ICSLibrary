@@ -26,3 +26,12 @@ replay_pid*
 # IDE metadata
 .idea/
 *.iml
+
+# Local benchmark inputs, dependencies and generated runs
+/data/
+/work/
+/outputs/
+/external/
+.venv*/
+**/__pycache__/
+*.pyc

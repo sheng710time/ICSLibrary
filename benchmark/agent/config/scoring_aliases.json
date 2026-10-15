@@ -1,0 +1,2578 @@
+{
+  "1:enip": {
+    "1747l551cc10dc": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "1747l551cc10dc346": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "1747l551cc11dc": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "1747l551cc11dc346": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "1747l551cc13dc": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "1747l551cc13dc354": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "1756en2tc": [
+      "Allen-Bradley::166::1756-EN2T/C::"
+    ],
+    "1756en2td": [
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "1756enbta": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "1761netenid": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ],
+    "1763l16a": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awa": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab0000": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1100": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1400": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab900": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16b": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbb": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1100": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1400": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb900": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwa": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1100": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1200": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1400": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1502": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab900": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16d": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwd": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb1100": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb1600": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb900": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1766l32a": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awa": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaa": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaa400": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaab1300": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaab1500": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaac2102": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1000": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1100": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1300": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1400": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1500": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awac2102": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awac2106": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32b": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwa": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaa": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaa700": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1300": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1504": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2106": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1300": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwac2106": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwac2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxb": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxba": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxba500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbaa500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbc2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbc2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1769l16erblogix5316er": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "1769l18eralogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::"
+    ],
+    "1769l18erblogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "1769l19erbb1balogix5319er": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "1769l24erqbfc1balogix5324er": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "1769l32eethernetport": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "1769l33eralogix5333er": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "1769l35eethernetport": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "2080lc2020qwb": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "2080lc5024qwb": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "5069l330era": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "allenbradley1747l551cc10dc": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "allenbradley1747l551cc11dc": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "allenbradley1747l551cc13dc": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "allenbradley1756en2tc": [
+      "Allen-Bradley::166::1756-EN2T/C::"
+    ],
+    "allenbradley1756en2td": [
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "allenbradley1756enbta": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "allenbradley1761netenid": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ],
+    "allenbradley1763l16a": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "allenbradley1763l16b": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "allenbradley1763l16d": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "allenbradley1766l32a": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "allenbradley1766l32b": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "allenbradley1769l16erblogix5316er": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "allenbradley1769l18eralogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::"
+    ],
+    "allenbradley1769l18erblogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "allenbradley1769l19erbb1balogix5319er": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "allenbradley1769l24erqbfc1balogix5324er": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "allenbradley1769l32eethernetport": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "allenbradley1769l33eralogix5333er": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "allenbradley1769l35eethernetport": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "allenbradley2080lc2020qwb": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "allenbradley2080lc5024qwb": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "cj1weip21": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "cj2meip21": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "keyencekvnc1ep": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "kvnc1ep": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "omroncj1weip21": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "omroncj2meip21": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "productcode105": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "productcode107": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "productcode11": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "productcode120": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "productcode141": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "productcode150": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "productcode152": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "productcode153": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "productcode154": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::",
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "productcode158": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "productcode166": [
+      "Allen-Bradley::166::1756-EN2T/C::",
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "productcode176": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::",
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::",
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "productcode180": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "productcode185": [
+      "Allen-Bradley::185::1763-L16A::",
+      "Allen-Bradley::185::1763-L16B::",
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "productcode218": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "productcode23": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "productcode58": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "productcode90": [
+      "Allen-Bradley::90::1766-L32A::",
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "productcode99": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ]
+  },
+  "1:modbus": {
+    "0001000001000304": [
+      "Telemecanique::TWDLCAE40DRF::TWIDO::"
+    ],
+    "040": [
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "171cbu98090": [
+      "Schneider Electric::171 CBU 98090::::"
+    ],
+    "23000102": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "bmxnoe0100": [
+      "Schneider Electric::BMX NOE 0100::::"
+    ],
+    "bmxnor0200": [
+      "Schneider Electric::BMX NOR 0200::::"
+    ],
+    "bmxp341000": [
+      "Schneider Electric::BMX P34 1000::::"
+    ],
+    "bmxp342020": [
+      "Schneider Electric::BMX P34 2020::::",
+      "Telemecanique::BMX P34 2020::::"
+    ],
+    "bmxp3420302": [
+      "Schneider Electric::BMX P34 20302::::"
+    ],
+    "eddc": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "eddc31": [
+      "SE-Elektronic::::E-DDC::EDDC31"
+    ],
+    "entespowerfactorcontroller": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "entesrgxxcs": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "g029000": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "hmis5t": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "ion7400": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "magelis": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T",
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "mb01": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "pm5110": [
+      "Schneider Electric::PM5110::::"
+    ],
+    "pm5111": [
+      "Schneider Electric::PM5111::::"
+    ],
+    "pm5561": [
+      "Schneider Electric::PM5561::::"
+    ],
+    "powerfactorcontroller": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "powerlogic": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "rgxxcs": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "schneiderelectrichmis5t": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "schneiderelectricion7400": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "schneiderelectricmagelis": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "schneiderelectricpowerlogic": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "seelektronic040": [
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "seelektroniceddc": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "seelektroniceddc31": [
+      "SE-Elektronic::::E-DDC::EDDC31"
+    ],
+    "telemecaniquemagelis": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "telemecaniquetwido": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::",
+      "Telemecanique::TWDLCAE40DRF::TWIDO::",
+      "Telemecanique::TWDLMDA20D-K::TWIDO::",
+      "Telemecanique::TWDLMDA20DRT::TWIDO::",
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "telemecaniquexbtgt5330": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "tm221ce16r": [
+      "Schneider Electric::TM221CE16R::::"
+    ],
+    "tm221ce16t": [
+      "Schneider Electric::TM221CE16T::::"
+    ],
+    "tm221ce24r": [
+      "Schneider Electric::TM221CE24R::::"
+    ],
+    "tm221ce24t": [
+      "Schneider Electric::TM221CE24T::::"
+    ],
+    "tm221ce40r": [
+      "Schneider Electric::TM221CE40R::::"
+    ],
+    "tm221ce40t": [
+      "Schneider Electric::TM221CE40T::::"
+    ],
+    "tm221m16r": [
+      "Schneider Electric::TM221M16R::::"
+    ],
+    "tm221me16r": [
+      "Schneider Electric::TM221ME16R::::"
+    ],
+    "tm238lfdc24dts0": [
+      "Schneider Electric::TM238LFDC24DTS0::::"
+    ],
+    "tm241ce24r": [
+      "Schneider Electric::TM241CE24R::::"
+    ],
+    "tm241ce24tu": [
+      "Schneider Electric::TM241CE24T_U::::"
+    ],
+    "tm241ce40tu": [
+      "Schneider Electric::TM241CE40T_U::::"
+    ],
+    "tsxety4103": [
+      "Schneider Electric::TSXETY4103::::"
+    ],
+    "tsxp574634m": [
+      "Schneider Electric::TSXETY4103::::"
+    ],
+    "twdlcaa24drf": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::"
+    ],
+    "twdlcae40drf": [
+      "Telemecanique::TWDLCAE40DRF::TWIDO::"
+    ],
+    "twdlmda20dk": [
+      "Telemecanique::TWDLMDA20D-K::TWIDO::"
+    ],
+    "twdlmda20drt": [
+      "Telemecanique::TWDLMDA20DRT::TWIDO::"
+    ],
+    "twdlmda40dk": [
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "twido": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::",
+      "Telemecanique::TWDLCAE40DRF::TWIDO::",
+      "Telemecanique::TWDLMDA20D-K::TWIDO::",
+      "Telemecanique::TWDLMDA20DRT::TWIDO::",
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "uertu32": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "uertu32mb": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "ulusoyelektrikmb01": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "ulusoyelektrikuertu32mb": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "xbtgt5330": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ]
+  },
+  "1:s7": {
+    "0ab0": [
+      "Siemens::0AB0::::6ES7 151-8",
+      "Siemens::0AB0::::6ES7 313-5",
+      "Siemens::0AB0::::6ES7 314-6",
+      "Siemens::0AB0::::6ES7 315-2",
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "0xb0": [
+      "Siemens::0XB0::::6ES7 211-1",
+      "Siemens::0XB0::::6ES7 212-1",
+      "Siemens::0XB0::::6ES7 214-1",
+      "Siemens::0XB0::::6ES7 215-1",
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "0xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6es71518": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es71518ab010ab0": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es71518fb010ab0": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es72111": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111ae400xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111be310xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111be400xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111he400xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72121": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121ad300xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121ae400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121bd300xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121be310xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121be400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121hd300xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121he310xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121he400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72141": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ae300xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ag310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ag400xb0": [
+      "Siemens::0AB0::::6ES7 317-2",
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141be300xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141bg310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141bg400xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141he300xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141hg310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141hg400xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72151": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151ag310xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151ag400xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151hg310xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72171": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "6es72171ag400xb0": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "6es73135": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "6es73135bf030ab0": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "6es73146": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73146eh04": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73146eh040ab0": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73152": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152af030ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152ag100ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152ah140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152eh130ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152eh140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152fj140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73172": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172aj100ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172ak140ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172ek140ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172fk140ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6gk73431": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431cx100xe0": [
+      "Siemens::0AB0::::6ES7 317-2",
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex200xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex300xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "siemens6es71518": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "siemens6es72111": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "siemens6es72121": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "siemens6es72141": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "siemens6es72151": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "siemens6es72171": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "siemens6es73135": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "siemens6es73146": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "siemens6es73152": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "siemens6es73172": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "siemens6gk73431": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ]
+  },
+  "2:enip": {
+    "1747l551cc10dc": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "1747l551cc10dc346": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "1747l551cc11dc": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "1747l551cc11dc346": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "1747l551cc13dc": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "1747l551cc13dc354": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "1756en2tc": [
+      "Allen-Bradley::166::1756-EN2T/C::"
+    ],
+    "1756en2td": [
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "1756enbta": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "1761netenid": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ],
+    "1763l16a": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awa": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab0000": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1100": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1200": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1400": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1600": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab900": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16b": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbb": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1100": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1200": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1400": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1600": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb900": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwa": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1100": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1200": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1400": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1502": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1600": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab900": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16d": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwd": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb1200": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb1400": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb1600": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1766l32a": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awa": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaa": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaa400": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaa500": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaaa500": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaab1100": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaab1300": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaab1500": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaac2102": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaac2107": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1000": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1100": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1300": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1400": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1500": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1600": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awac2102": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awac2106": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32b": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwa": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaa": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaa700": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1300": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1504": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2106": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1300": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1600": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwac2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxb": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxba": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbaa500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1300": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbc2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbc2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1769l16erblogix5316er": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "1769l18eralogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::"
+    ],
+    "1769l18erblogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "1769l19erbb1balogix5319er": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "1769l24erqbfc1balogix5324er": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "1769l30eralogix5330er": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "1769l32eethernetport": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "1769l33eralogix5333er": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "1769l35eethernetport": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "2080lc2020qwb": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "2080lc5024qwb": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "5069l320era": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "5069l330era": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "allenbradley1747l551cc10dc": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "allenbradley1747l551cc11dc": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "allenbradley1747l551cc13dc": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "allenbradley1756en2tc": [
+      "Allen-Bradley::166::1756-EN2T/C::"
+    ],
+    "allenbradley1756en2td": [
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "allenbradley1756enbta": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "allenbradley1761netenid": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ],
+    "allenbradley1763l16a": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "allenbradley1763l16b": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "allenbradley1763l16d": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "allenbradley1766l32a": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "allenbradley1766l32b": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "allenbradley1769l16erblogix5316er": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "allenbradley1769l18eralogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::"
+    ],
+    "allenbradley1769l18erblogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "allenbradley1769l19erbb1balogix5319er": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "allenbradley1769l24erqbfc1balogix5324er": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "allenbradley1769l32eethernetport": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "allenbradley1769l33eralogix5333er": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "allenbradley1769l35eethernetport": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "allenbradley2080lc2020qwb": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "allenbradley2080lc5024qwb": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "cj1weip21": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "cj2meip21": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "keyencekvnc1ep": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "kvnc1ep": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "omroncj1weip21": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "omroncj2meip21": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "productcode105": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "productcode106": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "productcode107": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "productcode11": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "productcode120": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "productcode141": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "productcode150": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "productcode152": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "productcode153": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "productcode154": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::",
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "productcode158": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "productcode166": [
+      "Allen-Bradley::166::1756-EN2T/C::",
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "productcode176": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::",
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::",
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "productcode180": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "productcode185": [
+      "Allen-Bradley::185::1763-L16A::",
+      "Allen-Bradley::185::1763-L16B::",
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "productcode217": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "productcode218": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "productcode23": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "productcode58": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "productcode90": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::90::1766-L32A::",
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "productcode99": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ]
+  },
+  "2:modbus": {
+    "040": [
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "171cbu98090": [
+      "Schneider Electric::171 CBU 98090::::"
+    ],
+    "23000102": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "bmxnoe0100": [
+      "Schneider Electric::BMX NOE 0100::::"
+    ],
+    "bmxnor0200": [
+      "Schneider Electric::BMX NOR 0200::::"
+    ],
+    "bmxp341000": [
+      "Schneider Electric::BMX P34 1000::::"
+    ],
+    "bmxp342020": [
+      "Schneider Electric::BMX P34 2020::::",
+      "Telemecanique::BMX P34 2020::::"
+    ],
+    "bmxp3420302": [
+      "Schneider Electric::BMX P34 20302::::"
+    ],
+    "eddc": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "eddc31": [
+      "SE-Elektronic::::E-DDC::EDDC31"
+    ],
+    "entespowerfactorcontroller": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "entesrgxxcs": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "g029000": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "hmis5t": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "ion7400": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "magelis": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T",
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "mb01": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "pm5110": [
+      "Schneider Electric::PM5110::::"
+    ],
+    "pm5111": [
+      "Schneider Electric::PM5111::::"
+    ],
+    "pm5561": [
+      "Schneider Electric::PM5561::::"
+    ],
+    "powerfactorcontroller": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "powerlogic": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "rgxxcs": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "schneiderelectrichmis5t": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "schneiderelectricion7400": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "schneiderelectricmagelis": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "schneiderelectricpowerlogic": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "seelektronic040": [
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "seelektroniceddc": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "seelektroniceddc31": [
+      "SE-Elektronic::::E-DDC::EDDC31"
+    ],
+    "telemecaniquemagelis": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "telemecaniquetwido": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::",
+      "Telemecanique::TWDLCAE40DRF::TWIDO::",
+      "Telemecanique::TWDLMDA20D-K::TWIDO::",
+      "Telemecanique::TWDLMDA20DRT::TWIDO::",
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "telemecaniquexbtgt5330": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "tm221ce16r": [
+      "Schneider Electric::TM221CE16R::::"
+    ],
+    "tm221ce16t": [
+      "Schneider Electric::TM221CE16T::::"
+    ],
+    "tm221ce24r": [
+      "Schneider Electric::TM221CE24R::::"
+    ],
+    "tm221ce24t": [
+      "Schneider Electric::TM221CE24T::::"
+    ],
+    "tm221ce40r": [
+      "Schneider Electric::TM221CE40R::::"
+    ],
+    "tm221ce40t": [
+      "Schneider Electric::TM221CE40T::::"
+    ],
+    "tm221m16r": [
+      "Schneider Electric::TM221M16R::::"
+    ],
+    "tm221me16r": [
+      "Schneider Electric::TM221ME16R::::"
+    ],
+    "tm238lfdc24dts0": [
+      "Schneider Electric::TM238LFDC24DTS0::::"
+    ],
+    "tm241ce24r": [
+      "Schneider Electric::TM241CE24R::::"
+    ],
+    "tm241ce24tu": [
+      "Schneider Electric::TM241CE24T_U::::"
+    ],
+    "tm241ce40tu": [
+      "Schneider Electric::TM241CE40T_U::::"
+    ],
+    "tsxety4103": [
+      "Schneider Electric::TSXETY4103::::"
+    ],
+    "twdlcaa24drf": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::"
+    ],
+    "twdlcae40drf": [
+      "Telemecanique::TWDLCAE40DRF::TWIDO::"
+    ],
+    "twdlmda20dk": [
+      "Telemecanique::TWDLMDA20D-K::TWIDO::"
+    ],
+    "twdlmda20drt": [
+      "Telemecanique::TWDLMDA20DRT::TWIDO::"
+    ],
+    "twdlmda40dk": [
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "twido": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::",
+      "Telemecanique::TWDLCAE40DRF::TWIDO::",
+      "Telemecanique::TWDLMDA20D-K::TWIDO::",
+      "Telemecanique::TWDLMDA20DRT::TWIDO::",
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "uertu32": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "uertu32mb": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "ulusoyelektrikmb01": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "ulusoyelektrikuertu32mb": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "xbtgt5330": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ]
+  },
+  "2:s7": {
+    "0ab0": [
+      "Siemens::0AB0::::6ES7 151-8",
+      "Siemens::0AB0::::6ES7 313-5",
+      "Siemens::0AB0::::6ES7 314-6",
+      "Siemens::0AB0::::6ES7 315-2",
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "0xb0": [
+      "Siemens::0XB0::::6ES7 211-1",
+      "Siemens::0XB0::::6ES7 212-1",
+      "Siemens::0XB0::::6ES7 214-1",
+      "Siemens::0XB0::::6ES7 215-1",
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "0xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6es71518": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es71518ab010ab0": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es71518fb010ab0": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es72111": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111ae310xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111be310xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111be400xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111he400xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72121": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121ae400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121bd300xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121be310xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121be400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121hd300xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121he310xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121he400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72141": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ae300xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ag310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ag400xb0": [
+      "Siemens::0AB0::::6ES7 317-2",
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141be300xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141bg310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141bg400xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141he300xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141hg310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141hg400xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72151": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151ag400xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151am400xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151hg310xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72171": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "6es72171ag400xb0": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "6es73135": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "6es73135bf030ab0": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "6es73146": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73146cg030ab0": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73146eh040ab0": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73152": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152af030ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152ah140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152eh130ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152eh140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152fj140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73172": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172aj100ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172ak140ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172fk140ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6gk73431": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431cx100xe0": [
+      "Siemens::0AB0::::6ES7 317-2",
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex110xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex200xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex210xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex300xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "siemens6es71518": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "siemens6es72111": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "siemens6es72121": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "siemens6es72141": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "siemens6es72151": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "siemens6es72171": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "siemens6es73135": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "siemens6es73146": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "siemens6es73152": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "siemens6es73172": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "siemens6gk73431": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ]
+  },
+  "3:enip": {
+    "1747l551cc10dc": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "1747l551cc10dc346": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "1747l551cc11dc": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "1747l551cc11dc346": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "1747l551cc13dc": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "1747l551cc13dc354": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "1756en2tc": [
+      "Allen-Bradley::166::1756-EN2T/C::"
+    ],
+    "1756en2td": [
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "1756enbta": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "1761netenid": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ],
+    "1763l16a": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awa": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab0000": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1200": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1400": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab1600": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16awab900": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "1763l16b": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbb": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1100": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1200": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1400": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb1600": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bbbb900": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwa": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1100": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1200": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1400": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab1600": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16bwab900": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "1763l16d": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwd": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb1100": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb1200": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb1400": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1763l16dwdb900": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "1766l32a": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awa": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaa": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaa500": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaaa500": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaab1100": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaab1300": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaab1500": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awaac2107": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1000": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1100": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1400": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1500": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awab1600": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awac2102": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32awac2106": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "1766l32b": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwa": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaa": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaa700": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1300": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaab1504": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2106": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwaac2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1300": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwab1600": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bwac2106": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxb": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxba": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxba500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1100": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1300": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbab2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbac2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1000": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1400": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbb1500": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbc2102": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1766l32bxbc2107": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "1769l16erblogix5316er": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "1769l18eralogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::"
+    ],
+    "1769l18erblogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "1769l19erbb1balogix5319er": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "1769l24erqbfc1balogix5324er": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "1769l30eralogix5330er": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "1769l32eethernetport": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "1769l33eralogix5333er": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "1769l35eethernetport": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "2080lc2020qwb": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "2080lc5024qwb": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "5069l320era": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "allenbradley1747l551cc10dc": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::"
+    ],
+    "allenbradley1747l551cc11dc": [
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::"
+    ],
+    "allenbradley1747l551cc13dc": [
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "allenbradley1756en2tc": [
+      "Allen-Bradley::166::1756-EN2T/C::"
+    ],
+    "allenbradley1756en2td": [
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "allenbradley1756enbta": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "allenbradley1761netenid": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ],
+    "allenbradley1763l16a": [
+      "Allen-Bradley::185::1763-L16A::"
+    ],
+    "allenbradley1763l16b": [
+      "Allen-Bradley::185::1763-L16B::"
+    ],
+    "allenbradley1763l16d": [
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "allenbradley1766l32a": [
+      "Allen-Bradley::90::1766-L32A::"
+    ],
+    "allenbradley1766l32b": [
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "allenbradley1769l16erblogix5316er": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "allenbradley1769l18eralogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::"
+    ],
+    "allenbradley1769l18erblogix5318er": [
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "allenbradley1769l19erbb1balogix5319er": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "allenbradley1769l24erqbfc1balogix5324er": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "allenbradley1769l32eethernetport": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "allenbradley1769l33eralogix5333er": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::"
+    ],
+    "allenbradley1769l35eethernetport": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "allenbradley2080lc2020qwb": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "allenbradley2080lc5024qwb": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "cj1weip21": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "cj2meip21": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "keyencekvnc1ep": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "kvnc1ep": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "omroncj1weip21": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "omroncj2meip21": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "productcode105": [
+      "Keyence::105::KV-NC1EP::"
+    ],
+    "productcode106": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "productcode107": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "productcode11": [
+      "Omron::11::CJ1W-EIP21::"
+    ],
+    "productcode120": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "productcode141": [
+      "Allen-Bradley::141::2080-LC50-24QWB::"
+    ],
+    "productcode150": [
+      "Allen-Bradley::150::1769-L24ER-QBFC1B/A LOGIX5324ER::"
+    ],
+    "productcode152": [
+      "Allen-Bradley::152::1769-L19ER-BB1B/A LOGIX5319ER::"
+    ],
+    "productcode153": [
+      "Allen-Bradley::153::1769-L16ER/B LOGIX5316ER::"
+    ],
+    "productcode154": [
+      "Allen-Bradley::154::1769-L18ER/A LOGIX5318ER::",
+      "Allen-Bradley::154::1769-L18ER/B LOGIX5318ER::"
+    ],
+    "productcode158": [
+      "Allen-Bradley::158::1769-L32E Ethernet Port::"
+    ],
+    "productcode166": [
+      "Allen-Bradley::166::1756-EN2T/C::",
+      "Allen-Bradley::166::1756-EN2T/D::"
+    ],
+    "productcode176": [
+      "Allen-Bradley::176::1747-L551/C C/10 - DC::",
+      "Allen-Bradley::176::1747-L551/C C/11 - DC::",
+      "Allen-Bradley::176::1747-L551/C C/13 - DC::"
+    ],
+    "productcode180": [
+      "Allen-Bradley::180::2080-LC20-20QWB::"
+    ],
+    "productcode185": [
+      "Allen-Bradley::185::1763-L16A::",
+      "Allen-Bradley::185::1763-L16B::",
+      "Allen-Bradley::185::1763-L16D::"
+    ],
+    "productcode217": [
+      "Allen-Bradley::120::1769-L35E Ethernet Port::"
+    ],
+    "productcode23": [
+      "Omron::23::CJ2M-EIP21::"
+    ],
+    "productcode58": [
+      "Allen-Bradley::58::1756-ENBT/A::"
+    ],
+    "productcode90": [
+      "Allen-Bradley::107::1769-L33ER/A LOGIX5333ER::",
+      "Allen-Bradley::90::1766-L32A::",
+      "Allen-Bradley::90::1766-L32B::"
+    ],
+    "productcode99": [
+      "Allen-Bradley::99::1761-NET-ENI/D::"
+    ]
+  },
+  "3:modbus": {
+    "0001000001000304": [
+      "Telemecanique::TWDLCAE40DRF::TWIDO::"
+    ],
+    "040": [
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "171cbu98090": [
+      "Schneider Electric::171 CBU 98090::::"
+    ],
+    "23000102": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "bmxnoe0100": [
+      "Schneider Electric::BMX NOE 0100::::"
+    ],
+    "bmxnor0200": [
+      "Schneider Electric::BMX NOR 0200::::"
+    ],
+    "bmxp341000": [
+      "Schneider Electric::BMX P34 1000::::"
+    ],
+    "bmxp342020": [
+      "Schneider Electric::BMX P34 2020::::",
+      "Telemecanique::BMX P34 2020::::"
+    ],
+    "bmxp3420302": [
+      "Schneider Electric::BMX P34 20302::::"
+    ],
+    "eddc": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "eddc31": [
+      "SE-Elektronic::::E-DDC::EDDC31"
+    ],
+    "entespowerfactorcontroller": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "entesrgxxcs": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "g029000": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "hmis5t": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "ion7400": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "magelis": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T",
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "mb01": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "pm5110": [
+      "Schneider Electric::PM5110::::"
+    ],
+    "pm5111": [
+      "Schneider Electric::PM5111::::"
+    ],
+    "pm5561": [
+      "Schneider Electric::PM5561::::"
+    ],
+    "powerfactorcontroller": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "powerlogic": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "rgxxcs": [
+      "ENTES::23000102::POWER FACTOR CONTROLLER::RG-XXCS"
+    ],
+    "schneiderelectrichmis5t": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "schneiderelectricion7400": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "schneiderelectricmagelis": [
+      "Schneider Electric::HMIS5T::Magelis::HMIS5T"
+    ],
+    "schneiderelectricpowerlogic": [
+      "Schneider Electric::ION7400::PowerLogic::ION7400"
+    ],
+    "seelektronic040": [
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "seelektroniceddc": [
+      "SE-Elektronic::::E-DDC::EDDC31",
+      "SE-Elektronic::::E-DDC::_040"
+    ],
+    "seelektroniceddc31": [
+      "SE-Elektronic::::E-DDC::EDDC31"
+    ],
+    "telemecaniquemagelis": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "telemecaniquetwido": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::",
+      "Telemecanique::TWDLCAE40DRF::TWIDO::",
+      "Telemecanique::TWDLMDA20D-K::TWIDO::",
+      "Telemecanique::TWDLMDA20DRT::TWIDO::",
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "telemecaniquexbtgt5330": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ],
+    "tm221ce16r": [
+      "Schneider Electric::TM221CE16R::::"
+    ],
+    "tm221ce16t": [
+      "Schneider Electric::TM221CE16T::::"
+    ],
+    "tm221ce24r": [
+      "Schneider Electric::TM221CE24R::::"
+    ],
+    "tm221ce24t": [
+      "Schneider Electric::TM221CE24T::::"
+    ],
+    "tm221ce40r": [
+      "Schneider Electric::TM221CE40R::::"
+    ],
+    "tm221ce40t": [
+      "Schneider Electric::TM221CE40T::::"
+    ],
+    "tm221m16r": [
+      "Schneider Electric::TM221M16R::::"
+    ],
+    "tm221me16r": [
+      "Schneider Electric::TM221ME16R::::"
+    ],
+    "tm238lfdc24dts0": [
+      "Schneider Electric::TM238LFDC24DTS0::::"
+    ],
+    "tm241ce24r": [
+      "Schneider Electric::TM241CE24R::::"
+    ],
+    "tm241ce24tu": [
+      "Schneider Electric::TM241CE24T_U::::"
+    ],
+    "tm241ce40tu": [
+      "Schneider Electric::TM241CE40T_U::::"
+    ],
+    "tsxety4103": [
+      "Schneider Electric::TSXETY4103::::"
+    ],
+    "tsxp574634m": [
+      "Schneider Electric::TSXETY4103::::"
+    ],
+    "twdlcaa24drf": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::"
+    ],
+    "twdlcae40drf": [
+      "Telemecanique::TWDLCAE40DRF::TWIDO::"
+    ],
+    "twdlmda20dk": [
+      "Telemecanique::TWDLMDA20D-K::TWIDO::"
+    ],
+    "twdlmda20drt": [
+      "Telemecanique::TWDLMDA20DRT::TWIDO::"
+    ],
+    "twdlmda40dk": [
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "twido": [
+      "Telemecanique::TWDLCAA24DRF::TWIDO::",
+      "Telemecanique::TWDLCAE40DRF::TWIDO::",
+      "Telemecanique::TWDLMDA20D-K::TWIDO::",
+      "Telemecanique::TWDLMDA20DRT::TWIDO::",
+      "Telemecanique::TWDLMDA40D-K::TWIDO::"
+    ],
+    "uertu32": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "uertu32mb": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "ulusoyelektrikmb01": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "ulusoyelektrikuertu32mb": [
+      "Ulusoy Elektrik::UE-RTU32::UE-RTU32-MB::MB01"
+    ],
+    "xbtgt5330": [
+      "Telemecanique::XBTGT5330::Magelis::XBTGT5330"
+    ]
+  },
+  "3:s7": {
+    "0ab0": [
+      "Siemens::0AB0::::6ES7 151-8",
+      "Siemens::0AB0::::6ES7 313-5",
+      "Siemens::0AB0::::6ES7 314-6",
+      "Siemens::0AB0::::6ES7 315-2",
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "0xb0": [
+      "Siemens::0XB0::::6ES7 211-1",
+      "Siemens::0XB0::::6ES7 212-1",
+      "Siemens::0XB0::::6ES7 214-1",
+      "Siemens::0XB0::::6ES7 215-1",
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "0xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6es71518": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es71518ab010ab0": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es71518fb010ab0": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "6es72111": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111ae310xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111ae400xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111be310xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72111he400xb0": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "6es72121": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121ad300xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121ae400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121bd300xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121be310xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121be400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121hd300xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121he310xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72121he400xb0": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "6es72141": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ae300xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ag310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141ag400xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141be300xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141bg310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141bg400xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141hg310xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72141hg400xb0": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "6es72151": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151ag310xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151ag400xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151am400xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72151hg310xb0": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "6es72171": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "6es72171ag400xb0": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "6es73135": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "6es73135bf030ab0": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "6es73146": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73146cg030ab0": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73146eh04": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73146eh040ab0": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "6es73152": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152af030ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152ag100ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152ah140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152eh130ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152eh140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73152fj140ab0": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "6es73172": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172aj100ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172ak140ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172ek140ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6es73172fk140ab0": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "6gk73431": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431cx100xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex110xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex210xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "6gk73431ex300xe0": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ],
+    "siemens6es71518": [
+      "Siemens::0AB0::::6ES7 151-8"
+    ],
+    "siemens6es72111": [
+      "Siemens::0XB0::::6ES7 211-1"
+    ],
+    "siemens6es72121": [
+      "Siemens::0XB0::::6ES7 212-1"
+    ],
+    "siemens6es72141": [
+      "Siemens::0XB0::::6ES7 214-1"
+    ],
+    "siemens6es72151": [
+      "Siemens::0XB0::::6ES7 215-1"
+    ],
+    "siemens6es72171": [
+      "Siemens::0XB0::::6ES7 217-1"
+    ],
+    "siemens6es73135": [
+      "Siemens::0AB0::::6ES7 313-5"
+    ],
+    "siemens6es73146": [
+      "Siemens::0AB0::::6ES7 314-6"
+    ],
+    "siemens6es73152": [
+      "Siemens::0AB0::::6ES7 315-2"
+    ],
+    "siemens6es73172": [
+      "Siemens::0AB0::::6ES7 317-2"
+    ],
+    "siemens6gk73431": [
+      "Siemens::0XE0::::6GK7 343-1"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+
+## **1. ROLE**
+You verify a device-model extraction from observed industrial protocol responses. A second pass may confirm the first answer, correct an incomplete identifier, or retain a justified null. Finding a non-null model is not required. Your first obligation is to check whether a model-identity field actually contains a value.
+
+### Industrial model task definition
+- In this task, a model identifier includes a product model name, a product/catalogue code, or the main module's order number. An order number identifies a product variant; it is valid model evidence even without a separate field named "model". It is not an instance serial number.
+- Preserve the complete observed designation. Do not shorten a product name to a family name, drop a catalogue-code prefix, expand an abbreviation, translate an identifier, or replace an observed order number with a model name recalled from memory. Copy the chosen field value as written, including its separators and suffixes.
+- Protocol field meanings: for Modbus Device Identification, object 5 is ModelName, object 1 is ProductCode, and object 4 is ProductName. Prefer the explicit ModelName; if absent, use ProductCode, then ProductName. Object 0 is vendor, object 2 is revision, and an application/user name is not a model.
+- For ENIP/CIP Identity responses, product_name is the complete product designation. Preserve the whole value, even if it contains both a catalogue code and a family name. If product_name is unavailable but an explicit product_code is present, represent that code as "product_code:" followed by its observed value. Vendor ID, device type, serial number and revision are not substitute models.
+- For S7 module identification, the order_number of the primary/main module (entry index 1 in a s7_module_identification response) is a valid complete model identifier. Do not substitute auxiliary-module, boot-loader or firmware identifiers. Repeated identical observations do not create ambiguity. If equally authoritative main-device identifiers conflict, return null.
+- The input consists of protocol responses, not reference answers. Use only identity evidence present in those responses. Missing brand or firmware does not invalidate an explicit model identifier. Do not infer a model solely from a vendor, version, response size, protocol status or error code.
+- [MASKED], empty values and null denote unavailable information; they are never identities. If no supported model identifier remains, return model.value = null and confidence = 0.0. Do not reconstruct a missing identifier from memory or from naming-pattern similarity.
+- These instructions define the requested output granularity; no external lookup or candidate class list is needed. For non-ICS author examples, extract the complete explicit model designation from the banner using the same evidence-only policy.
+
+## **2. INPUTS**
+### **Primary Evidence: Raw Banner**
+This is the only real source of facts:
+[BANNER]:
+`{{BANNER}}`
+
+### **Neural Prior: First-round Extraction Results**
+This reflects your previous reasoning and extracted candidates:
+[FIRST EXTRACTION]:
+```json
+{{FIRST_EXTRACTION_JSON}}
+```
+
+### Optional knowledge candidates
+An empty list supplies no evidence. Candidates may corroborate a model already observed in an identity field, but cannot supply a missing field value:
+[KNOWN_DEVICE_MODELS]:
+{{KNOWN_MODEL_LIST}}
+
+## **3. VERIFICATION PROCEDURE**
+1. First inspect the model-identity fields of the primary device in [BANNER]. Determine whether any of those fields contains a real, unmasked identifier according to the task definition above. Check the actual field VALUE, not other strings or numbers elsewhere in the response.
+2. If every permitted model-identity field is absent, null, empty or [MASKED], the model result MUST remain null with confidence 0.0. A correct first-round null is a valid final answer. Stop searching for a replacement model in metadata or reference candidates; still fill the other output attributes from their own evidence.
+3. If a complete identifier is present, quote that field and copy its full value. Retain the first-round model if it is already the complete observed designation. Correct it only when the current response provides a specific overlooked or more complete identity value.
+4. For S7, read the order_number VALUE in the primary entry. If that value is [MASKED], no order number can be copied. szl_id, function_group, subfunction, index, release, version, parameter_length, data_length and return/status/error codes are protocol metadata; they are not order numbers or models. Do not move a value from one field into another. The same distinction applies to ENIP vendor/device-type/revision and Modbus function/status fields.
+5. Before emitting any non-null model, verify that the proposed complete string is the value of a permitted identity field in [BANNER] (or the defined product_code: representation of an explicit ENIP product_code). Its appearance only in metadata, the first extraction, or [KNOWN_DEVICE_MODELS] is insufficient. If this field/value check fails, emit null.
+6. Only after the field/value check succeeds, optionally compare the observed identifier with non-empty [KNOWN_DEVICE_MODELS]. Similarity must not create, replace or complete missing evidence. When the list is empty, skip this comparison. A missing KB match alone does not invalidate an explicit observed identifier.
+
+## **4. CONFIDENCE GUIDELINES**
+- Explicit complete identifier in a primary model/product/order field: 0.95–0.99, including when knowledge candidates are empty.
+- Ambiguous or conflicting primary identity evidence: null, confidence 0.0.
+- Missing, masked or absent identity evidence: null, confidence 0.0.
+- A plausible naming pattern, a protocol metadata number or a reference candidate without an observed identity field is not evidence for a model.
+
+## **5. OUTPUT FORMAT (STRICT)**
+Keep the structure **identical** to the first extraction.
+
+<analysis>
+<brand_reasoning>
+[...]
+</brand_reasoning>
+
+<model_reasoning>
+- Name the primary identity field and quote its actual value. If it is missing or masked, state that no model value is available and retain null. Otherwise verify the complete output against that field, then compare optional candidates only if present.
+</model_reasoning>
+
+<firmware_version_reasoning>
+- Quote EXACT substrings from banner
+- Compare with FIRST extraction result
+- Use only firmware evidence present in the banner
+- Explain why confidence increases/decreases
+</firmware_version_reasoning>
+
+<os_reasoning>
+[...]
+</os_reasoning>
+
+<web_server_reasoning>
+[...]
+</web_server_reasoning>
+
+<sdk_reasoning>
+[...]
+</sdk_reasoning>
+</analysis>
+
+<results>
+```json
+{
+  "brand": {
+    "value": "extracted_brand_or_null",
+    "confidence": 0.0
+  },
+  "model": {
+    "value": "extracted_model_or_null",
+    "confidence": 0.0
+  },
+  "firmware_version": {
+    "value": "extracted_firmware_or_null",
+    "confidence": 0.0
+  },
+  "component_versions": {
+    "os": {
+      "value": "extracted_os_or_null",
+      "confidence": 0.0
+    },
+    "web_server": {
+      "value": "extracted_webserver_or_null",
+      "confidence": 0.0
+    },
+    "sdk": {
+      "value": "extracted_sdk_or_null",
+      "confidence": 0.0
+    }
+  }
+}
+```
+</results>
+
+## 6. IMPORTANT CONSTRAINTS
+- Do NOT hallucinate new models
+- Do NOT copy models from knowledge unless banner contains them
+- STOP immediately after the </results> tag
+- MUST NOT repeat placeholder fields
+
+
+Only device model acceptance is evaluated. Missing firmware is not a reason to reject an otherwise supported model. [MASKED] is missing evidence, never a device identifier. Do not fill a model from the reference list without supporting banner evidence.
