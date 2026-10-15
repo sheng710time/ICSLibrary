@@ -1,0 +1,11 @@
+{
+  "base_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "author_commit": "5d436706d48481e08e2109f83d06628d09c13e3a",
+  "precision": "bnb_nf4_double_quant_fp16_compute_lora_fp16",
+  "prompt_format": "chat",
+  "max_new_tokens": 4096,
+  "context_limit": 8192,
+  "seed": 42,
+  "va_threshold": 0.7,
+  "da_final_floor": 0.5
+}

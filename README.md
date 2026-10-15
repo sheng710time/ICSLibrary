@@ -6,6 +6,14 @@ It is designed for studying whether an exposed ICS device can be recognized from
 
 This repository contains both the dataset itself and the protocol-specific scanner code used to collect it. The release covers `Modbus/TCP`, `EtherNet/IP`, and `S7comm`.
 
+## Model-identification benchmark
+
+The [benchmark](benchmark/README.md) provides fixed endpoint folds, sample indices,
+paired traffic views, and runnable method adapters. The task uses 1,505 endpoints
+and 71 models from the full resource. Follow the documented commands to compute
+new experimental results from the released data. Data archives are described in
+[benchmark/DATA.md](benchmark/DATA.md).
+
 ## At A Glance
 
 - Covers `13,002` responsive Internet-facing ICS endpoints
