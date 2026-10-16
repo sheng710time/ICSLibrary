@@ -73,7 +73,7 @@ public class S7Scanner {
 
     public static void main(String[] args) {
         S7Scanner sc = new S7Scanner();
-        sc.scan("185.142.173.188");
+        sc.scan("192.0.2.10");
     }
 }
 

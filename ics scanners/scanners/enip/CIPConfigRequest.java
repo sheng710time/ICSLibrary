@@ -15,7 +15,7 @@ import java.util.function.Consumer;
 public class CIPConfigRequest {
     public static void main(String[] args) {
         // Create EtherNet/IP client configuration with target device IP
-        EtherNetIpClientConfig config = EtherNetIpClientConfig.builder("208.58.125.86")
+        EtherNetIpClientConfig config = EtherNetIpClientConfig.builder("192.0.2.10")
                 .setSerialNumber(0x00)
                 .setVendorId(0x00)
                 .setTimeout(Duration.ofSeconds(2))
